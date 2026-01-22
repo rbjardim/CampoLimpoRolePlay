@@ -1,0 +1,76 @@
+﻿@page
+@model CampoLimpoRP.Pages.RegrasModel
+@{
+    ViewData["Title"] = "Regras";
+}
+
+<div class="layout-container">
+    <aside class="sidebar">
+        <h2 class="sidebar-title">Bem-Vindo:</h2>
+
+        <div class="menu-item">
+            <button class="menu-btn" onclick="toggleMenu('gerais')">
+                Regras Gerais
+            </button>
+            <div id="gerais" class="submenu">
+                <a href="#" onclick="loadPartial('/SubMenus/RegrasGerais')">Regras Gerais</a>
+                <a href="#" onclick="loadPartial('/SubMenus/RegrasBasicas')">Regras Básicas</a>
+                <a href="#" onclick="loadContent('gerais3')">Regras de Bom Senso</a>
+            </div>
+        </div>
+
+        <div class="menu-item">
+            <button class="menu-btn" onclick="toggleMenu('policia')">
+                Polícia
+            </button>
+            <div id="policia" class="submenu">
+                <a href="#" onclick="loadContent('policia1')">Abordagem</a>
+                <a href="#" onclick="loadContent('policia2')">Uso da Força</a>
+            </div>
+        </div>
+    </aside>
+
+    <main class="content" id="contentArea">
+        <h1>Selecione a Regra que deseja ler!</h1>
+        <p>Leia com atenção todos as linhas para que seja feito um RP de Qualidade.</p>
+    </main>
+</div>
+
+<script>
+    function toggleMenu(id) {
+        const menu = document.getElementById(id);
+        menu.style.display = menu.style.display === "block" ? "none" : "block";
+    }
+
+    function loadContent(section) {
+        const content = document.getElementById("contentArea");
+
+        const data = {
+            gerais2: "<h2>Regras Básicas</h2><p>Texto das regras básicas.</p>",
+            gerais3: "<h2>Bom Senso</h2><p>Texto sobre bom senso.</p>",
+            policia1: "<h2>Abordagem Policial</h2><p>Texto de abordagem.</p>",
+            policia2: "<h2>Uso da Força</h2><p>Texto sobre uso da força.</p>"
+        };
+
+        content.innerHTML = data[section] ?? "<p>Conteúdo não encontrado.</p>";
+    }
+
+    function loadPartial(url) {
+        fetch(url)
+            .then(response => {
+                if (!response.ok) {
+                    throw new Error("Erro ao carregar conteúdo");
+                }
+                return response.text();
+            })
+            .then(html => {
+                document.getElementById("contentArea").innerHTML = html;
+            })
+            .catch(error => {
+                document.getElementById("contentArea").innerHTML =
+                    "<p>Erro ao carregar o conteúdo.</p>";
+                console.error(error);
+            });
+    }
+</script>
+

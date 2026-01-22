@@ -26,7 +26,7 @@
         data_validation = "unobtrusiveValidation";
 
     function setValidationValues(options, ruleName, value) {
-        options.rules[ruleName] = value;
+        options.Regras[ruleName] = value;
         if (options.message) {
             options.messages[ruleName] = options.message;
         }
@@ -148,7 +148,7 @@
                         execInContext("invalidHandler", arguments);
                     },
                     messages: {},
-                    rules: {},
+                    Regras: {},
                     success: function () {
                         onSuccess.apply(form, arguments);
                         execInContext("success", arguments);
@@ -185,14 +185,14 @@
             /// to the form when you are finished. The default is false.</param>
             var $element = $(element),
                 form = $element.parents("form")[0],
-                valInfo, rules, messages;
+                valInfo, Regras, messages;
 
             if (!form) {  // Cannot do client-side validation without a form
                 return;
             }
 
             valInfo = validationInfo(form);
-            valInfo.options.rules[element.name] = rules = {};
+            valInfo.options.Regras[element.name] = Regras = {};
             valInfo.options.messages[element.name] = messages = {};
 
             $.each(this.adapters, function () {
@@ -212,13 +212,13 @@
                         form: form,
                         message: message,
                         params: paramValues,
-                        rules: rules,
+                        Regras: Regras,
                         messages: messages
                     });
                 }
             });
 
-            $.extend(rules, { "__dummy__": true });
+            $.extend(Regras, { "__dummy__": true });
 
             if (!skipAttach) {
                 valInfo.attachValidation();
@@ -265,7 +265,7 @@
         /// be extracted from the data-val-nnnn-mmmm HTML attributes (where nnnn is the adapter name, and
         /// mmmm is the parameter name).</param>
         /// <param name="fn" type="Function">The function to call, which adapts the values from the HTML
-        /// attributes into jQuery Validate rules and/or messages.</param>
+        /// attributes into jQuery Validate Regras and/or messages.</param>
         /// <returns type="jQuery.validator.unobtrusive.adapters" />
         if (!fn) {  // Called with no params, just a function
             fn = params;
@@ -290,7 +290,7 @@
 
     adapters.addMinMax = function (adapterName, minRuleName, maxRuleName, minMaxRuleName, minAttribute, maxAttribute) {
         /// <summary>Adds a new adapter to convert unobtrusive HTML into a jQuery Validate validation, where
-        /// the jQuery Validate validation has three potential rules (one for min-only, one for max-only, and
+        /// the jQuery Validate validation has three potential Regras (one for min-only, one for max-only, and
         /// one for min-and-max). The HTML parameters are expected to be named -min and -max.</summary>
         /// <param name="adapterName" type="String">The name of the adapter to be added. This matches the name used
         /// in the data-val-nnnn HTML attribute (where nnnn is the adapter name).</param>

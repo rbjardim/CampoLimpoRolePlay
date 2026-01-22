@@ -22,5 +22,6 @@ app.UseAuthorization();
 app.MapStaticAssets();
 app.MapRazorPages()
    .WithStaticAssets();
+app.MapFallbackToPage("/Index");
 
 app.Run();
