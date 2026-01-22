@@ -140,11 +140,11 @@ $.extend( $.fn, {
 		return valid;
 	},
 
-	// https://jqueryvalidation.org/rules/
-	rules: function( command, argument ) {
+	// https://jqueryvalidation.org/Regras/
+	Regras: function( command, argument ) {
 		var element = this[ 0 ],
 			isContentEditable = typeof this.attr( "contenteditable" ) !== "undefined" && this.attr( "contenteditable" ) !== "false",
-			settings, staticRules, existingRules, data, param, filtered;
+			settings, staticRegras, existingRegras, data, param, filtered;
 
 		// If nothing is selected, return empty object; can't chain anyway
 		if ( element == null ) {
@@ -162,40 +162,40 @@ $.extend( $.fn, {
 
 		if ( command ) {
 			settings = $.data( element.form, "validator" ).settings;
-			staticRules = settings.rules;
-			existingRules = $.validator.staticRules( element );
+			staticRegras = settings.Regras;
+			existingRegras = $.validator.staticRegras( element );
 			switch ( command ) {
 			case "add":
-				$.extend( existingRules, $.validator.normalizeRule( argument ) );
+				$.extend( existingRegras, $.validator.normalizeRule( argument ) );
 
-				// Remove messages from rules, but allow them to be set separately
-				delete existingRules.messages;
-				staticRules[ element.name ] = existingRules;
+				// Remove messages from Regras, but allow them to be set separately
+				delete existingRegras.messages;
+				staticRegras[ element.name ] = existingRegras;
 				if ( argument.messages ) {
 					settings.messages[ element.name ] = $.extend( settings.messages[ element.name ], argument.messages );
 				}
 				break;
 			case "remove":
 				if ( !argument ) {
-					delete staticRules[ element.name ];
-					return existingRules;
+					delete staticRegras[ element.name ];
+					return existingRegras;
 				}
 				filtered = {};
 				$.each( argument.split( /\s/ ), function( index, method ) {
-					filtered[ method ] = existingRules[ method ];
-					delete existingRules[ method ];
+					filtered[ method ] = existingRegras[ method ];
+					delete existingRegras[ method ];
 				} );
 				return filtered;
 			}
 		}
 
-		data = $.validator.normalizeRules(
+		data = $.validator.normalizeRegras(
 		$.extend(
 			{},
-			$.validator.classRules( element ),
-			$.validator.attributeRules( element ),
-			$.validator.dataRules( element ),
-			$.validator.staticRules( element )
+			$.validator.classRegras( element ),
+			$.validator.attributeRegras( element ),
+			$.validator.dataRegras( element ),
+			$.validator.staticRegras( element )
 		), element );
 
 		// Make sure required is at front
@@ -281,7 +281,7 @@ $.extend( $.validator, {
 	defaults: {
 		messages: {},
 		groups: {},
-		rules: {},
+		Regras: {},
 		errorClass: "error",
 		pendingClass: "pending",
 		validClass: "valid",
@@ -405,7 +405,7 @@ $.extend( $.validator, {
 
 			var currentForm = this.currentForm,
 				groups = ( this.groups = {} ),
-				rules;
+				Regras;
 			$.each( this.settings.groups, function( key, value ) {
 				if ( typeof value === "string" ) {
 					value = value.split( /\s/ );
@@ -414,9 +414,9 @@ $.extend( $.validator, {
 					groups[ name ] = key;
 				} );
 			} );
-			rules = this.settings.rules;
-			$.each( rules, function( key, value ) {
-				rules[ key ] = $.validator.normalizeRule( value );
+			Regras = this.settings.Regras;
+			$.each( Regras, function( key, value ) {
+				Regras[ key ] = $.validator.normalizeRule( value );
 			} );
 
 			function delegate( event ) {
@@ -648,7 +648,7 @@ $.extend( $.validator, {
 
 		elements: function() {
 			var validator = this,
-				rulesCache = {},
+				RegrasCache = {},
 				selectors = [ "input", "select", "textarea", "[contenteditable]" ];
 
 			// Select all valid inputs inside the form (no submit or reset buttons)
@@ -675,12 +675,12 @@ $.extend( $.validator, {
 					return false;
 				}
 
-				// Select only the first element for each name, and only those with rules specified
-				if ( name in rulesCache || !validator.objectLength( $( this ).rules() ) ) {
+				// Select only the first element for each name, and only those with Regras specified
+				if ( name in RegrasCache || !validator.objectLength( $( this ).Regras() ) ) {
 					return false;
 				}
 
-				rulesCache[ name ] = true;
+				RegrasCache[ name ] = true;
 				return true;
 			} );
 		},
@@ -768,8 +768,8 @@ $.extend( $.validator, {
 		check: function( element ) {
 			element = this.validationTargetFor( this.clean( element ) );
 
-			var rules = $( element ).rules(),
-				rulesCount = $.map( rules, function( n, i ) {
+			var Regras = $( element ).Regras(),
+				RegrasCount = $.map( Regras, function( n, i ) {
 					return i;
 				} ).length,
 				dependencyMismatch = false,
@@ -781,8 +781,8 @@ $.extend( $.validator, {
 
 			// Prioritize the local normalizer defined for this element over the global one
 			// if the former exists, otherwise user the global one in case it exists.
-			if ( typeof rules.normalizer === "function" ) {
-				normalizer = rules.normalizer;
+			if ( typeof Regras.normalizer === "function" ) {
+				normalizer = Regras.normalizer;
 			} else if (	typeof this.settings.normalizer === "function" ) {
 				normalizer = this.settings.normalizer;
 			}
@@ -793,18 +793,18 @@ $.extend( $.validator, {
 			if ( normalizer ) {
 				val = normalizer.call( element, val );
 
-				// Delete the normalizer from rules to avoid treating it as a pre-defined method.
-				delete rules.normalizer;
+				// Delete the normalizer from Regras to avoid treating it as a pre-defined method.
+				delete Regras.normalizer;
 			}
 
-			for ( method in rules ) {
-				rule = { method: method, parameters: rules[ method ] };
+			for ( method in Regras ) {
+				rule = { method: method, parameters: Regras[ method ] };
 				try {
 					result = $.validator.methods[ method ].call( this, val, element, rule.parameters );
 
 					// If a method indicates that the field is optional and therefore valid,
-					// don't mark it as valid when there are no other rules
-					if ( result === "dependency-mismatch" && rulesCount === 1 ) {
+					// don't mark it as valid when there are no other Regras
+					if ( result === "dependency-mismatch" && RegrasCount === 1 ) {
 						dependencyMismatch = true;
 						continue;
 					}
@@ -833,7 +833,7 @@ $.extend( $.validator, {
 			if ( dependencyMismatch ) {
 				return;
 			}
-			if ( this.objectLength( rules ) ) {
+			if ( this.objectLength( Regras ) ) {
 				this.successList.push( element );
 			}
 			return true;
@@ -1221,7 +1221,7 @@ $.extend( $.validator, {
 
 	},
 
-	classRuleSettings: {
+	classRegrasettings: {
 		required: { required: true },
 		email: { email: true },
 		url: { url: true },
@@ -1232,29 +1232,29 @@ $.extend( $.validator, {
 		creditcard: { creditcard: true }
 	},
 
-	addClassRules: function( className, rules ) {
+	addClassRegras: function( className, Regras ) {
 		if ( className.constructor === String ) {
-			this.classRuleSettings[ className ] = rules;
+			this.classRegrasettings[ className ] = Regras;
 		} else {
-			$.extend( this.classRuleSettings, className );
+			$.extend( this.classRegrasettings, className );
 		}
 	},
 
-	classRules: function( element ) {
-		var rules = {},
+	classRegras: function( element ) {
+		var Regras = {},
 			classes = $( element ).attr( "class" );
 
 		if ( classes ) {
 			$.each( classes.split( " " ), function() {
-				if ( this in $.validator.classRuleSettings ) {
-					$.extend( rules, $.validator.classRuleSettings[ this ] );
+				if ( this in $.validator.classRegrasettings ) {
+					$.extend( Regras, $.validator.classRegrasettings[ this ] );
 				}
 			} );
 		}
-		return rules;
+		return Regras;
 	},
 
-	normalizeAttributeRule: function( rules, type, method, value ) {
+	normalizeAttributeRule: function( Regras, type, method, value ) {
 
 		// Convert the value to a number for number inputs, and for text for backwards compability
 		// allows type="date" and others to be compared as strings
@@ -1268,17 +1268,17 @@ $.extend( $.validator, {
 		}
 
 		if ( value || value === 0 ) {
-			rules[ method ] = value;
+			Regras[ method ] = value;
 		} else if ( type === method && type !== "range" ) {
 
 			// Exception: the jquery validate 'range' method
 			// does not test for the html5 'range' type
-			rules[ type === "date" ? "dateISO" : method ] = true;
+			Regras[ type === "date" ? "dateISO" : method ] = true;
 		}
 	},
 
-	attributeRules: function( element ) {
-		var rules = {},
+	attributeRegras: function( element ) {
+		var Regras = {},
 			$element = $( element ),
 			type = element.getAttribute( "type" ),
 			method, value;
@@ -1301,19 +1301,19 @@ $.extend( $.validator, {
 				value = $element.attr( method );
 			}
 
-			this.normalizeAttributeRule( rules, type, method, value );
+			this.normalizeAttributeRule( Regras, type, method, value );
 		}
 
 		// 'maxlength' may be returned as -1, 2147483647 ( IE ) and 524288 ( safari ) for text inputs
-		if ( rules.maxlength && /-1|2147483647|524288/.test( rules.maxlength ) ) {
-			delete rules.maxlength;
+		if ( Regras.maxlength && /-1|2147483647|524288/.test( Regras.maxlength ) ) {
+			delete Regras.maxlength;
 		}
 
-		return rules;
+		return Regras;
 	},
 
-	dataRules: function( element ) {
-		var rules = {},
+	dataRegras: function( element ) {
+		var Regras = {},
 			$element = $( element ),
 			type = element.getAttribute( "type" ),
 			method, value;
@@ -1326,29 +1326,29 @@ $.extend( $.validator, {
 				value = true;
 			}
 
-			this.normalizeAttributeRule( rules, type, method, value );
+			this.normalizeAttributeRule( Regras, type, method, value );
 		}
-		return rules;
+		return Regras;
 	},
 
-	staticRules: function( element ) {
-		var rules = {},
+	staticRegras: function( element ) {
+		var Regras = {},
 			validator = $.data( element.form, "validator" );
 
-		if ( validator.settings.rules ) {
-			rules = $.validator.normalizeRule( validator.settings.rules[ element.name ] ) || {};
+		if ( validator.settings.Regras ) {
+			Regras = $.validator.normalizeRule( validator.settings.Regras[ element.name ] ) || {};
 		}
-		return rules;
+		return Regras;
 	},
 
-	normalizeRules: function( rules, element ) {
+	normalizeRegras: function( Regras, element ) {
 
 		// Handle dependency check
-		$.each( rules, function( prop, val ) {
+		$.each( Regras, function( prop, val ) {
 
 			// Ignore rule when param is explicitly false, eg. required:false
 			if ( val === false ) {
-				delete rules[ prop ];
+				delete Regras[ prop ];
 				return;
 			}
 			if ( val.param || val.depends ) {
@@ -1362,33 +1362,33 @@ $.extend( $.validator, {
 					break;
 				}
 				if ( keepRule ) {
-					rules[ prop ] = val.param !== undefined ? val.param : true;
+					Regras[ prop ] = val.param !== undefined ? val.param : true;
 				} else {
 					$.data( element.form, "validator" ).resetElements( $( element ) );
-					delete rules[ prop ];
+					delete Regras[ prop ];
 				}
 			}
 		} );
 
 		// Evaluate parameters
-		$.each( rules, function( rule, parameter ) {
-			rules[ rule ] = typeof parameter === "function" && rule !== "normalizer" ? parameter( element ) : parameter;
+		$.each( Regras, function( rule, parameter ) {
+			Regras[ rule ] = typeof parameter === "function" && rule !== "normalizer" ? parameter( element ) : parameter;
 		} );
 
 		// Clean number parameters
 		$.each( [ "minlength", "maxlength" ], function() {
-			if ( rules[ this ] ) {
-				rules[ this ] = Number( rules[ this ] );
+			if ( Regras[ this ] ) {
+				Regras[ this ] = Number( Regras[ this ] );
 			}
 		} );
 		$.each( [ "rangelength", "range" ], function() {
 			var parts;
-			if ( rules[ this ] ) {
-				if ( Array.isArray( rules[ this ] ) ) {
-					rules[ this ] = [ Number( rules[ this ][ 0 ] ), Number( rules[ this ][ 1 ] ) ];
-				} else if ( typeof rules[ this ] === "string" ) {
-					parts = rules[ this ].replace( /[\[\]]/g, "" ).split( /[\s,]+/ );
-					rules[ this ] = [ Number( parts[ 0 ] ), Number( parts[ 1 ] ) ];
+			if ( Regras[ this ] ) {
+				if ( Array.isArray( Regras[ this ] ) ) {
+					Regras[ this ] = [ Number( Regras[ this ][ 0 ] ), Number( Regras[ this ][ 1 ] ) ];
+				} else if ( typeof Regras[ this ] === "string" ) {
+					parts = Regras[ this ].replace( /[\[\]]/g, "" ).split( /[\s,]+/ );
+					Regras[ this ] = [ Number( parts[ 0 ] ), Number( parts[ 1 ] ) ];
 				}
 			}
 		} );
@@ -1396,19 +1396,19 @@ $.extend( $.validator, {
 		if ( $.validator.autoCreateRanges ) {
 
 			// Auto-create ranges
-			if ( rules.min != null && rules.max != null ) {
-				rules.range = [ rules.min, rules.max ];
-				delete rules.min;
-				delete rules.max;
+			if ( Regras.min != null && Regras.max != null ) {
+				Regras.range = [ Regras.min, Regras.max ];
+				delete Regras.min;
+				delete Regras.max;
 			}
-			if ( rules.minlength != null && rules.maxlength != null ) {
-				rules.rangelength = [ rules.minlength, rules.maxlength ];
-				delete rules.minlength;
-				delete rules.maxlength;
+			if ( Regras.minlength != null && Regras.maxlength != null ) {
+				Regras.rangelength = [ Regras.minlength, Regras.maxlength ];
+				delete Regras.minlength;
+				delete Regras.maxlength;
 			}
 		}
 
-		return rules;
+		return Regras;
 	},
 
 	// Converts a simple string to a {string: true} rule, e.g., "required" to {required:true}
@@ -1428,7 +1428,7 @@ $.extend( $.validator, {
 		$.validator.methods[ name ] = method;
 		$.validator.messages[ name ] = message !== undefined ? message : $.validator.messages[ name ];
 		if ( method.length < 3 ) {
-			$.validator.addClassRules( name, $.validator.normalizeRule( name ) );
+			$.validator.addClassRegras( name, $.validator.normalizeRule( name ) );
 		}
 	},
 
