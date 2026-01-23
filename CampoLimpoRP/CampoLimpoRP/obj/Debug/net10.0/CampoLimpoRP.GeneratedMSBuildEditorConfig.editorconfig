@@ -42,12 +42,76 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Projetos/CampoLimpoRolePlay/CampoLimpoRP/CampoLimpoRP/Pages/SubMenus/RegrasBasicas.cshtml]
-build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU3ViTWVudXNcUmVncmFzQmFzaWNhcy5jc2h0bWw=
+[C:/Projetos/CampoLimpoRolePlay/CampoLimpoRP/CampoLimpoRP/Pages/SubMenus/Acoes/RegrasBlipados.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU3ViTWVudXNcQWNvZXNcUmVncmFzQmxpcGFkb3MuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Projetos/CampoLimpoRolePlay/CampoLimpoRP/CampoLimpoRP/Pages/SubMenus/RegrasGerais.cshtml]
-build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU3ViTWVudXNcUmVncmFzR2VyYWlzLmNzaHRtbA==
+[C:/Projetos/CampoLimpoRolePlay/CampoLimpoRP/CampoLimpoRP/Pages/SubMenus/Acoes/RegrasCaixa.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU3ViTWVudXNcQWNvZXNcUmVncmFzQ2FpeGEuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Projetos/CampoLimpoRolePlay/CampoLimpoRP/CampoLimpoRP/Pages/SubMenus/Acoes/RegrasCarroForte.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU3ViTWVudXNcQWNvZXNcUmVncmFzQ2Fycm9Gb3J0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Projetos/CampoLimpoRolePlay/CampoLimpoRP/CampoLimpoRP/Pages/SubMenus/Acoes/RegrasComboio.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU3ViTWVudXNcQWNvZXNcUmVncmFzQ29tYm9pby5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Projetos/CampoLimpoRolePlay/CampoLimpoRP/CampoLimpoRP/Pages/SubMenus/Acoes/RegrasDP.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU3ViTWVudXNcQWNvZXNcUmVncmFzRFAuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Projetos/CampoLimpoRolePlay/CampoLimpoRP/CampoLimpoRP/Pages/SubMenus/Acoes/RegrasResidencia.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU3ViTWVudXNcQWNvZXNcUmVncmFzUmVzaWRlbmNpYS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Projetos/CampoLimpoRolePlay/CampoLimpoRP/CampoLimpoRP/Pages/SubMenus/Acoes/RegrasRua.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU3ViTWVudXNcQWNvZXNcUmVncmFzUnVhLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Projetos/CampoLimpoRolePlay/CampoLimpoRP/CampoLimpoRP/Pages/SubMenus/Acoes/RegrasSequestroA.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU3ViTWVudXNcQWNvZXNcUmVncmFzU2VxdWVzdHJvQS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Projetos/CampoLimpoRolePlay/CampoLimpoRP/CampoLimpoRP/Pages/SubMenus/Acoes/RegrasSequestroR.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU3ViTWVudXNcQWNvZXNcUmVncmFzU2VxdWVzdHJvUi5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Projetos/CampoLimpoRolePlay/CampoLimpoRP/CampoLimpoRP/Pages/SubMenus/RegrasAcoes/RegrasFuga.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU3ViTWVudXNcUmVncmFzQWNvZXNcUmVncmFzRnVnYS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Projetos/CampoLimpoRolePlay/CampoLimpoRP/CampoLimpoRP/Pages/SubMenus/RegrasAcoes/RegrasGeraisA.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU3ViTWVudXNcUmVncmFzQWNvZXNcUmVncmFzR2VyYWlzQS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Projetos/CampoLimpoRolePlay/CampoLimpoRP/CampoLimpoRP/Pages/SubMenus/Regras/RegrasAdvertencia.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU3ViTWVudXNcUmVncmFzXFJlZ3Jhc0FkdmVydGVuY2lhLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Projetos/CampoLimpoRolePlay/CampoLimpoRP/CampoLimpoRP/Pages/SubMenus/Regras/RegrasArmas.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU3ViTWVudXNcUmVncmFzXFJlZ3Jhc0FybWFzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Projetos/CampoLimpoRolePlay/CampoLimpoRP/CampoLimpoRP/Pages/SubMenus/Regras/RegrasBasicas.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU3ViTWVudXNcUmVncmFzXFJlZ3Jhc0Jhc2ljYXMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Projetos/CampoLimpoRolePlay/CampoLimpoRP/CampoLimpoRP/Pages/SubMenus/Regras/RegrasBomSenso.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU3ViTWVudXNcUmVncmFzXFJlZ3Jhc0JvbVNlbnNvLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Projetos/CampoLimpoRolePlay/CampoLimpoRP/CampoLimpoRP/Pages/SubMenus/Regras/RegrasGerais.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU3ViTWVudXNcUmVncmFzXFJlZ3Jhc0dlcmFpcy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Projetos/CampoLimpoRolePlay/CampoLimpoRP/CampoLimpoRP/Pages/SubMenus/Regras/RegrasMulheres.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU3ViTWVudXNcUmVncmFzXFJlZ3Jhc011bGhlcmVzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Projetos/CampoLimpoRolePlay/CampoLimpoRP/CampoLimpoRP/Pages/SubMenus/Regras/RegrasTicket.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU3ViTWVudXNcUmVncmFzXFJlZ3Jhc1RpY2tldC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Projetos/CampoLimpoRolePlay/CampoLimpoRP/CampoLimpoRP/Pages/_ViewImports.cshtml]

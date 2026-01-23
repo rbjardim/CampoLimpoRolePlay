@@ -1,0 +1,73 @@
+﻿@page
+@{
+    Layout = null;
+}
+
+<div style="color:#fff;">
+    <h1><strong>Regras Advertência</strong></h1>
+    <p>
+        <span class="text-decoration-underline">
+            <i>Leia com atenção todas as regras prescritas abaixo</i>
+        </span>
+    </p>
+
+    @*Tabela de Advertências*@
+    <div style="margin-top:20px;">
+        <table style="width:100%; border-collapse: collapse; color:#fff; text-align:center;">
+            <thead>
+                <tr style="background-color:#131415;">
+                    <th style="padding:10px; border: 1px solid #333333;">Nível da Advertência</th>
+                    <th style="padding:10px; border: 1px solid #333333;">Punição</th>
+                    <th style="padding:10px; border: 1px solid #333333;">Validade da Advertência</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr style="background-color:transparent;">
+                    <td style="padding:10px; border: 1px solid #333333;">1ª Advertência</td>
+                    <td style="padding:10px; border: 1px solid #333333;">1ª Advertência + Banimento temporário de 1 Dia</td>
+                    <td style="padding:10px; border: 1px solid #333333;">Permanente</td>
+                </tr>
+                <tr style="background-color:transparent;">
+                    <td style="padding:10px; border: 1px solid #333333;">2ª Advertência</td>
+                    <td style="padding:10px; border: 1px solid #333333;">2ª Advertência + Banimento temporário de 2 Dias</td>
+                    <td style="padding:10px; border: 1px solid #333333;">Permanente</td>
+                </tr>
+                <tr style="background-color:transparent;">
+                    <td style="padding:10px; border: 1px solid #333333;">3ª Advertência</td>
+                    <td style="padding:10px; border: 1px solid #333333;">3ª Advertência + Banimento permanente + Perda do personagem</td>
+                    <td style="padding:10px; border: 1px solid #333333;">Permanente</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+    <br />
+
+    <div style="color:black">
+        @*1 *@
+        <details class="adv-box">
+            <summary>O que é uma Advertência?</summary>
+            <ul>
+                <li>As advertências são ferramentas usadas pela equipe de Administração para assegurar que todos os jogadores tenham uma experiência justa e agradável no servidor. Elas são aplicadas a quem desrespeita as regras ou prejudicar outros participantes.</li>
+            </ul>
+        </details>
+
+        @*2 *@
+        <details class="adv-box">
+            <summary>Funcionamento do Sistema de Advertências</summary>
+            <ul>
+                <li>Se houver violação de alguma regra e o jogador afetado registrar um ticket de denúncia, a Administração irá avaliar o caso. Caso seja confirmado o descumprimento das regras, a advertência será aplicada.</li>
+                <li>Cada advertência pode estar associada a uma penalidade adicional, como banimento temporário ou definitivo, conforme a tabela de punições.</li>
+                <li>Os jogadores têm o direito de pedir revisão de uma punição, desde que apresentem argumentos respeitosos e fundamentados. A equipe administrativa irá analisar o caso considerando todas as evidências, e a decisão final será da Administração responsável.</li>
+            </ul>
+        </details>
+
+        <div class="punicao-target">
+            <p>⚠️ Se a advertência for devido a COMBAT LOGGING, a penalidade será Banimento Permanente e perda do personagem.</p>
+        </div>
+    </div>
+</div>
+
+
+
+
+

@@ -1,0 +1,543 @@
+﻿@page
+@{
+    Layout = null;
+}
+
+<div style="color:#fff;">
+    <h1><strong>Regras Ações Blipadas</strong></h1>
+    <p>
+        <span class="text-decoration-underline">
+            <i>Leia com atenção todas as regras prescritas abaixo</i>
+        </span>
+    </p>
+
+    <div style="color:black">
+        <div id="regras2">
+        @*1 *@
+        <details class="adv-box">
+            <summary>Açougue ou Galinheiro</summary>
+            <p><span class="acd-highlight">1.</span> Essa ação obrigatoriamente tem que ser iniciada após as 19h00 ( nárnia ) e encerrar até as 23h00 ( nárnia).</p>
+            <p><span class="acd-highlight">2.</span> Se for negociada fuga limpa, a polícia deve colabora. ( Necessário refém ).</p>
+            <p><span class="acd-highlight">3.</span> São permitidos apenas 2 veículos para fuga.</p>
+            <p><span class="acd-highlight">4.</span> Caso os bandidos estejam em 7 ou mais, é obrigatório no mínimo 1 do lado de fora.</p>
+            <p><span class="acd-highlight">5.</span> Proibido realizar a ação sem arma.</p>
+            <p><span class="acd-highlight">5.</span> Negociação somente será valido com refém.</p>
+            <br />
+
+            <p><span class="acd-highlight">Bandidos:</span> Mínimo 5 | Máximo 9 (Máximo 2 Fora).</p>
+            <p><span class="acd-highlight">Policiais:</span> Mínimo 7 | Máximo 11.</p>
+            <p><span class="acd-highlight">Reféns:</span> Mínimo 1 | Máximo 3.</p>
+
+            @*Tabela de AÇOUGUE/GALINHEIRO*@
+            <div style="margin-top:20px;">
+                <table style="width:100%; border-collapse: collapse; color:#fff; text-align:center;">
+                    <thead>
+                        <tr style="background-color:#131415;">
+                            <th style="padding:10px; border: 1px solid #333333;">Especificação</th>
+                            <th style="padding:10px; border: 1px solid #333333;">Descrição</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr style="background-color:transparent;">
+                            <td style="padding:10px; border: 1px solid #333333;">Horário</td>
+                            <td style="padding:10px; border: 1px solid #333333;">Inicio: 19h00 | Término: 23h00</td>
+                        </tr>
+                        <tr style="background-color:transparent;">
+                            <td style="padding:10px; border: 1px solid #333333;">Fuga</td>
+                            <td style="padding:10px; border: 1px solid #333333;">Permitido</td>
+                        </tr>
+                        <tr style="background-color:transparent;">
+                            <td style="padding:10px; border: 1px solid #333333;">Armamento</td>
+                            <td style="padding:10px; border: 1px solid #333333;">Pistola ( Proibido Glock Rajada )</td>
+                        </tr>
+                        <tr style="background-color:transparent;">
+                            <td style="padding:10px; border: 1px solid #333333;">Negociação</td>
+                            <td style="padding:10px; border: 1px solid #333333;">Sim</td>
+                        </tr>
+                        <tr style="background-color:transparent;">
+                            <td style="padding:10px; border: 1px solid #333333;">Valor Máximo Refém</td>
+                            <td style="padding:10px; border: 1px solid #333333;">75k</td>
+                        </tr>
+                        <tr style="background-color:transparent;">
+                            <td style="padding:10px; border: 1px solid #333333;">Loot de Policiais</td>
+                            <td style="padding:10px; border: 1px solid #333333;">Não Permitido</td>
+                        </tr>
+                        <tr style="background-color:transparent;">
+                            <td style="padding:10px; border: 1px solid #333333;">Uso de Capacete</td>
+                            <td style="padding:10px; border: 1px solid #333333;">Não Permitido</td>
+                        </tr>
+                        <tr style="background-color:transparent;">
+                            <td style="padding:10px; border: 1px solid #333333;">Uso de Drone</td>
+                            <td style="padding:10px; border: 1px solid #333333;">Não Permitido</td>
+                        </tr>
+                        <tr style="background-color:transparent;">
+                            <td style="padding:10px; border: 1px solid #333333;">Uso de Gás Lacrimogêneo</td>
+                            <td style="padding:10px; border: 1px solid #333333;">Não Permitido</td>
+                        </tr>
+                        <tr style="background-color:transparent;">
+                            <td style="padding:10px; border: 1px solid #333333;">Uso de Helicoptero</td>
+                            <td style="padding:10px; border: 1px solid #333333;">Somente Policial</td>
+                        </tr>
+                    </tbody>
+                </table>
+                <div class="punicao-target">
+                    <p>⚠️ Qualquer quebra de regra, será considerado AntiRP.</p>
+                </div>
+            </div>
+        </details>
+
+            @*2 *@
+            <details class="adv-box">
+                <summary>Ammunation</summary>
+                <p><span class="acd-highlight">1.</span> Se for negociada fuga limpa, a polícia deve colabora. ( Necessário refém ).</p>
+                <p><span class="acd-highlight">2.</span> São permitidos apenas 2 veículos para fuga.</p>
+                <p><span class="acd-highlight">3.</span> Permitido 1 policial a mais do que os bandidos, seguindo a regra de mínimo e máximo.</p>
+                <p><span class="acd-highlight">4.</span> Proibido realizar a ação sem arma.</p>
+                <p><span class="acd-highlight">5.</span> Negociação somente será valido com refém.</p>
+                <br />
+
+                <p><span class="acd-highlight">Bandidos:</span> Mínimo 2 | Máximo 4.</p>
+                <p><span class="acd-highlight">Policiais:</span> Mínimo 2 | Máximo 5.</p>
+                <p><span class="acd-highlight">Reféns:</span> Mínimo 0 | Máximo 1.</p>
+
+                @*Tabela de Ammunation*@
+                <div style="margin-top:20px;">
+                    <table style="width:100%; border-collapse: collapse; color:#fff; text-align:center;">
+                        <thead>
+                            <tr style="background-color:#131415;">
+                                <th style="padding:10px; border: 1px solid #333333;">Especificação</th>
+                                <th style="padding:10px; border: 1px solid #333333;">Descrição</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr style="background-color:transparent;">
+                                <td style="padding:10px; border: 1px solid #333333;">Horário</td>
+                                <td style="padding:10px; border: 1px solid #333333;">Livre <p><span class="acd-highlight">(Fica proibido puxar faltando 1h para o RR)</span></td>
+                            </tr>
+                            <tr style="background-color:transparent;">
+                                <td style="padding:10px; border: 1px solid #333333;">Fuga</td>
+                                <td style="padding:10px; border: 1px solid #333333;">Permitido</td>
+                            </tr>
+                            <tr style="background-color:transparent;">
+                                <td style="padding:10px; border: 1px solid #333333;">Armamento</td>
+                                <td style="padding:10px; border: 1px solid #333333;">Pistola ( Proibido Glock Rajada )</td>
+                            </tr>
+                            <tr style="background-color:transparent;">
+                                <td style="padding:10px; border: 1px solid #333333;">Negociação</td>
+                                <td style="padding:10px; border: 1px solid #333333;">Sim</td>
+                            </tr>
+                            <tr style="background-color:transparent;">
+                                <td style="padding:10px; border: 1px solid #333333;">Valor Máximo Refém</td>
+                                <td style="padding:10px; border: 1px solid #333333;">85k</td>
+                            </tr>
+                            <tr style="background-color:transparent;">
+                                <td style="padding:10px; border: 1px solid #333333;">Loot de Policiais</td>
+                                <td style="padding:10px; border: 1px solid #333333;">Não Permitido</td>
+                            </tr>
+                            <tr style="background-color:transparent;">
+                                <td style="padding:10px; border: 1px solid #333333;">Uso de Capacete</td>
+                                <td style="padding:10px; border: 1px solid #333333;">Não Permitido</td>
+                            </tr>
+                            <tr style="background-color:transparent;">
+                                <td style="padding:10px; border: 1px solid #333333;">Uso de Drone</td>
+                                <td style="padding:10px; border: 1px solid #333333;">Não Permitido</td>
+                            </tr>
+                            <tr style="background-color:transparent;">
+                                <td style="padding:10px; border: 1px solid #333333;">Uso de Gás Lacrimogêneo</td>
+                                <td style="padding:10px; border: 1px solid #333333;">Não Permitido</td>
+                            </tr>
+                            <tr style="background-color:transparent;">
+                                <td style="padding:10px; border: 1px solid #333333;">Uso de Helicoptero</td>
+                                <td style="padding:10px; border: 1px solid #333333;">Somente Policial</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                    <div class="punicao-target">
+                        <p>⚠️ Qualquer quebra de regra, será considerado AntiRP.</p>
+                    </div>
+                </div>
+            </details>
+
+            @*3 *@
+            <details class="adv-box">
+                <summary>Banco Central</summary>
+                <p><span class="acd-highlight">1.</span> Essa ação obrigatoriamente tem que ser iniciada após as 19h00 ( nárnia ) e encerrar até as 23h00 ( nárnia).</p>
+                <p><span class="acd-highlight">2.</span> Fuga não é permitida, ação apenas para troca de tiro.</p>
+                <p><span class="acd-highlight">3.</span> Não é permitido trocar refém pela retirada de contingente nessa ação.</p>
+                <p><span class="acd-highlight">4.</span> Proibido realizar a ação sem arma.</p>
+                <p><span class="acd-highlight">5.</span> Negociação somente será valido com refém.</p>
+                <br />
+
+                <p><span class="acd-highlight">Bandidos:</span> Mínimo 7 | Máximo 10 (Máximo 2 Fora).</p>
+                <p><span class="acd-highlight">Policiais:</span> Mínimo 9 | Máximo 12.</p>
+                <p><span class="acd-highlight">Reféns:</span> Mínimo 1 | Máximo 4.</p>
+
+                @*Tabela de BC*@
+                <div style="margin-top:20px;">
+                    <table style="width:100%; border-collapse: collapse; color:#fff; text-align:center;">
+                        <thead>
+                            <tr style="background-color:#131415;">
+                                <th style="padding:10px; border: 1px solid #333333;">Especificação</th>
+                                <th style="padding:10px; border: 1px solid #333333;">Descrição</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr style="background-color:transparent;">
+                                <td style="padding:10px; border: 1px solid #333333;">Horário</td>
+                                <td style="padding:10px; border: 1px solid #333333;">Inicio: 19h00 | Término: 23h00</td>
+                            </tr>
+                            <tr style="background-color:transparent;">
+                                <td style="padding:10px; border: 1px solid #333333;">Fuga</td>
+                                <td style="padding:10px; border: 1px solid #333333;">Proibido</td>
+                            </tr>
+                            <tr style="background-color:transparent;">
+                                <td style="padding:10px; border: 1px solid #333333;">Armamento</td>
+                                <td style="padding:10px; border: 1px solid #333333;">Fuzil e Sub</td>
+                            </tr>
+                            <tr style="background-color:transparent;">
+                                <td style="padding:10px; border: 1px solid #333333;">Negociação</td>
+                                <td style="padding:10px; border: 1px solid #333333;">Sim</td>
+                            </tr>
+                            <tr style="background-color:transparent;">
+                                <td style="padding:10px; border: 1px solid #333333;">Valor Máximo Refém</td>
+                                <td style="padding:10px; border: 1px solid #333333;">90k</td>
+                            </tr>
+                            <tr style="background-color:transparent;">
+                                <td style="padding:10px; border: 1px solid #333333;">Loot de Policiais</td>
+                                <td style="padding:10px; border: 1px solid #333333;">Não Permitido</td>
+                            </tr>
+                            <tr style="background-color:transparent;">
+                                <td style="padding:10px; border: 1px solid #333333;">Uso de Capacete</td>
+                                <td style="padding:10px; border: 1px solid #333333;">Não Permitido</td>
+                            </tr>
+                            <tr style="background-color:transparent;">
+                                <td style="padding:10px; border: 1px solid #333333;">Uso de Drone</td>
+                                <td style="padding:10px; border: 1px solid #333333;">Não Permitido</td>
+                            </tr>
+                            <tr style="background-color:transparent;">
+                                <td style="padding:10px; border: 1px solid #333333;">Uso de Gás Lacrimogêneo</td>
+                                <td style="padding:10px; border: 1px solid #333333;">Negociavél</td>
+                            </tr>
+                            <tr style="background-color:transparent;">
+                                <td style="padding:10px; border: 1px solid #333333;">Uso de Helicoptero</td>
+                                <td style="padding:10px; border: 1px solid #333333;">Somente Policial</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                    <div class="punicao-target">
+                        <p>⚠️ FICA PROIBIDO REVISTAR ANTES DO ENCERRAMENTO DA AÇÃO, QUALQUER QUEBRA DE REGRA SUJEITO À ADVERTÊNCIA.</p>
+                    </div>
+                    <br />
+                    <div class="punicao-target">
+                        <p>⚠️ Qualquer quebra de regra, será considerado AntiRP.</p>
+                    </div>
+                </div>
+            </details>
+
+            @*4 *@
+            <details class="adv-box">
+                <summary>Joalheria</summary>
+                <p><span class="acd-highlight">1.</span> Essa ação obrigatoriamente tem que ser iniciada após as 19h00 ( nárnia ) e encerrar até as 23h00 ( nárnia).</p>
+                <p><span class="acd-highlight">2.</span> Fuga não é permitida, ação apenas para troca de tiro.</p>
+                <p><span class="acd-highlight">3.</span> Proibido realizar a ação sem arma.</p>
+                <p><span class="acd-highlight">4.</span> Negociação somente será valido com refém.</p>
+                <br />
+
+                <p><span class="acd-highlight">Bandidos:</span> Mínimo 4 | Máximo 7 (Obrigátorio 2 Fora).</p>
+                <p><span class="acd-highlight">Policiais:</span> Mínimo 6 | Máximo 10.</p>
+                <p><span class="acd-highlight">Reféns:</span> Mínimo 1 | Máximo 3.</p>
+
+                @*Tabela de BC*@
+                <div style="margin-top:20px;">
+                    <table style="width:100%; border-collapse: collapse; color:#fff; text-align:center;">
+                        <thead>
+                            <tr style="background-color:#131415;">
+                                <th style="padding:10px; border: 1px solid #333333;">Especificação</th>
+                                <th style="padding:10px; border: 1px solid #333333;">Descrição</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr style="background-color:transparent;">
+                                <td style="padding:10px; border: 1px solid #333333;">Horário</td>
+                                <td style="padding:10px; border: 1px solid #333333;">Inicio: 19h00 | Término: 23h00</td>
+                            </tr>
+                            <tr style="background-color:transparent;">
+                                <td style="padding:10px; border: 1px solid #333333;">Fuga</td>
+                                <td style="padding:10px; border: 1px solid #333333;">Proibido</td>
+                            </tr>
+                            <tr style="background-color:transparent;">
+                                <td style="padding:10px; border: 1px solid #333333;">Armamento</td>
+                                <td style="padding:10px; border: 1px solid #333333;">Fuzil e Sub</td>
+                            </tr>
+                            <tr style="background-color:transparent;">
+                                <td style="padding:10px; border: 1px solid #333333;">Negociação</td>
+                                <td style="padding:10px; border: 1px solid #333333;">Sim</td>
+                            </tr>
+                            <tr style="background-color:transparent;">
+                                <td style="padding:10px; border: 1px solid #333333;">Valor Máximo Refém</td>
+                                <td style="padding:10px; border: 1px solid #333333;">90k</td>
+                            </tr>
+                            <tr style="background-color:transparent;">
+                                <td style="padding:10px; border: 1px solid #333333;">Loot de Policiais</td>
+                                <td style="padding:10px; border: 1px solid #333333;">Não Permitido</td>
+                            </tr>
+                            <tr style="background-color:transparent;">
+                                <td style="padding:10px; border: 1px solid #333333;">Uso de Capacete</td>
+                                <td style="padding:10px; border: 1px solid #333333;">Não Permitido</td>
+                            </tr>
+                            <tr style="background-color:transparent;">
+                                <td style="padding:10px; border: 1px solid #333333;">Uso de Drone</td>
+                                <td style="padding:10px; border: 1px solid #333333;">Não Permitido</td>
+                            </tr>
+                            <tr style="background-color:transparent;">
+                                <td style="padding:10px; border: 1px solid #333333;">Uso de Gás Lacrimogêneo</td>
+                                <td style="padding:10px; border: 1px solid #333333;">Negociavél</td>
+                            </tr>
+                            <tr style="background-color:transparent;">
+                                <td style="padding:10px; border: 1px solid #333333;">Uso de Helicoptero</td>
+                                <td style="padding:10px; border: 1px solid #333333;">Somente Policial</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                    <div class="punicao-target">
+                        <p>⚠️ FICA PROIBIDO REVISTAR ANTES DO ENCERRAMENTO DA AÇÃO, QUALQUER QUEBRA DE REGRA SUJEITO À ADVERTÊNCIA.</p>
+                    </div>
+                    <br />
+                    <div class="punicao-target">
+                        <p>⚠️ Qualquer quebra de regra, será considerado AntiRP.</p>
+                    </div>
+                </div>
+            </details>
+
+            @*5 *@
+            <details class="adv-box">
+                <summary>Banco Paleto ou Fleeca</summary>
+                <p><span class="acd-highlight">1.</span> Essa ação obrigatoriamente tem que ser iniciada após as 19h00 ( nárnia ) e encerrar até as 23h00 ( nárnia).</p>
+                <p><span class="acd-highlight">2.</span> Fuga não é permitida, ação apenas para troca de tiro.</p>
+                <p><span class="acd-highlight">3.</span> Proibido realizar a ação sem arma.</p>
+                <p><span class="acd-highlight">4.</span> Negociação somente será valido com refém.</p>
+                <br />
+
+                <p><span class="acd-highlight">Bandidos:</span> Mínimo 4 | Máximo 6 (Obrigátorio 4 Dentro).</p>
+                <p><span class="acd-highlight">Policiais:</span> Mínimo 6 | Máximo 8.</p>
+                <p><span class="acd-highlight">Reféns:</span> Mínimo 1 | Máximo 2.</p>
+
+                @*Tabela de Paleto ou Fleeca*@
+                <div style="margin-top:20px;">
+                    <table style="width:100%; border-collapse: collapse; color:#fff; text-align:center;">
+                        <thead>
+                            <tr style="background-color:#131415;">
+                                <th style="padding:10px; border: 1px solid #333333;">Especificação</th>
+                                <th style="padding:10px; border: 1px solid #333333;">Descrição</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr style="background-color:transparent;">
+                                <td style="padding:10px; border: 1px solid #333333;">Horário</td>
+                                <td style="padding:10px; border: 1px solid #333333;">Inicio: 19h00 | Término: 23h00</td>
+                            </tr>
+                            <tr style="background-color:transparent;">
+                                <td style="padding:10px; border: 1px solid #333333;">Fuga</td>
+                                <td style="padding:10px; border: 1px solid #333333;">Proibido</td>
+                            </tr>
+                            <tr style="background-color:transparent;">
+                                <td style="padding:10px; border: 1px solid #333333;">Armamento</td>
+                                <td style="padding:10px; border: 1px solid #333333;">Fuzil e Sub</td>
+                            </tr>
+                            <tr style="background-color:transparent;">
+                                <td style="padding:10px; border: 1px solid #333333;">Negociação</td>
+                                <td style="padding:10px; border: 1px solid #333333;">Sim</td>
+                            </tr>
+                            <tr style="background-color:transparent;">
+                                <td style="padding:10px; border: 1px solid #333333;">Valor Máximo Refém</td>
+                                <td style="padding:10px; border: 1px solid #333333;">90k</td>
+                            </tr>
+                            <tr style="background-color:transparent;">
+                                <td style="padding:10px; border: 1px solid #333333;">Loot de Policiais</td>
+                                <td style="padding:10px; border: 1px solid #333333;">Não Permitido</td>
+                            </tr>
+                            <tr style="background-color:transparent;">
+                                <td style="padding:10px; border: 1px solid #333333;">Uso de Capacete</td>
+                                <td style="padding:10px; border: 1px solid #333333;">Não Permitido</td>
+                            </tr>
+                            <tr style="background-color:transparent;">
+                                <td style="padding:10px; border: 1px solid #333333;">Uso de Drone</td>
+                                <td style="padding:10px; border: 1px solid #333333;">Não Permitido</td>
+                            </tr>
+                            <tr style="background-color:transparent;">
+                                <td style="padding:10px; border: 1px solid #333333;">Uso de Gás Lacrimogêneo</td>
+                                <td style="padding:10px; border: 1px solid #333333;">Negociavél</td>
+                            </tr>
+                            <tr style="background-color:transparent;">
+                                <td style="padding:10px; border: 1px solid #333333;">Uso de Helicoptero</td>
+                                <td style="padding:10px; border: 1px solid #333333;">Somente Policial</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                    <div class="punicao-target">
+                        <p>⚠️ FICA PROIBIDO REVISTAR ANTES DO ENCERRAMENTO DA AÇÃO, QUALQUER QUEBRA DE REGRA SUJEITO À ADVERTÊNCIA.</p>
+                    </div>
+                    <br />
+                    <div class="punicao-target">
+                        <p>⚠️ Qualquer quebra de regra, será considerado AntiRP.</p>
+                    </div>
+                </div>
+            </details>
+
+            @*6 *@
+            <details class="adv-box">
+                <summary>Loja de Departamento</summary>
+                <p><span class="acd-highlight">1.</span> Proibido realizar a ação sem arma.</p>
+                <p><span class="acd-highlight">2.</span> Negociação somente será valido com refém.</p>
+                <br />
+
+                <p><span class="acd-highlight">Bandidos:</span> Mínimo 2 | Máximo 4 (Máximo 1 Fora).</p>
+                <p><span class="acd-highlight">Policiais:</span> Mínimo 2 | Máximo 5.</p>
+                <p><span class="acd-highlight">Reféns:</span> Mínimo 0 | Máximo 1.</p>
+
+                @*Tabela de Loja DEP*@
+                <div style="margin-top:20px;">
+                    <table style="width:100%; border-collapse: collapse; color:#fff; text-align:center;">
+                        <thead>
+                            <tr style="background-color:#131415;">
+                                <th style="padding:10px; border: 1px solid #333333;">Especificação</th>
+                                <th style="padding:10px; border: 1px solid #333333;">Descrição</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr style="background-color:transparent;">
+                                <td style="padding:10px; border: 1px solid #333333;">Horário</td>
+                                <td style="padding:10px; border: 1px solid #333333;">Livre <p><span class="acd-highlight">(Fica proibido puxar faltando 1h para o RR)</span></td>
+                            </tr>
+                            <tr style="background-color:transparent;">
+                                <td style="padding:10px; border: 1px solid #333333;">Fuga</td>
+                                <td style="padding:10px; border: 1px solid #333333;">Permitido</td>
+                            </tr>
+                            <tr style="background-color:transparent;">
+                                <td style="padding:10px; border: 1px solid #333333;">Armamento</td>
+                                <td style="padding:10px; border: 1px solid #333333;">Pistola ( Proibido Glock Rajada )</td>
+                            </tr>
+                            <tr style="background-color:transparent;">
+                                <td style="padding:10px; border: 1px solid #333333;">Negociação</td>
+                                <td style="padding:10px; border: 1px solid #333333;">Sim</td>
+                            </tr>
+                            <tr style="background-color:transparent;">
+                                <td style="padding:10px; border: 1px solid #333333;">Valor Máximo Refém</td>
+                                <td style="padding:10px; border: 1px solid #333333;">85k</td>
+                            </tr>
+                            <tr style="background-color:transparent;">
+                                <td style="padding:10px; border: 1px solid #333333;">Loot de Policiais</td>
+                                <td style="padding:10px; border: 1px solid #333333;">Não Permitido</td>
+                            </tr>
+                            <tr style="background-color:transparent;">
+                                <td style="padding:10px; border: 1px solid #333333;">Uso de Capacete</td>
+                                <td style="padding:10px; border: 1px solid #333333;">Não Permitido</td>
+                            </tr>
+                            <tr style="background-color:transparent;">
+                                <td style="padding:10px; border: 1px solid #333333;">Uso de Drone</td>
+                                <td style="padding:10px; border: 1px solid #333333;">Não Permitido</td>
+                            </tr>
+                            <tr style="background-color:transparent;">
+                                <td style="padding:10px; border: 1px solid #333333;">Uso de Gás Lacrimogêneo</td>
+                                <td style="padding:10px; border: 1px solid #333333;">Não Permitido</td>
+                            </tr>
+                            <tr style="background-color:transparent;">
+                                <td style="padding:10px; border: 1px solid #333333;">Uso de Helicoptero</td>
+                                <td style="padding:10px; border: 1px solid #333333;">Somente Policial</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                    <div class="punicao-target">
+                        <p>⚠️ FICA PROIBIDO REVISTAR ANTES DO ENCERRAMENTO DA AÇÃO, QUALQUER QUEBRA DE REGRA SUJEITO À ADVERTÊNCIA.</p>
+                    </div>
+                    <br />
+                    <div class="punicao-target">
+                        <p>⚠️ Qualquer quebra de regra, será considerado AntiRP.</p>
+                    </div>
+                </div>
+            </details>
+
+            @*7 *@
+            <details class="adv-box">
+                <summary>Nióbio</summary>
+                <p><span class="acd-highlight">1.</span> Essa ação obrigatoriamente tem que ser iniciada após as 19h00 ( nárnia ) e encerrar até as 23h00 ( nárnia).</p>
+                <p><span class="acd-highlight">2.</span> Fuga não é permitida, ação apenas para troca de tiro.</p>
+                <p><span class="acd-highlight">3.</span> Não é permitido trocar refém pela retirada de contingente nessa ação.</p>
+                <p><span class="acd-highlight">4.</span> É proibido marcar a escada da água, a saída e o blip do elevador da P2.</p>
+                <p><span class="acd-highlight">5.</span> Proibido realizar a ação sem arma.</p>
+                <p><span class="acd-highlight">6.</span> Negociação somente será valido com refém.</p>
+                <br />
+
+                <p><span class="acd-highlight">Bandidos:</span> Mínimo 7 | Máximo 12.</p>
+                <p><span class="acd-highlight">Policiais:</span> 5 á mais em relação ao número dos Bandidos.</p>
+                <p><span class="acd-highlight">Reféns:</span> Mínimo 1 | Máximo 4.</p>
+
+                @*Tabela de Nióbio*@
+                <div style="margin-top:20px;">
+                    <table style="width:100%; border-collapse: collapse; color:#fff; text-align:center;">
+                        <thead>
+                            <tr style="background-color:#131415;">
+                                <th style="padding:10px; border: 1px solid #333333;">Especificação</th>
+                                <th style="padding:10px; border: 1px solid #333333;">Descrição</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr style="background-color:transparent;">
+                                <td style="padding:10px; border: 1px solid #333333;">Horário</td>
+                                <td style="padding:10px; border: 1px solid #333333;">Inicio: 19h00 | Término: 23h00</td>
+                            </tr>
+                            <tr style="background-color:transparent;">
+                                <td style="padding:10px; border: 1px solid #333333;">Fuga</td>
+                                <td style="padding:10px; border: 1px solid #333333;">Proibido</td>
+                            </tr>
+                            <tr style="background-color:transparent;">
+                                <td style="padding:10px; border: 1px solid #333333;">Armamento</td>
+                                <td style="padding:10px; border: 1px solid #333333;">Fuzil e Sub</td>
+                            </tr>
+                            <tr style="background-color:transparent;">
+                                <td style="padding:10px; border: 1px solid #333333;">Negociação</td>
+                                <td style="padding:10px; border: 1px solid #333333;">Sim</td>
+                            </tr>
+                            <tr style="background-color:transparent;">
+                                <td style="padding:10px; border: 1px solid #333333;">Valor Máximo Refém</td>
+                                <td style="padding:10px; border: 1px solid #333333;">90k</td>
+                            </tr>
+                            <tr style="background-color:transparent;">
+                                <td style="padding:10px; border: 1px solid #333333;">Loot de Policiais</td>
+                                <td style="padding:10px; border: 1px solid #333333;">Não Permitido</td>
+                            </tr>
+                            <tr style="background-color:transparent;">
+                                <td style="padding:10px; border: 1px solid #333333;">Uso de Capacete</td>
+                                <td style="padding:10px; border: 1px solid #333333;">Não Permitido</td>
+                            </tr>
+                            <tr style="background-color:transparent;">
+                                <td style="padding:10px; border: 1px solid #333333;">Uso de Drone</td>
+                                <td style="padding:10px; border: 1px solid #333333;">Não Permitido</td>
+                            </tr>
+                            <tr style="background-color:transparent;">
+                                <td style="padding:10px; border: 1px solid #333333;">Uso de Gás Lacrimogêneo</td>
+                                <td style="padding:10px; border: 1px solid #333333;">Negociavél</td>
+                            </tr>
+                            <tr style="background-color:transparent;">
+                                <td style="padding:10px; border: 1px solid #333333;">Uso de Helicoptero</td>
+                                <td style="padding:10px; border: 1px solid #333333;">Somente Policial</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                    <div class="punicao-target">
+                        <p>⚠️ FICA PROIBIDO REVISTAR ANTES DO ENCERRAMENTO DA AÇÃO, QUALQUER QUEBRA DE REGRA SUJEITO À ADVERTÊNCIA.</p>
+                    </div>
+                    <br />
+                    <div class="punicao-target">
+                        <p>⚠️ Qualquer quebra de regra, será considerado AntiRP.</p>
+                    </div>
+                </div>
+            </details>
+        </div>
+    </div>
+</div>
+
+
+
+
+
