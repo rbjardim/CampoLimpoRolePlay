@@ -101,7 +101,7 @@ footer.footer {
     margin-top: 15px;
     padding: 12px 20px;
     border-left: 5px solid #20AC3B;
-    background-color: #EADD5E;
+    background-color: #E5CE3A;
     color: white;
     font-weight: bold;
     text-align: left;
@@ -190,7 +190,6 @@ footer.footer {
     text-align: center;
 }
 
-
     .btn-flutuante:hover {
         background-color: #333333;
         color: #000;
@@ -205,6 +204,14 @@ footer.footer {
         box-shadow: 0 6px 14px rgba(0, 0, 0, 0.2);
     }
 
+        .btn-flutuante:focus,
+        .btn-flutuante:focus-visible,
+        .btn-flutuante:active:focus {
+            background-color: #fff !important;
+            color: #000 !important;
+            box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2) !important;
+            outline: none !important;
+        }
 
 /* ===============================
     Fim Index (Home)
@@ -625,3 +632,58 @@ footer.footer {
 /* ===============================
    Fim RegrasTicket
    =============================== */
+/* ===============================
+   Inicio RegrasFaccoes
+   =============================== */
+.fac-box {
+    background: #222;
+    margin-bottom: 10px;
+    border-radius: 6px;
+    padding: 10px 15px;
+    background-color: #131415;
+    color: white;
+}
+
+    .fac-box summary {
+        cursor: pointer;
+        font-size: 18px;
+        font-weight: bold;
+        list-style: none;
+        color: white;
+    }
+
+    .fac-box[open] summary {
+        color: #20AC3B;
+    }
+
+/* ===============================
+   Fim RegrasFaccoes
+   =============================== */
+/* ===============================
+   Inicio RegrasFarm
+   =============================== */
+.farm-box {
+    background: #222;
+    margin-bottom: 10px;
+    border-radius: 6px;
+    padding: 10px 15px;
+    background-color: #131415;
+    color: white;
+}
+
+    .farm-box summary {
+        cursor: pointer;
+        font-size: 18px;
+        font-weight: bold;
+        list-style: none;
+        color: white;
+    }
+
+    .farm-box[open] summary {
+        color: #20AC3B;
+    }
+
+/* ===============================
+   Fim RegrasFarm
+   =============================== */
+
