@@ -82,6 +82,16 @@ footer.footer {
         color: #fff !important;
     }
 
+.content strong {
+    color: #20AC3B;
+    font-weight: 700;
+}
+
+.pin-verde {
+    fill: #20AC3B;
+    flex-shrink: 0;
+}
+
 /* ===============================
    Target de Punição e Aviso Regras
    =============================== */
@@ -686,4 +696,86 @@ footer.footer {
 /* ===============================
    Fim RegrasFarm
    =============================== */
+/* ===============================
+   Inicio RegrasSafezone
+   =============================== */
+.safe-box {
+    background: #222;
+    margin-bottom: 10px;
+    border-radius: 6px;
+    padding: 10px 15px;
+    background-color: #131415;
+    color: white;
+}
+
+    .safe-box summary {
+        cursor: pointer;
+        font-size: 18px;
+        font-weight: bold;
+        list-style: none;
+        color: white;
+    }
+
+    .safe-box[open] summary {
+        color: #20AC3B;
+    }
+
+/* ===============================
+   Fim RegrasSafezone
+   =============================== */
+/* ===============================
+   Inicio RegrasAdvogado
+   =============================== */
+.advogado-box {
+    background: #222;
+    margin-bottom: 10px;
+    border-radius: 6px;
+    padding: 10px 15px;
+    background-color: #131415;
+    color: white;
+}
+
+    .advogado-box summary {
+        cursor: pointer;
+        font-size: 18px;
+        font-weight: bold;
+        list-style: none;
+        color: white;
+    }
+
+    .advogado-box[open] summary {
+        color: #20AC3B;
+    }
+
+/* ===============================
+   Fim RegrasAdvogado
+   =============================== */
+/* ===============================
+   Inicio RegrasVeiculos
+   =============================== */
+.veiculos-box {
+    background: #222;
+    margin-bottom: 10px;
+    border-radius: 6px;
+    padding: 10px 15px;
+    background-color: #131415;
+    color: white;
+}
+
+    .veiculos-box summary {
+        cursor: pointer;
+        font-size: 18px;
+        font-weight: bold;
+        list-style: none;
+        color: white;
+    }
+
+    .veiculos-box[open] summary {
+        color: #20AC3B;
+    }
+
+/* ===============================
+   Fim RegrasVeiculos
+   =============================== */
+
 
