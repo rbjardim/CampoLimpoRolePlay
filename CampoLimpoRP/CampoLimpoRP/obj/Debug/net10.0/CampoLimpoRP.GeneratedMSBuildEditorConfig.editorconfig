@@ -78,8 +78,120 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU3ViTWVudXNcQWNvZXNcUmVncmFzU2VxdWVzdHJvUi5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Projetos/CampoLimpoRolePlay/CampoLimpoRP/CampoLimpoRP/Pages/SubMenus/Policia/CodigoPenal.cshtml]
-build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU3ViTWVudXNcUG9saWNpYVxDb2RpZ29QZW5hbC5jc2h0bWw=
+[C:/Projetos/CampoLimpoRolePlay/CampoLimpoRP/CampoLimpoRP/Pages/SubMenus/Policia/CodigoPenal/contraadm.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU3ViTWVudXNcUG9saWNpYVxDb2RpZ29QZW5hbFxjb250cmFhZG0uY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Projetos/CampoLimpoRolePlay/CampoLimpoRP/CampoLimpoRP/Pages/SubMenus/Policia/CodigoPenal/contraarmas.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU3ViTWVudXNcUG9saWNpYVxDb2RpZ29QZW5hbFxjb250cmFhcm1hcy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Projetos/CampoLimpoRolePlay/CampoLimpoRP/CampoLimpoRP/Pages/SubMenus/Policia/CodigoPenal/contradroga.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU3ViTWVudXNcUG9saWNpYVxDb2RpZ29QZW5hbFxjb250cmFkcm9nYS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Projetos/CampoLimpoRolePlay/CampoLimpoRP/CampoLimpoRP/Pages/SubMenus/Policia/CodigoPenal/contrafaccao.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU3ViTWVudXNcUG9saWNpYVxDb2RpZ29QZW5hbFxjb250cmFmYWNjYW8uY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Projetos/CampoLimpoRolePlay/CampoLimpoRP/CampoLimpoRP/Pages/SubMenus/Policia/CodigoPenal/contrahonra.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU3ViTWVudXNcUG9saWNpYVxDb2RpZ29QZW5hbFxjb250cmFob25yYS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Projetos/CampoLimpoRolePlay/CampoLimpoRP/CampoLimpoRP/Pages/SubMenus/Policia/CodigoPenal/contrahumanidade.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU3ViTWVudXNcUG9saWNpYVxDb2RpZ29QZW5hbFxjb250cmFodW1hbmlkYWRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Projetos/CampoLimpoRolePlay/CampoLimpoRP/CampoLimpoRP/Pages/SubMenus/Policia/CodigoPenal/contralavagem.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU3ViTWVudXNcUG9saWNpYVxDb2RpZ29QZW5hbFxjb250cmFsYXZhZ2VtLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Projetos/CampoLimpoRolePlay/CampoLimpoRP/CampoLimpoRP/Pages/SubMenus/Policia/CodigoPenal/contraliberdade.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU3ViTWVudXNcUG9saWNpYVxDb2RpZ29QZW5hbFxjb250cmFsaWJlcmRhZGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Projetos/CampoLimpoRolePlay/CampoLimpoRP/CampoLimpoRP/Pages/SubMenus/Policia/CodigoPenal/contrapatrimonio.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU3ViTWVudXNcUG9saWNpYVxDb2RpZ29QZW5hbFxjb250cmFwYXRyaW1vbmlvLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Projetos/CampoLimpoRolePlay/CampoLimpoRP/CampoLimpoRP/Pages/SubMenus/Policia/CodigoPenal/contrapaz.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU3ViTWVudXNcUG9saWNpYVxDb2RpZ29QZW5hbFxjb250cmFwYXouY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Projetos/CampoLimpoRolePlay/CampoLimpoRP/CampoLimpoRP/Pages/SubMenus/Policia/CodigoPenal/contrapessoa.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU3ViTWVudXNcUG9saWNpYVxDb2RpZ29QZW5hbFxjb250cmFwZXNzb2EuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Projetos/CampoLimpoRolePlay/CampoLimpoRP/CampoLimpoRP/Pages/SubMenus/Policia/CodigoPenal/contrasexual.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU3ViTWVudXNcUG9saWNpYVxDb2RpZ29QZW5hbFxjb250cmFzZXh1YWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Projetos/CampoLimpoRolePlay/CampoLimpoRP/CampoLimpoRP/Pages/SubMenus/Policia/CodigoPenal/contravida.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU3ViTWVudXNcUG9saWNpYVxDb2RpZ29QZW5hbFxjb250cmF2aWRhLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Projetos/CampoLimpoRolePlay/CampoLimpoRP/CampoLimpoRP/Pages/SubMenus/Policia/CodigoPenal/disposicaogeral.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU3ViTWVudXNcUG9saWNpYVxDb2RpZ29QZW5hbFxkaXNwb3NpY2FvZ2VyYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Projetos/CampoLimpoRolePlay/CampoLimpoRP/CampoLimpoRP/Pages/SubMenus/Policia/CPPM/adm.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU3ViTWVudXNcUG9saWNpYVxDUFBNXGFkbS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Projetos/CampoLimpoRolePlay/CampoLimpoRP/CampoLimpoRP/Pages/SubMenus/Policia/CPPM/armamentos.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU3ViTWVudXNcUG9saWNpYVxDUFBNXGFybWFtZW50b3MuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Projetos/CampoLimpoRolePlay/CampoLimpoRP/CampoLimpoRP/Pages/SubMenus/Policia/CPPM/choque.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU3ViTWVudXNcUG9saWNpYVxDUFBNXGNob3F1ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Projetos/CampoLimpoRolePlay/CampoLimpoRP/CampoLimpoRP/Pages/SubMenus/Policia/CPPM/companhias.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU3ViTWVudXNcUG9saWNpYVxDUFBNXGNvbXBhbmhpYXMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Projetos/CampoLimpoRolePlay/CampoLimpoRP/CampoLimpoRP/Pages/SubMenus/Policia/CPPM/Condutavisual.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU3ViTWVudXNcUG9saWNpYVxDUFBNXENvbmR1dGF2aXN1YWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Projetos/CampoLimpoRolePlay/CampoLimpoRP/CampoLimpoRP/Pages/SubMenus/Policia/CPPM/corregedoria.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU3ViTWVudXNcUG9saWNpYVxDUFBNXGNvcnJlZ2Vkb3JpYS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Projetos/CampoLimpoRolePlay/CampoLimpoRP/CampoLimpoRP/Pages/SubMenus/Policia/CPPM/dejem.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU3ViTWVudXNcUG9saWNpYVxDUFBNXGRlamVtLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Projetos/CampoLimpoRolePlay/CampoLimpoRP/CampoLimpoRP/Pages/SubMenus/Policia/CPPM/DireitoseDeveres.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU3ViTWVudXNcUG9saWNpYVxDUFBNXERpcmVpdG9zZURldmVyZXMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Projetos/CampoLimpoRolePlay/CampoLimpoRP/CampoLimpoRP/Pages/SubMenus/Policia/CPPM/estagio.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU3ViTWVudXNcUG9saWNpYVxDUFBNXGVzdGFnaW8uY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Projetos/CampoLimpoRolePlay/CampoLimpoRP/CampoLimpoRP/Pages/SubMenus/Policia/CPPM/finais.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU3ViTWVudXNcUG9saWNpYVxDUFBNXGZpbmFpcy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Projetos/CampoLimpoRolePlay/CampoLimpoRP/CampoLimpoRP/Pages/SubMenus/Policia/CPPM/ocorrencia.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU3ViTWVudXNcUG9saWNpYVxDUFBNXG9jb3JyZW5jaWEuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Projetos/CampoLimpoRolePlay/CampoLimpoRP/CampoLimpoRP/Pages/SubMenus/Policia/CPPM/patrulhamento.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU3ViTWVudXNcUG9saWNpYVxDUFBNXHBhdHJ1bGhhbWVudG8uY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Projetos/CampoLimpoRolePlay/CampoLimpoRP/CampoLimpoRP/Pages/SubMenus/Policia/CPPM/promocao.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU3ViTWVudXNcUG9saWNpYVxDUFBNXHByb21vY2FvLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Projetos/CampoLimpoRolePlay/CampoLimpoRP/CampoLimpoRP/Pages/SubMenus/Policia/CPPM/Revista.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU3ViTWVudXNcUG9saWNpYVxDUFBNXFJldmlzdGEuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Projetos/CampoLimpoRolePlay/CampoLimpoRP/CampoLimpoRP/Pages/SubMenus/Policia/CPPM/Uniformes.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU3ViTWVudXNcUG9saWNpYVxDUFBNXFVuaWZvcm1lcy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Projetos/CampoLimpoRolePlay/CampoLimpoRP/CampoLimpoRP/Pages/SubMenus/RegrasAcoes/RegrasAbordagem.cshtml]
@@ -104,6 +216,62 @@ build_metadata.AdditionalFiles.CssScope =
 
 [C:/Projetos/CampoLimpoRolePlay/CampoLimpoRP/CampoLimpoRP/Pages/SubMenus/RegrasAcoes/RegrasSequestro.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU3ViTWVudXNcUmVncmFzQWNvZXNcUmVncmFzU2VxdWVzdHJvLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Projetos/CampoLimpoRolePlay/CampoLimpoRP/CampoLimpoRP/Pages/SubMenus/RegrasGerais/CodigoPenal/contraadm.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU3ViTWVudXNcUmVncmFzR2VyYWlzXENvZGlnb1BlbmFsXGNvbnRyYWFkbS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Projetos/CampoLimpoRolePlay/CampoLimpoRP/CampoLimpoRP/Pages/SubMenus/RegrasGerais/CodigoPenal/contraarmas.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU3ViTWVudXNcUmVncmFzR2VyYWlzXENvZGlnb1BlbmFsXGNvbnRyYWFybWFzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Projetos/CampoLimpoRolePlay/CampoLimpoRP/CampoLimpoRP/Pages/SubMenus/RegrasGerais/CodigoPenal/contradroga.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU3ViTWVudXNcUmVncmFzR2VyYWlzXENvZGlnb1BlbmFsXGNvbnRyYWRyb2dhLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Projetos/CampoLimpoRolePlay/CampoLimpoRP/CampoLimpoRP/Pages/SubMenus/RegrasGerais/CodigoPenal/contrafaccao.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU3ViTWVudXNcUmVncmFzR2VyYWlzXENvZGlnb1BlbmFsXGNvbnRyYWZhY2Nhby5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Projetos/CampoLimpoRolePlay/CampoLimpoRP/CampoLimpoRP/Pages/SubMenus/RegrasGerais/CodigoPenal/contrahonra.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU3ViTWVudXNcUmVncmFzR2VyYWlzXENvZGlnb1BlbmFsXGNvbnRyYWhvbnJhLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Projetos/CampoLimpoRolePlay/CampoLimpoRP/CampoLimpoRP/Pages/SubMenus/RegrasGerais/CodigoPenal/contrahumanidade.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU3ViTWVudXNcUmVncmFzR2VyYWlzXENvZGlnb1BlbmFsXGNvbnRyYWh1bWFuaWRhZGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Projetos/CampoLimpoRolePlay/CampoLimpoRP/CampoLimpoRP/Pages/SubMenus/RegrasGerais/CodigoPenal/contralavagem.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU3ViTWVudXNcUmVncmFzR2VyYWlzXENvZGlnb1BlbmFsXGNvbnRyYWxhdmFnZW0uY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Projetos/CampoLimpoRolePlay/CampoLimpoRP/CampoLimpoRP/Pages/SubMenus/RegrasGerais/CodigoPenal/contraliberdade.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU3ViTWVudXNcUmVncmFzR2VyYWlzXENvZGlnb1BlbmFsXGNvbnRyYWxpYmVyZGFkZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Projetos/CampoLimpoRolePlay/CampoLimpoRP/CampoLimpoRP/Pages/SubMenus/RegrasGerais/CodigoPenal/contrapatrimonio.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU3ViTWVudXNcUmVncmFzR2VyYWlzXENvZGlnb1BlbmFsXGNvbnRyYXBhdHJpbW9uaW8uY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Projetos/CampoLimpoRolePlay/CampoLimpoRP/CampoLimpoRP/Pages/SubMenus/RegrasGerais/CodigoPenal/contrapaz.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU3ViTWVudXNcUmVncmFzR2VyYWlzXENvZGlnb1BlbmFsXGNvbnRyYXBhei5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Projetos/CampoLimpoRolePlay/CampoLimpoRP/CampoLimpoRP/Pages/SubMenus/RegrasGerais/CodigoPenal/contrapessoa.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU3ViTWVudXNcUmVncmFzR2VyYWlzXENvZGlnb1BlbmFsXGNvbnRyYXBlc3NvYS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Projetos/CampoLimpoRolePlay/CampoLimpoRP/CampoLimpoRP/Pages/SubMenus/RegrasGerais/CodigoPenal/contrasexual.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU3ViTWVudXNcUmVncmFzR2VyYWlzXENvZGlnb1BlbmFsXGNvbnRyYXNleHVhbC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Projetos/CampoLimpoRolePlay/CampoLimpoRP/CampoLimpoRP/Pages/SubMenus/RegrasGerais/CodigoPenal/contravida.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU3ViTWVudXNcUmVncmFzR2VyYWlzXENvZGlnb1BlbmFsXGNvbnRyYXZpZGEuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Projetos/CampoLimpoRolePlay/CampoLimpoRP/CampoLimpoRP/Pages/SubMenus/RegrasGerais/CodigoPenal/disposicaogeral.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU3ViTWVudXNcUmVncmFzR2VyYWlzXENvZGlnb1BlbmFsXGRpc3Bvc2ljYW9nZXJhbC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Projetos/CampoLimpoRolePlay/CampoLimpoRP/CampoLimpoRP/Pages/SubMenus/RegrasGerais/RegasArmas.cshtml]

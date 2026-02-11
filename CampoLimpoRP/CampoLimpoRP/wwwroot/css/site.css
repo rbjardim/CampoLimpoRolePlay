@@ -19,7 +19,7 @@ html {
 
 body {
     margin-bottom: 60px;
-    /*background-image: url('/img/fundo.png');*/
+    /*background-image: url('/img/fundo2.png');*/
     background-color: black;
     background-size: cover;
     background-position: center;
@@ -72,6 +72,7 @@ body {
 
 footer.footer {
     color: #fff !important;
+    background-color: #000 !important;
 }
 
     footer.footer .container {
@@ -488,6 +489,19 @@ footer.footer {
         padding-left: 15px;
     }
 
+.submenu-inner {
+    padding-left: 15px;
+    margin-top: 5px;
+}
+
+.submenu-btn {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
 /* ===============================
    Fim RegrasGerais
    =============================== */
@@ -776,6 +790,247 @@ footer.footer {
 
 /* ===============================
    Fim RegrasVeiculos
+   =============================== 
+/* ===============================
+   Inicio CPPM
+   =============================== */
+
+/* CONTAINER PRINCIPAL */
+.book-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    width: 100%;
+    overflow-x: hidden;
+}
+
+/* ESTILO BASE DA PÁGINA */
+.book-page {
+    display: none;
+    opacity: 0;
+    position: relative;
+    width: 800px;
+    min-height: 1000px;
+    margin: auto;
+    background-image: url('/img/brasaobook.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    background-color: #1e1e1e;
+    border-radius: 20px;
+    padding: 50px;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.4);
+    font-family: "Times New Roman", serif;
+    line-height: 1.7;
+    color: #ffffff;
+    transition: opacity 0.4s ease, transform 0.4s ease;
+}
+
+    .book-page.active {
+        display: block !important;
+        opacity: 1;
+        transform: translateX(0);
+        z-index: 1;
+    }
+
+    .book-page.exit-left {
+        display: block !important;
+        opacity: 0;
+        transform: translateX(-100px);
+        position: absolute;
+    }
+
+    .book-page.exit-right {
+        display: block !important;
+        opacity: 0;
+        transform: translateX(100px);
+        position: absolute;
+    }
+
+    .book-page::before {
+        content: "";
+        position: absolute;
+        inset: 0;
+        background: rgba(0, 0, 0, 0.55);
+        border-radius: 20px;
+        z-index: 0;
+        pointer-events: none;
+    }
+
+    .book-page > * {
+        position: relative;
+        z-index: 1;
+    }
+
+.book-header {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    margin-bottom: 25px;
+}
+
+.book-header-logo {
+    width: 150px;
+    height: 150px;
+}
+
+.book-header-text {
+    flex: 1;
+    text-align: center;
+    font-size: 13px;
+    font-weight: bold;
+}
+
+.book-subtitle {
+    text-align: center;
+    font-size: 18px;
+    margin-bottom: 30px;
+}
+
+.paragraph {
+    font-size: 15px;
+    text-align: justify;
+    margin-bottom: 10px;
+}
+
+    .paragraph.indent {
+        margin-left: 30px;
+    }
+
+.book-nav {
+    margin-top: 20px;
+    display: flex;
+    gap: 15px;
+    align-items: center;
+    z-index: 10;
+}
+
+    .book-nav button {
+        background: transparent;
+        color: #ffffff;
+        border: 2px solid #ffffff;
+        padding: 6px 14px;
+        border-radius: 50px;
+        cursor: pointer;
+        font-size: 16px;
+        transition: all 0.2s ease;
+    }
+
+        .book-nav button:hover {
+            background: rgba(255,255,255,0.12);
+        }
+
+/* ===============================
+   Fim CPPM
+   =============================== */
+
+/* ===============================
+   OBS FINAL
+   =============================== */
+
+.observacoes-finais {
+    position: relative;
+    margin-top: 80px;
+    padding: 60px 40px;
+    text-align: center;
+    overflow: hidden;
+}
+
+    .observacoes-finais::before {
+        content: "";
+        position: absolute;
+        inset: 0;
+        background: url('/img/brasaotopo.png') center center no-repeat;
+        background-size: 500px;
+        opacity: 0.08;
+        z-index: 0;
+    }
+
+    .observacoes-finais h2 {
+        position: relative;
+        z-index: 1;
+        font-weight: bold;
+        letter-spacing: 1px;
+        margin-bottom: 25px;
+    }
+
+.faixa-aviso {
+    position: relative;
+    z-index: 1;
+    background-color: #d90000;
+    color: white;
+    padding: 10px 15px;
+    font-weight: bold;
+    font-size: 14px;
+    margin-bottom: 40px;
+    display: inline-block;
+    max-width: 900px;
+}
+
+.datas-info {
+    position: relative;
+    z-index: 1;
+    font-size: 18px;
+}
+
+    .datas-info p {
+        margin: 5px 0;
+    }
+
+    .datas-info .espaco {
+        margin: 20px 0;
+    }
+
+/* ===============================
+   OBS FINAL
+   =============================== */
+/* ===============================
+   Codigo Penal
+   =============================== */
+.tabela-container {
+    margin-top: 40px;
+    font-family: Arial, sans-serif;
+}
+
+.tabela-titulo {
+    background-color: #131415; /* fundo transparente */
+    color: white;
+    font-weight: bold;
+    text-align: center;
+    padding: 10px;
+    font-size: 20px;
+    letter-spacing: 1px;
+    border: 1px solid #131415; /* contorno branco */
+}
+
+.tabela-crimes {
+    width: 100%;
+    border-collapse: collapse;
+    background-color: transparent; /* fundo transparente */
+    border: 1px solid #131415; /* contorno externo branco */
+}
+
+    .tabela-crimes thead {
+        background-color: transparent; /* remove fundo escuro */
+        color: white;
+    }
+
+    .tabela-crimes th,
+    .tabela-crimes td {
+        padding: 12px;
+        font-size: 13px;
+        text-align: center;
+        border: 1px solid #131415; /* contorno branco nas células */
+        background-color: transparent; /* fundo transparente */
+    }
+
+    .tabela-crimes tbody tr {
+        background-color: transparent;
+    }
+
+/* ===============================
+   Fim Codigo Penal
    =============================== */
 
 

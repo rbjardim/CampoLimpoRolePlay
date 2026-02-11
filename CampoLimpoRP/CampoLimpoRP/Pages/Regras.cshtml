@@ -22,6 +22,28 @@
                 Regras Gerais
             </button>
             <div id="gerais" class="submenu">
+                <div class="submenu-item">
+                    <button class="menu-btn submenu-btn" onclick="toggleMenu('subCodigoPenal')">
+                        Código Penal
+                    </button>
+
+                    <div id="subCodigoPenal" class="submenu submenu-inner">
+                        <a href="#" onclick="loadPartial('/SubMenus/RegrasGerais/CodigoPenal/contravida')">Crimes Contra a Vida</a>
+                        <a href="#" onclick="loadPartial('/SubMenus/RegrasGerais/CodigoPenal/contrapessoa')">Crimes Contra a Pessoa</a>
+                        <a href="#" onclick="loadPartial('/SubMenus/RegrasGerais/CodigoPenal/contrahonra')">Crimes Contra a Honra</a>
+                        <a href="#" onclick="loadPartial('/SubMenus/RegrasGerais/CodigoPenal/contraliberdade')">Crimes Contra a Liberdade</a>
+                        <a href="#" onclick="loadPartial('/SubMenus/RegrasGerais/CodigoPenal/contrapatrimonio')">Crimes Contra o Patrimônio</a>
+                        <a href="#" onclick="loadPartial('/SubMenus/RegrasGerais/CodigoPenal/contrasexual')">Crimes Contra a Liberdade Sexual</a>
+                        <a href="#" onclick="loadPartial('/SubMenus/RegrasGerais/CodigoPenal/contrapaz')">Crimes Contra a Paz Pública</a>
+                        <a href="#" onclick="loadPartial('/SubMenus/RegrasGerais/CodigoPenal/contraadm')">Crimes Contra a Administração Pública</a>
+                        <a href="#" onclick="loadPartial('/SubMenus/RegrasGerais/CodigoPenal/contradroga')">Lei de Drogas</a>
+                        <a href="#" onclick="loadPartial('/SubMenus/RegrasGerais/CodigoPenal/contraarmas')">Lei de Armas</a>
+                        <a href="#" onclick="loadPartial('/SubMenus/RegrasGerais/CodigoPenal/contrafaccao')">Lei de Organizações</a>
+                        <a href="#" onclick="loadPartial('/SubMenus/RegrasGerais/CodigoPenal/contralavagem')">Lei de Lavagens De Dinheiro</a>
+                        <a href="#" onclick="loadPartial('/SubMenus/RegrasGerais/CodigoPenal/contrahumanidade')">Crimes Contra a Humanidade</a>
+                        <a href="#" onclick="loadPartial('/SubMenus/RegrasGerais/CodigoPenal/disposicaogeral')">Incisos</a>
+                    </div>
+                </div>
                 <a href="#" onclick="loadPartial('/SubMenus/RegrasGerais/RegrasGerais')">Gerais</a>
                 <a href="#" onclick="loadPartial('/SubMenus/RegrasGerais/RegrasBasicas')">Básicas</a>
                 <a href="#" onclick="loadPartial('/SubMenus/RegrasGerais/RegrasBomSenso')">Bom Senso</a>
@@ -47,6 +69,7 @@
                 <a href="#" onclick="loadPartial('/SubMenus/RegrasGerais/RegrasRisco')">Áreas de Risco</a>
             </div>
         </div>
+
 
         <div class="menu-item">
             <button class="menu-btn" onclick="toggleMenu('ilegal')">
@@ -98,13 +121,63 @@
             <button class="menu-btn" onclick="toggleMenu('policia')">
                 Polícia
             </button>
+
             <div id="policia" class="submenu">
-                <a href="#" onclick="loadPartial('/SubMenus/Policia/RDPM')">RDPM</a>
-                <a href="#" onclick="loadPartial('/SubMenus/Policia/CPPM')">CPPM</a>
-                <a href="#" onclick="loadPartial('/SubMenus/Policia/CondutaVisual')">Conduta Visual</a>
-                <a href="#" onclick="loadPartial('/SubMenus/Policia/CodigoPenal')">Código Penal</a>
+
+                <button class="menu-btn" onclick="toggleMenu('rdpm')">
+                    RDPM
+                </button>
+                <div id="rdpm" class="submenu level-2">
+                    <a href="#" onclick="loadPartial('/SubMenus/Policia/RDPM/Introducao')">Introdução</a>
+                    <a href="#" onclick="loadPartial('/SubMenus/Policia/RDPM/DisposicoesGerais')">Disposições Gerais</a>
+                    <a href="#" onclick="loadPartial('/SubMenus/Policia/RDPM/Punicoes')">Punições</a>
+                </div>
+
+                <button class="menu-btn" onclick="toggleMenu('cppm')">
+                    CPPM
+                </button>
+                <div id="cppm" class="submenu level-2">
+                    <a href="#" onclick="loadPartial('/SubMenus/Policia/CPPM/DireitoseDeveres')">Art. 1º – Dos Direitos e Deveres do Policial Militar</a>
+                    <a href="#" onclick="loadPartial('/SubMenus/Policia/CPPM/Uniformes')">Art. 2º – Dos Uniformes, Equimamentos e Viaturas</a>
+                    <a href="#" onclick="loadPartial('/SubMenus/Policia/CPPM/CondutaVisual')">Art. 3º – Da Conduta Visual</a>
+                    <a href="#" onclick="loadPartial('/SubMenus/Policia/CPPM/revista')">Art. 4º – Dos Procedimentos de Revista</a>
+                    <a href="#" onclick="loadPartial('/SubMenus/Policia/CPPM/adm')">Art. 5º – Dos Procedimentos Administrativo e Conduta Interna</a>
+                    <a href="#" onclick="loadPartial('/SubMenus/Policia/CPPM/promocao')">Art. 6º – Das Promoções, Transferências e Medalhas</a>
+                    <a href="#" onclick="loadPartial('/SubMenus/Policia/CPPM/ocorrencia')">Art. 7º – Das Ocorrências e Acompanhamentos</a>
+                    <a href="#" onclick="loadPartial('/SubMenus/Policia/CPPM/patrulhamento')">Art. 8º – Das Ações e Patrulhamento</a>
+                    <a href="#" onclick="loadPartial('/SubMenus/Policia/CPPM/corregedoria')">Art. 9º – Da Corregedoria e Seus Procedimentos</a>
+                    <a href="#" onclick="loadPartial('/SubMenus/Policia/CPPM/choque')">Art. 10º – Dos Batalhões de Choque</a>
+                    <a href="#" onclick="loadPartial('/SubMenus/Policia/CPPM/companhias')">Art. 11º – Dos Batalhões e Companhias</a>
+                    <a href="#" onclick="loadPartial('/SubMenus/Policia/CPPM/estagio')">Art. 12º – Das Transferências e Estágios</a>
+                    <a href="#" onclick="loadPartial('/SubMenus/Policia/CPPM/dejem')">Art. 13º – DEJEM 4ºGB - Normas e Procedimentos Operacionais</a>
+                    <a href="#" onclick="loadPartial('/SubMenus/Policia/CPPM/armamentos')">Art. 14º – Armamentos Utilizados por Batalhão ou Companhia</a>
+                    <a href="#" onclick="loadPartial('/SubMenus/Policia/CPPM/finais')">Observações Finais</a>
+                </div>
+
+                <button class="menu-btn" onclick="toggleMenu('codigo')">
+                    Código Penal
+                </button>
+                <div id="codigo" class="submenu level-2">
+                    <a href="#" onclick="loadPartial('/SubMenus/Policia/CodigoPenal/contravida')">Crimes Contra a Vida</a>
+                    <a href="#" onclick="loadPartial('/SubMenus/Policia/CodigoPenal/contrapessoa')">Crimes Contra a Pessoa</a>
+                    <a href="#" onclick="loadPartial('/SubMenus/Policia/CodigoPenal/contrahonra')">Crimes Contra a Honra</a>
+                    <a href="#" onclick="loadPartial('/SubMenus/Policia/CodigoPenal/contraliberdade')">Crimes Contra a Liberdade</a>
+                    <a href="#" onclick="loadPartial('/SubMenus/Policia/CodigoPenal/contrapatrimonio')">Crimes Contra o Patrimônio</a>
+                    <a href="#" onclick="loadPartial('/SubMenus/Policia/CodigoPenal/contrasexual')">Crimes Contra a Liberdade Sexual</a>
+                    <a href="#" onclick="loadPartial('/SubMenus/Policia/CodigoPenal/contrapaz')">Crimes Contra a Paz Pública</a>
+                    <a href="#" onclick="loadPartial('/SubMenus/Policia/CodigoPenal/contraadm')">Crimes Contra a Administração Pública</a>
+                    <a href="#" onclick="loadPartial('/SubMenus/Policia/CodigoPenal/contradroga')">Lei de Drogas</a>
+                    <a href="#" onclick="loadPartial('/SubMenus/Policia/CodigoPenal/contraarmas')">Lei de Armas</a>
+                    <a href="#" onclick="loadPartial('/SubMenus/Policia/CodigoPenal/contrafaccao')">Lei de Organizações</a>
+                    <a href="#" onclick="loadPartial('/SubMenus/Policia/CodigoPenal/contralavagem')">Lei de Lavagens De Dinheiro</a>
+                    <a href="#" onclick="loadPartial('/SubMenus/Policia/CodigoPenal/contrahumanidade')">Crimes Contra a Humanidade</a>
+                    <a href="#" onclick="loadPartial('/SubMenus/Policia/CodigoPenal/disposicaogeral')">Incisos</a>
+
+
+                </div>
+
             </div>
-        </div>
+</div>
 
     </aside>
 
@@ -146,7 +219,7 @@
         menu.style.display = menu.style.display === "block" ? "none" : "block";
     }
 
-    function loadPartial(url) {
+        function loadPartial(url) {
         fetch(url)
             .then(response => {
                 if (!response.ok) {
@@ -156,6 +229,11 @@
             })
             .then(html => {
                 document.getElementById("contentArea").innerHTML = html;
+
+                if (window.updateBookPages) {
+                    bookCurrentPage = 0;
+                    updateBookPages();
+                }
             })
             .catch(error => {
                 document.getElementById("contentArea").innerHTML =
@@ -211,5 +289,83 @@
     }
 
     liberarMenuPolicia();
+
+    let bookCurrentPage = 0;
+
+    window.nextPage = function () {
+
+        console.log('CLICK NEXT');
+
+        const pages = document.querySelectorAll('#contentArea .book-page');
+
+        console.log('pages found:', pages.length);
+
+        if (!pages.length) return;
+
+        if (bookCurrentPage < pages.length - 1) {
+            bookCurrentPage++;
+            updateBookPages();
+        }
+    };
+
+    window.prevPage = function () {
+
+        console.log('CLICK PREV');
+
+        const pages = document.querySelectorAll('#contentArea .book-page');
+
+        console.log('pages found:', pages.length);
+
+        if (!pages.length) return;
+
+        if (bookCurrentPage > 0) {
+            bookCurrentPage--;
+            updateBookPages();
+        }
+    };
+
+    window.updateBookPages = function () {
+
+        const pages = document.querySelectorAll('#contentArea .book-page');
+        const indicator = document.getElementById('pageIndicator');
+
+        pages.forEach((page, index) => {
+            page.classList.toggle('active', index === bookCurrentPage);
+        });
+
+        if (indicator) {
+            indicator.innerText =
+                `Página ${bookCurrentPage + 1} de ${pages.length}`;
+        }
+    };
+
+        function abrirCodigoPenal(query) {
+        document.getElementById("gerais").style.display = "block";
+
+        document.getElementById("subCodigoPenal").style.display = "block";
+
+        if (query) {
+            loadPartial(`/SubMenus/RegrasGerais/CodigoPenal/${query}`);
+        } else {
+            loadPartial('/SubMenus/RegrasGerais/CodigoPenal/contravida');
+        }
+    }
+
+    function verificarQueryParams() {
+        const params = new URLSearchParams(window.location.search);
+
+        if (params.get("policia") === "1530528") {
+            document.getElementById("menuPolicia").style.display = "block";
+        }
+
+        const codigoPenal = params.get("codigopenal") || params.get("codigoPenal");
+
+        if (codigoPenal !== null) {
+            abrirCodigoPenal(codigoPenal === "112512" ? "contravida" : codigoPenal);
+        }
+    }
+
+    verificarQueryParams();
+
 </script>
 

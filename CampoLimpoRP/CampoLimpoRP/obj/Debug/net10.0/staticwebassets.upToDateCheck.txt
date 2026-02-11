@@ -1,6 +1,10 @@
 wwwroot\css\site.css
 wwwroot\favicon.ico
+wwwroot\img\brasao.png
+wwwroot\img\brasaobook.png
+wwwroot\img\brasaotopo.png
 wwwroot\img\fundo.png
+wwwroot\img\fundo2.png
 wwwroot\img\logo cl.png
 wwwroot\img\logo.png
 wwwroot\img\logo2.png
