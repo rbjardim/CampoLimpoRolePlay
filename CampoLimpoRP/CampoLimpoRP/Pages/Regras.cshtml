@@ -127,11 +127,76 @@
                 <button class="menu-btn" onclick="toggleMenu('rdpm')">
                     RDPM
                 </button>
+
                 <div id="rdpm" class="submenu level-2">
-                    <a href="#" onclick="loadPartial('/SubMenus/Policia/RDPM/Introducao')">Introdução</a>
-                    <a href="#" onclick="loadPartial('/SubMenus/Policia/RDPM/DisposicoesGerais')">Disposições Gerais</a>
-                    <a href="#" onclick="loadPartial('/SubMenus/Policia/RDPM/Punicoes')">Punições</a>
+
+                    <button class="menu-btn submenu-btn" onclick="toggleMenu('rdpm-cap1')">
+                        Capítulo I
+                    </button>
+                    <div id="rdpm-cap1" class="submenu level-3">
+                        <a href="#" onclick="loadPartial('/SubMenus/Policia/RDPM/Capitulo1/disposicao')"> Das Disposições Gerais</a>
+                    </div>
+
+                    <button class="menu-btn submenu-btn" onclick="toggleMenu('rdpm-cap2')">
+                        Capítulo II
+                    </button>
+                    <div id="rdpm-cap2" class="submenu level-3">
+                        <a href="#" onclick="loadPartial('/SubMenus/Policia/RDPM/Capitulo2/deontologia')"> Da Deontologia do Polícial Militar</a>
+                        <a href="#" onclick="loadPartial('/SubMenus/Policia/RDPM/Capitulo2/secao1')"> Seção I - Dos Valores</a>
+                        <a href="#" onclick="loadPartial('/SubMenus/Policia/RDPM/Capitulo2/secao2')"> Seção II - Dos Deveres</a>
+                        <a href="#" onclick="loadPartial('/SubMenus/Policia/RDPM/Capitulo2/secao3')"> Seção III - Da Disciplina</a>
+                    </div>
+
+                    <button class="menu-btn submenu-btn" onclick="toggleMenu('rdpm-cap3')">
+                        Capítulo III
+                    </button>
+                    <div id="rdpm-cap3" class="submenu level-3">
+                        <a href="#" onclick="loadPartial('/SubMenus/Policia/RDPM/Capitulo3/violacao')"> Da Violação dos Valores, dos Deveres e da Disciplina</a>
+                        <a href="#" onclick="loadPartial('/SubMenus/Policia/RDPM/Capitulo3/transgressao')"> Seção I - Da Transgressão Disciplinar</a>
+                        <a href="#" onclick="loadPartial('/SubMenus/Policia/RDPM/Capitulo3/sancao')"> Das Sanções Administrativas Disciplinares</a>
+                        <a href="#" onclick="loadPartial('/SubMenus/Policia/RDPM/Capitulo3/secao2')"> Seção II - Da Advertência</a>
+                        <a href="#" onclick="loadPartial('/SubMenus/Policia/RDPM/Capitulo3/secao3')"> Seção III - Da Repreensão</a>
+                        <a href="#" onclick="loadPartial('/SubMenus/Policia/RDPM/Capitulo3/secao4')"> Seção IV - Da Permanência Disciplinar</a>
+                        <a href="#" onclick="loadPartial('/SubMenus/Policia/RDPM/Capitulo3/secao5')"> Seção V - Da Detenção</a>
+                        <a href="#" onclick="loadPartial('/SubMenus/Policia/RDPM/Capitulo3/secao6')"> Seção VI - Da Reforma Administrativa Disciplinar</a>
+                        <a href="#" onclick="loadPartial('/SubMenus/Policia/RDPM/Capitulo3/secao7')"> Seção VII - Da Demissão</a>
+                        <a href="#" onclick="loadPartial('/SubMenus/Policia/RDPM/Capitulo3/secao8')"> Seção VIII - Da Expulsão</a>
+                        <a href="#" onclick="loadPartial('/SubMenus/Policia/RDPM/Capitulo3/secao9')"> Seção IX - Da Proibição de Uso de Uniformes</a>
+
+                    </div>
+
+                    <button class="menu-btn submenu-btn" onclick="toggleMenu('rdpm-cap4')">
+                        Capítulo IV
+                    </button>
+                    <div id="rdpm-cap4" class="submenu level-4">
+                        <a href="#" onclick="loadPartial('/SubMenus/Policia/RDPM/Capitulo4/recolhimento')"> Do Recolhimento Disciplinar</a>
+                        <a href="#" onclick="loadPartial('/SubMenus/Policia/RDPM/Capitulo4/secao1')"> Seção I - Da Comunicação Disciplinar</a>
+                        <a href="#" onclick="loadPartial('/SubMenus/Policia/RDPM/Capitulo4/secao2')"> Seção II - Da Reapresentação</a>
+                    </div>
+
+                    <button class="menu-btn submenu-btn" onclick="toggleMenu('rdpm-cap5')">
+                        Capítulo V
+                    </button>
+                    <div id="rdpm-cap5" class="submenu level-5">
+                        <a href="#" onclick="loadPartial('/SubMenus/Policia/RDPM/Capitulo5/competencia')"> Da Competência, do Julgamento, da Aplicação e do Cumprimento das Sanções Disciplinares</a>
+                        <a href="#" onclick="loadPartial('/SubMenus/Policia/RDPM/Capitulo5/secao1')"> Seção I - Do Julgamento</a>
+                        <a href="#" onclick="loadPartial('/SubMenus/Policia/RDPM/Capitulo5/secao2')"> Seção II - Do Comportamento</a>
+                        <a href="#" onclick="loadPartial('/SubMenus/Policia/RDPM/Capitulo5/secao3')"> Seção III - Dos Recursos Disciplinares</a>
+                    </div>
+
+                    <button class="menu-btn submenu-btn" onclick="toggleMenu('rdpm-cap6')">
+                        Capítulo VI
+                    </button>
+                    <div id="rdpm-cap6" class="submenu level-6">
+                        <a href="#" onclick="loadPartial('/SubMenus/Policia/RDPM/Capitulo6/processo')"> Do Processo Regular</a>
+                        <a href="#" onclick="loadPartial('/SubMenus/Policia/RDPM/Capitulo6/secao1')"> Seção I - Do Conselho de Justificação</a>
+                        <a href="#" onclick="loadPartial('/SubMenus/Policia/RDPM/Capitulo6/secao2')"> Seção II - Do Conselho de Disciplina</a>
+                        <a href="#" onclick="loadPartial('/SubMenus/Policia/RDPM/Capitulo6/secao3')"> Seção III - Do Processo Administrativo Disciplinar</a>
+                    </div>
+
+                    <a href="#" onclick="loadPartial('/SubMenus/Policia/RDPM/finais')"> Das Disposições Finais</a>
                 </div>
+
 
                 <button class="menu-btn" onclick="toggleMenu('cppm')">
                     CPPM
@@ -174,9 +239,8 @@
                     <a href="#" onclick="loadPartial('/SubMenus/Policia/CodigoPenal/disposicaogeral')">Incisos</a>
 
 
-                </div>
-
-            </div>
+                </div> 
+           </div>
 </div>
 
     </aside>
@@ -283,7 +347,7 @@
     function liberarMenuPolicia() {
         const params = new URLSearchParams(window.location.search);
 
-        if (params.get("policia") === "1") {
+        if (params.get("policia") === "1530528") {
             document.getElementById("menuPolicia").style.display = "block";
         }
     }

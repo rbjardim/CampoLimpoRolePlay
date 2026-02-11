@@ -96,4 +96,4 @@ C:\Projetos\CampoLimpoRolePlay\CampoLimpoRP\CampoLimpoRP\obj\Debug\net10.0\refin
 C:\Projetos\CampoLimpoRolePlay\CampoLimpoRP\CampoLimpoRP\obj\Debug\net10.0\CampoLimpoRP.pdb
 C:\Projetos\CampoLimpoRolePlay\CampoLimpoRP\CampoLimpoRP\obj\Debug\net10.0\CampoLimpoRP.genruntimeconfig.cache
 C:\Projetos\CampoLimpoRolePlay\CampoLimpoRP\CampoLimpoRP\obj\Debug\net10.0\ref\CampoLimpoRP.dll
-C:\Projetos\CampoLimpoRolePlay\CampoLimpoRP\CampoLimpoRP\obj\Debug\net10.0\compressed\p8tg8i6z2l-{0}-jfptxdtml8-jfptxdtml8.gz
+C:\Projetos\CampoLimpoRolePlay\CampoLimpoRP\CampoLimpoRP\obj\Debug\net10.0\compressed\p8tg8i6z2l-{0}-avemcj9pv8-avemcj9pv8.gz

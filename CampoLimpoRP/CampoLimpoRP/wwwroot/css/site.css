@@ -795,7 +795,6 @@ footer.footer {
    Inicio CPPM
    =============================== */
 
-/* CONTAINER PRINCIPAL */
 .book-container {
     display: flex;
     flex-direction: column;
@@ -805,7 +804,6 @@ footer.footer {
     overflow-x: hidden;
 }
 
-/* ESTILO BASE DA PÁGINA */
 .book-page {
     display: none;
     opacity: 0;
@@ -821,7 +819,7 @@ footer.footer {
     border-radius: 20px;
     padding: 50px;
     box-shadow: 0 10px 30px rgba(0,0,0,0.4);
-    font-family: "Times New Roman", serif;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     line-height: 1.7;
     color: #ffffff;
     transition: opacity 0.4s ease, transform 0.4s ease;
@@ -941,7 +939,6 @@ footer.footer {
         content: "";
         position: absolute;
         inset: 0;
-        background: url('/img/brasaotopo.png') center center no-repeat;
         background-size: 500px;
         opacity: 0.08;
         z-index: 0;
@@ -994,25 +991,25 @@ footer.footer {
 }
 
 .tabela-titulo {
-    background-color: #131415; /* fundo transparente */
+    background-color: #131415;
     color: white;
     font-weight: bold;
     text-align: center;
     padding: 10px;
     font-size: 20px;
     letter-spacing: 1px;
-    border: 1px solid #131415; /* contorno branco */
+    border: 1px solid #131415;
 }
 
 .tabela-crimes {
     width: 100%;
     border-collapse: collapse;
-    background-color: transparent; /* fundo transparente */
-    border: 1px solid #131415; /* contorno externo branco */
+    background-color: transparent;
+    border: 1px solid #131415; 
 }
 
     .tabela-crimes thead {
-        background-color: transparent; /* remove fundo escuro */
+        background-color: transparent;
         color: white;
     }
 
@@ -1021,8 +1018,8 @@ footer.footer {
         padding: 12px;
         font-size: 13px;
         text-align: center;
-        border: 1px solid #131415; /* contorno branco nas células */
-        background-color: transparent; /* fundo transparente */
+        border: 1px solid #131415;
+        background-color: transparent;
     }
 
     .tabela-crimes tbody tr {

@@ -1,0 +1,150 @@
+﻿@page
+@{
+    Layout = null;
+}
+
+<div class="book-container">
+
+    <div class="book-page active">
+
+        <div class="book-header">
+            <img src="/img/brasaotopo.png" class="book-header-logo" />
+
+            <div class="book-header-text">
+                <div>SECRETARIA DE SEGURANÇA PÚBLICA</div>
+                <div>POLÍCIA MILITAR DO ESTADO DE SÃO PAULO</div>
+                <div>COMANDO-GERAL DA POLÍCIA MILITAR DO ESTADO DE SÃO PAULO</div>
+                <div>CIDADE DE CAMPO LIMPO ROLEPLAY – FIVEM®</div>
+            </div>
+        </div>
+
+        <div style="text-align: center; width: 100%;">
+            <div>REGULAMENTO DISCIPLINAR DA POLÍCIA MILITAR DO ESTADO DE SÃO PAULO</div>
+            <br />
+            <div><strong>SEÇÃO II</strong> – Dos Deveres Policiais-Militares</div>
+        </div>
+        <br />
+
+        <p class="paragraph">
+            <strong>Artigo 8º</strong> - Os deveres éticos, emanados dos valores policiais-militares e que conduzem a atividade profissional sob o signo da retidão moral, são os seguintes:
+        </p>
+        <p class="paragraph">I - Cultuar os símbolos e as tradições da Pátria, do Estado de São Paulo e da Polícia Militar e zelar por sua inviolabilidade;</p>
+        <p class="paragraph">II - Cumprir os deveres de cidadão;</p>
+        <p class="paragraph">III - Servir à comunidade, procurando, no exercício da suprema missão de preservar a ordem pública, promover, sempre, o bem-estar comum, dentro da estrita observância das normas jurídicas e das disposições deste Regulamento;</p>
+        <p class="paragraph">IV - Atuar com devotamento ao interesse público, colocando-o acima dos anseios particulares;</p>
+        <p class="paragraph">V - Atuar de forma disciplinada e disciplinadora, com respeito mútuo de superiores e subordinados, e preocupação com a integridade física, moral e psíquica de todos os militares do Estado;</p>
+        <p class="paragraph">VI - Ser justo na apreciação de atos e méritos dos subordinados;</p>
+        <p class="paragraph">VII - Cumprir e fazer cumprir, dentro de suas atribuições legalmente definidas, a Constituição, as leis e as ordens legais das autoridades competentes;</p>
+        <p class="paragraph">VIII - Dedicar-se integralmente ao serviço policial-militar;</p>
+        <p class="paragraph">IX - Estar sempre preparado para as missões que desempenhe;</p>
+        <p class="paragraph">X - Exercer as funções com integridade e equilíbrio, segundo os princípios que regem a administração pública;</p>
+        <p class="paragraph">XI - Ser fiel na vida policial-militar;</p>
+        <p class="paragraph">XII - Zelar pelo bom nome da Instituição Policial-Militar;</p>
+        <p class="paragraph">XIII - Manter ambiente de harmonia e camaradagem na vida profissional;</p>
+        <p class="paragraph">XIV - Proceder de maneira ilibada na vida pública e particular;</p>
+        <p class="paragraph">XX - Abster-se do uso do posto, graduação ou cargo para obter facilidades pessoais;</p>
+        <p class="paragraph">XXIV - Exercer a profissão sem discriminações;</p>
+        <p class="paragraph">XXV - Atuar com prudência nas ocorrências policiais;</p>
+
+        <div class="aviso-target">
+            <p>
+                ⚠️ ATENÇÃO! Este documento é de cunho fictício, destinado exclusivamente para fins de Roleplay no ambiente virtual do Campo Limpo Roleplay
+            </p>
+        </div>
+
+    </div>
+
+    <div class="book-page">
+
+        <div class="book-header">
+            <img src="/img/brasaotopo.png" class="book-header-logo" />
+
+            <div class="book-header-text">
+                <div>SECRETARIA DE SEGURANÇA PÚBLICA</div>
+                <div>POLÍCIA MILITAR DO ESTADO DE SÃO PAULO</div>
+                <div>COMANDO-GERAL DA POLÍCIA MILITAR DO ESTADO DE SÃO PAULO</div>
+                <div>CIDADE DE CAMPO LIMPO ROLEPLAY – FIVEM®</div>
+            </div>
+        </div>
+
+        <div style="text-align: center; width: 100%;">
+            <div>REGULAMENTO DISCIPLINAR DA POLÍCIA MILITAR DO ESTADO DE SÃO PAULO</div>
+            <br />
+            <div><strong>SEÇÃO II</strong> – Dos Deveres Policiais-Militares</div>
+        </div>
+        <br />
+
+        <p class="paragraph">XXVI - Respeitar a integridade física, moral e psíquica da pessoa do preso;</p>
+        <p class="paragraph">XXVII - Observar as normas de boa educação e ser discreto nas atitudes;</p>
+        <p class="paragraph">XXVIII - Não solicitar ou provocar publicidade visando promoção pessoal;</p>
+        <p class="paragraph">XXIX - Observar os direitos e garantias fundamentais;</p>
+        <p class="paragraph">XXX - Exercer a função pública com honestidade;</p>
+        <p class="paragraph">XXXI - Não usar meio ilícito na produção de trabalho intelectual;</p>
+        <p class="paragraph">XXXII - Atuar com eficiência e probidade;</p>
+        <p class="paragraph">XXXIII - Proteger as pessoas, o patrimônio e o meio ambiente;</p>
+        <p class="paragraph">XXXIV - Atuar onde estiver, mesmo não estando em serviço, para preservar a ordem pública;</p>
+
+        <div class="aviso-target">
+            <p>
+                ⚠️ ATENÇÃO! Este documento é de cunho fictício, destinado exclusivamente para fins de Roleplay no ambiente virtual do Campo Limpo Roleplay
+            </p>
+        </div>
+
+    </div>
+    <div class="book-nav">
+        <button type="button" onclick="prevPage()">◀ Anterior</button>
+        <span id="pageIndicator"></span>
+        <button type="button" onclick="nextPage()">Próxima ▶</button>
+    </div>
+</div>
+
+<script>
+
+    let currentPage = 0;
+
+    window.nextPage = function () {
+
+        console.log('CLICK NEXT');
+
+        const pages = document.querySelectorAll('.book-container .book-page');
+
+        console.log('pages:', pages.length);
+
+        if (!pages.length) return;
+
+        if (currentPage < pages.length - 1) {
+            currentPage++;
+            updatePages();
+        }
+    };
+
+    window.prevPage = function () {
+
+        console.log('CLICK PREV');
+
+        const pages = document.querySelectorAll('.book-container .book-page');
+
+        console.log('pages:', pages.length);
+
+        if (!pages.length) return;
+
+        if (currentPage > 0) {
+            currentPage--;
+            updatePages();
+        }
+    };
+
+    window.updatePages = function () {
+
+        const pages = document.querySelectorAll('.book-container .book-page');
+        const indicator = document.getElementById('pageIndicator');
+
+        pages.forEach((page, index) => {
+            page.classList.toggle('active', index === currentPage);
+        });
+
+        if (indicator)
+            indicator.innerText = `Página ${currentPage + 1} de ${pages.length}`;
+    };
+
+</script>
