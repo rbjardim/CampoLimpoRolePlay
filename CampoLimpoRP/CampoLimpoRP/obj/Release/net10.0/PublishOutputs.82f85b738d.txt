@@ -1,0 +1,7 @@
+C:\Projetos\CampoLimpoRolePlay\CampoLimpoRP\CampoLimpoRP\obj\Release\net10.0\PubTmp\Out\CampoLimpoRP.exe
+C:\Projetos\CampoLimpoRolePlay\CampoLimpoRP\CampoLimpoRP\obj\Release\net10.0\PubTmp\Out\appsettings.Development.json
+C:\Projetos\CampoLimpoRolePlay\CampoLimpoRP\CampoLimpoRP\obj\Release\net10.0\PubTmp\Out\appsettings.json
+C:\Projetos\CampoLimpoRolePlay\CampoLimpoRP\CampoLimpoRP\obj\Release\net10.0\PubTmp\Out\CampoLimpoRP.dll
+C:\Projetos\CampoLimpoRolePlay\CampoLimpoRP\CampoLimpoRP\obj\Release\net10.0\PubTmp\Out\CampoLimpoRP.deps.json
+C:\Projetos\CampoLimpoRolePlay\CampoLimpoRP\CampoLimpoRP\obj\Release\net10.0\PubTmp\Out\CampoLimpoRP.runtimeconfig.json
+C:\Projetos\CampoLimpoRolePlay\CampoLimpoRP\CampoLimpoRP\obj\Release\net10.0\PubTmp\Out\CampoLimpoRP.pdb

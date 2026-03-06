@@ -1,0 +1,1033 @@
+html {
+  font-size: 14px;
+}
+
+@media (min-width: 768px) {
+  html {
+    font-size: 16px;
+  }
+}
+
+.btn:focus, .btn:active:focus, .btn-link.nav-link:focus, .form-control:focus, .form-check-input:focus {
+  box-shadow: 0 0 0 0.1rem white, 0 0 0 0.25rem #258cfb;
+}
+
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+body {
+    margin-bottom: 60px;
+    /*background-image: url('/img/fundo2.png');*/
+    background-color: black;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+    body::before {
+        content: "";
+        position: fixed;
+        inset: 0;
+        background: rgba(0, 0, 0, 0.55);
+        z-index: -1;
+    }
+
+.form-floating > .form-control-plaintext::placeholder, .form-floating > .form-control::placeholder {
+  color: var(--bs-secondary-color);
+  text-align: end;
+}
+
+.form-floating > .form-control-plaintext:focus::placeholder, .form-floating > .form-control:focus::placeholder {
+  text-align: start;
+}
+
+.navbar {
+    background-color: #000 !important;
+}
+
+    .navbar .nav-link,
+    .navbar .navbar-brand {
+        color: #fff !important;
+    }
+
+        .navbar .nav-link:hover {
+            color: #ccc !important;
+        }
+
+.navbar-logo {
+    height: 40px;
+    width: auto;
+    margin-left: 0px;
+    margin-right: 52px;
+}
+
+@media (max-width: 576px) {
+    .navbar-logo {
+        height: 32px;
+    }
+}
+
+footer.footer {
+    color: #fff !important;
+    background-color: #000 !important;
+}
+
+    footer.footer .container {
+        color: #fff !important;
+    }
+
+    footer.footer.text-muted {
+        color: #fff !important;
+    }
+
+.content strong {
+    color: #20AC3B;
+    font-weight: 700;
+}
+
+.pin-verde {
+    fill: #20AC3B;
+    flex-shrink: 0;
+}
+
+/* ===============================
+   Target de Punição e Aviso Regras
+   =============================== */
+
+.punicao-target {
+    margin-top: 15px;
+    padding: 12px 20px;
+    border-left: 5px solid #20AC3B;
+    background-color: #3D0300;
+    color: white;
+    font-weight: bold;
+    text-align: left;
+    border-radius: 6px;
+}
+
+.aviso-target {
+    margin-top: 15px;
+    padding: 12px 20px;
+    border-left: 5px solid #20AC3B;
+    background-color: #E5CE3A;
+    color: white;
+    font-weight: bold;
+    text-align: left;
+    border-radius: 6px;
+}
+.exemplo-target {
+    margin-top: 15px;
+    padding: 12px 20px;
+    border-left: 5px solid #20AC3B;
+    background-color: #2C2C2C;
+    color: white;
+    font-weight: bold;
+    text-align: left;
+    border-radius: 6px;
+}
+
+/* ===============================
+   Seccion Summary
+   =============================== */
+
+.rule-box {
+    background: #222;
+    margin-bottom: 10px;
+    border-radius: 6px;
+    padding: 10px 15px;
+    background-color: #131415;
+    color: white;
+}
+
+    .rule-box summary {
+        cursor: pointer;
+        font-size: 18px;
+        font-weight: bold;
+        list-style: none;
+        color: white;
+    }
+
+    .rule-box[open] summary {
+        color: #20AC3B;
+    }
+
+
+/* ===============================
+   Fim Seccion Summary
+   =============================== */
+
+/* ===============================
+   Inicio Index (Home)
+   =============================== */
+
+.index-container {
+    max-width: 900px;
+    margin: 0 auto;
+    text-align: center;
+    min-height: 60vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+    .index-container h1,
+    .index-container h2 {
+        font-weight: normal;
+        margin-top: 30px;
+        margin-bottom: 15px;
+        color: white;
+    }
+
+    .index-container p {
+        line-height: 1.6;
+        margin-bottom: 35px;
+        color: white;
+    }
+
+.btn-flutuante {
+    background-color: #fff;
+    color: #000;
+    border: none;
+    border-radius: 50px;
+    padding: 14px 36px;
+    font-size: 1.1rem;
+    font-weight: 500;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+    transition: all 0.3s ease;
+    width: 260px;
+    text-align: center;
+}
+
+    .btn-flutuante:hover {
+        background-color: #333333;
+        color: #000;
+        transform: translateY(-4px);
+        box-shadow: 0 14px 28px rgba(0, 0, 0, 0.2);
+    }
+
+    .btn-flutuante:active {
+        background-color: #333333;
+        color: #000;
+        transform: translateY(-1px);
+        box-shadow: 0 6px 14px rgba(0, 0, 0, 0.2);
+    }
+
+        .btn-flutuante:focus,
+        .btn-flutuante:focus-visible,
+        .btn-flutuante:active:focus {
+            background-color: #fff !important;
+            color: #000 !important;
+            box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2) !important;
+            outline: none !important;
+        }
+
+/* ===============================
+    Fim Index (Home)
+   =============================== */
+
+/* ===============================
+    Inicio Privacidade (Privacidade)
+   =============================== */
+
+.Privacidade-container {
+    max-width: 900px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+    .Privacidade-container h1,
+    .Privacidade-container h2 {
+        font-weight: bold;
+        text-align: center;
+        margin-top: 30px;
+        margin-bottom: 15px;
+        color: white;
+    }
+
+    .Privacidade-container p {
+        text-align: center;
+        line-height: 1.6;
+        margin-bottom: 15px;
+        color: white;
+    }
+
+/* ===============================
+    Fim Privacidade (Privacidade)
+   =============================== */
+
+/* ===============================
+    Inicio Regras (Regras)
+   =============================== */
+.search-container {
+    margin-bottom: 15px;
+}
+
+.search-wrapper {
+    position: relative;
+    width: 100%;
+}
+
+.search-input {
+    width: 100%;
+    padding: 5px 35px 5px 10px;
+    background: transparent;
+    border: 1px solid #333333;
+    border-radius: 15px;
+    color: #333333;
+    outline: none;
+    font-style: italic;
+}
+
+    .search-input::placeholder {
+        color: #333333;
+    }
+
+.search-icon {
+    position: absolute;
+    right: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+    cursor: pointer;
+    color: #fff;
+    font-size: 16px;
+}
+
+    .search-icon:hover {
+        color: #ccc;
+    }
+
+.layout-container {
+    display: flex;
+    min-height: 80vh;
+}
+
+.sidebar {
+    width: 260px;
+    background-color: #131415;
+    color: #fff;
+    padding: 20px;
+    border-radius: 16px;
+}
+
+.sidebar-title {
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 20px;
+}
+
+.menu-item {
+    margin-bottom: 10px;
+}
+
+.menu-btn {
+    width: 100%;
+    background: none;
+    border: none;
+    color: #fff;
+    text-align: left;
+    font-size: 16px;
+    padding: 10px;
+    cursor: pointer;
+    border-radius: 12px;
+    font-weight: bold;
+}
+
+    .menu-btn:hover {
+        background-color: #222;
+    }
+
+.submenu {
+    display: none;
+    margin-left: 10px;
+}
+
+    .submenu a {
+        display: block;
+        color: #ccc;
+        padding: 8px;
+        text-decoration: none;
+        font-size: 14px;
+        border-radius: 10px;
+    }
+
+        .submenu a:hover {
+            color: #fff;
+            background-color: #333;
+        }
+
+.content {
+    flex: 1;
+    padding: 30px;
+    border-radius: 16px;
+}
+
+/* ===============================
+    Fim Regras (Regras)
+   =============================== */
+
+/* ===============================
+   Inicio RegrasGerais
+   =============================== */
+#regras {
+    background-color: #111;
+    color: #fff;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding: 20px;
+}
+
+    #regras h1 {
+        color: #fff;
+        margin-bottom: 20px;
+    }
+
+    #regras .acd-section {
+        display: flex;
+        gap: 15px;
+        margin-bottom: 25px;
+    }
+
+    #regras .acd-number {
+        background-color: #20AC3B;
+        color: #fff;
+        border-radius: 50%;
+        width: 30px;
+        height: 30px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-weight: bold;
+        flex-shrink: 0;
+    }
+
+    #regras .acd-content {
+        flex: 1;
+    }
+
+        #regras .acd-content h2 {
+            margin: 0 0 10px 0;
+            font-size: 1.2rem;
+        }
+
+        #regras .acd-content p,
+        #regras .acd-content li {
+            line-height: 1.6;
+            margin-bottom: 8px;
+        }
+
+        #regras .acd-content li {
+            margin-left: 20px;
+        }
+
+    #regras .acd-highlight {
+        color: #20AC3B;
+        font-weight: bold;
+    }
+
+    #regras ul {
+        padding-left: 15px;
+    }
+
+#regras2 {
+    background-color: transparent;
+    color: #fff;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding: 20px;
+}
+
+    #regras2 h1 {
+        color: #fff;
+        margin-bottom: 20px;
+    }
+
+    #regras2 .acd-section {
+        display: flex;
+        gap: 15px;
+        margin-bottom: 25px;
+    }
+
+    #regras2 .acd-number {
+        background-color: #20AC3B;
+        color: #fff;
+        border-radius: 50%;
+        width: 30px;
+        height: 30px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-weight: bold;
+        flex-shrink: 0;
+    }
+
+    #regras2 .acd-content {
+        flex: 1;
+    }
+
+        #regras2 .acd-content h2 {
+            margin: 0 0 10px 0;
+            font-size: 1.2rem;
+        }
+
+        #regras2 .acd-content p,
+        #regras2 .acd-content li {
+            line-height: 1.6;
+            margin-bottom: 8px;
+        }
+
+        #regras2 .acd-content li {
+            margin-left: 20px;
+        }
+
+    #regras2 .acd-highlight {
+        color: #20AC3B;
+        font-weight: bold;
+    }
+
+    #regras2 ul {
+        padding-left: 15px;
+    }
+
+.submenu-inner {
+    padding-left: 15px;
+    margin-top: 5px;
+}
+
+.submenu-btn {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+/* ===============================
+   Fim RegrasGerais
+   =============================== */
+
+/* ===============================
+   Inicio RegrasBomSenso 
+   =============================== */
+
+#ajuda-caidodesmaiados {
+    background-color: #111;
+    color: #fff;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding: 20px;
+}
+
+    #ajuda-caidodesmaiados h1 {
+        color: #fff;
+        margin-bottom: 20px;
+    }
+
+    #ajuda-caidodesmaiados .acd-section {
+        display: flex;
+        gap: 15px;
+        margin-bottom: 25px;
+    }
+
+    #ajuda-caidodesmaiados .acd-number {
+        background-color: #20AC3B;
+        color: #fff;
+        border-radius: 50%;
+        width: 30px;
+        height: 30px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-weight: bold;
+        flex-shrink: 0;
+    }
+
+    #ajuda-caidodesmaiados .acd-content {
+        flex: 1;
+    }
+
+        #ajuda-caidodesmaiados .acd-content h2 {
+            margin: 0 0 10px 0;
+            font-size: 1.2rem;
+        }
+
+        #ajuda-caidodesmaiados .acd-content p,
+        #ajuda-caidodesmaiados .acd-content li {
+            line-height: 1.6;
+            margin-bottom: 8px;
+        }
+
+        #ajuda-caidodesmaiados .acd-content li {
+            margin-left: 20px;
+        }
+
+    #ajuda-caidodesmaiados .acd-highlight {
+        color: #20AC3B;
+        font-weight: bold;
+    }
+
+    #ajuda-caidodesmaiados ul {
+        padding-left: 15px;
+    }
+
+/* ===============================
+   Fim RegrasBomSenso 
+   =============================== */
+
+/* ===============================
+   Inicio RegrasMulheres
+   =============================== */
+.mulheres-box {
+    background: #222;
+    margin-bottom: 10px;
+    border-radius: 6px;
+    padding: 10px 15px;
+    background-color: #131415;
+    color: white;
+}
+
+    .mulheres-box summary {
+        cursor: pointer;
+        font-size: 18px;
+        font-weight: bold;
+        list-style: none;
+        color: white;
+    }
+
+    .mulheres-box[open] summary {
+        color: #20AC3B;
+    }
+
+/* ===============================
+   Fim RegrasMulheres
+   =============================== */
+
+/* ===============================
+   Inicio RegrasAdvertencia
+   =============================== */
+.adv-box {
+    background: #222;
+    margin-bottom: 10px;
+    border-radius: 6px;
+    padding: 10px 15px;
+    background-color: #131415;
+    color: white;
+}
+
+    .adv-box summary {
+        cursor: pointer;
+        font-size: 18px;
+        font-weight: bold;
+        list-style: none;
+        color: white;
+    }
+
+    .adv-box[open] summary {
+        color: #20AC3B;
+    }
+
+/* ===============================
+   Fim RegrasAdvertencia
+   =============================== */
+
+/* ===============================
+   Inicio RegrasTicket
+   =============================== */
+.ticket-box {
+    background: #222;
+    margin-bottom: 10px;
+    border-radius: 6px;
+    padding: 10px 15px;
+    background-color: #131415;
+    color: white;
+}
+
+    .ticket-box summary {
+        cursor: pointer;
+        font-size: 18px;
+        font-weight: bold;
+        list-style: none;
+        color: white;
+    }
+
+    .ticket-box[open] summary {
+        color: #20AC3B;
+    }
+
+/* ===============================
+   Fim RegrasTicket
+   =============================== */
+/* ===============================
+   Inicio RegrasFaccoes
+   =============================== */
+.fac-box {
+    background: #222;
+    margin-bottom: 10px;
+    border-radius: 6px;
+    padding: 10px 15px;
+    background-color: #131415;
+    color: white;
+}
+
+    .fac-box summary {
+        cursor: pointer;
+        font-size: 18px;
+        font-weight: bold;
+        list-style: none;
+        color: white;
+    }
+
+    .fac-box[open] summary {
+        color: #20AC3B;
+    }
+
+/* ===============================
+   Fim RegrasFaccoes
+   =============================== */
+/* ===============================
+   Inicio RegrasFarm
+   =============================== */
+.farm-box {
+    background: #222;
+    margin-bottom: 10px;
+    border-radius: 6px;
+    padding: 10px 15px;
+    background-color: #131415;
+    color: white;
+}
+
+    .farm-box summary {
+        cursor: pointer;
+        font-size: 18px;
+        font-weight: bold;
+        list-style: none;
+        color: white;
+    }
+
+    .farm-box[open] summary {
+        color: #20AC3B;
+    }
+
+/* ===============================
+   Fim RegrasFarm
+   =============================== */
+/* ===============================
+   Inicio RegrasSafezone
+   =============================== */
+.safe-box {
+    background: #222;
+    margin-bottom: 10px;
+    border-radius: 6px;
+    padding: 10px 15px;
+    background-color: #131415;
+    color: white;
+}
+
+    .safe-box summary {
+        cursor: pointer;
+        font-size: 18px;
+        font-weight: bold;
+        list-style: none;
+        color: white;
+    }
+
+    .safe-box[open] summary {
+        color: #20AC3B;
+    }
+
+/* ===============================
+   Fim RegrasSafezone
+   =============================== */
+/* ===============================
+   Inicio RegrasAdvogado
+   =============================== */
+.advogado-box {
+    background: #222;
+    margin-bottom: 10px;
+    border-radius: 6px;
+    padding: 10px 15px;
+    background-color: #131415;
+    color: white;
+}
+
+    .advogado-box summary {
+        cursor: pointer;
+        font-size: 18px;
+        font-weight: bold;
+        list-style: none;
+        color: white;
+    }
+
+    .advogado-box[open] summary {
+        color: #20AC3B;
+    }
+
+/* ===============================
+   Fim RegrasAdvogado
+   =============================== */
+/* ===============================
+   Inicio RegrasVeiculos
+   =============================== */
+.veiculos-box {
+    background: #222;
+    margin-bottom: 10px;
+    border-radius: 6px;
+    padding: 10px 15px;
+    background-color: #131415;
+    color: white;
+}
+
+    .veiculos-box summary {
+        cursor: pointer;
+        font-size: 18px;
+        font-weight: bold;
+        list-style: none;
+        color: white;
+    }
+
+    .veiculos-box[open] summary {
+        color: #20AC3B;
+    }
+
+/* ===============================
+   Fim RegrasVeiculos
+   =============================== 
+/* ===============================
+   Inicio CPPM
+   =============================== */
+
+.book-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    width: 100%;
+    overflow-x: hidden;
+}
+
+.book-page {
+    display: none;
+    opacity: 0;
+    position: relative;
+    width: 800px;
+    min-height: 1000px;
+    margin: auto;
+    background-image: url('/img/brasaobook.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    background-color: #1e1e1e;
+    border-radius: 20px;
+    padding: 50px;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.4);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 1.7;
+    color: #ffffff;
+    transition: opacity 0.4s ease, transform 0.4s ease;
+}
+
+    .book-page.active {
+        display: block !important;
+        opacity: 1;
+        transform: translateX(0);
+        z-index: 1;
+    }
+
+    .book-page.exit-left {
+        display: block !important;
+        opacity: 0;
+        transform: translateX(-100px);
+        position: absolute;
+    }
+
+    .book-page.exit-right {
+        display: block !important;
+        opacity: 0;
+        transform: translateX(100px);
+        position: absolute;
+    }
+
+    .book-page::before {
+        content: "";
+        position: absolute;
+        inset: 0;
+        background: rgba(0, 0, 0, 0.55);
+        border-radius: 20px;
+        z-index: 0;
+        pointer-events: none;
+    }
+
+    .book-page > * {
+        position: relative;
+        z-index: 1;
+    }
+
+.book-header {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    margin-bottom: 25px;
+}
+
+.book-header-logo {
+    width: 150px;
+    height: 150px;
+}
+
+.book-header-text {
+    flex: 1;
+    text-align: center;
+    font-size: 13px;
+    font-weight: bold;
+}
+
+.book-subtitle {
+    text-align: center;
+    font-size: 18px;
+    margin-bottom: 30px;
+}
+
+.paragraph {
+    font-size: 15px;
+    text-align: justify;
+    margin-bottom: 10px;
+}
+
+    .paragraph.indent {
+        margin-left: 30px;
+    }
+
+.book-nav {
+    margin-top: 20px;
+    display: flex;
+    gap: 15px;
+    align-items: center;
+    z-index: 10;
+}
+
+    .book-nav button {
+        background: transparent;
+        color: #ffffff;
+        border: 2px solid #ffffff;
+        padding: 6px 14px;
+        border-radius: 50px;
+        cursor: pointer;
+        font-size: 16px;
+        transition: all 0.2s ease;
+    }
+
+        .book-nav button:hover {
+            background: rgba(255,255,255,0.12);
+        }
+
+/* ===============================
+   Fim CPPM
+   =============================== */
+
+/* ===============================
+   OBS FINAL
+   =============================== */
+
+.observacoes-finais {
+    position: relative;
+    margin-top: 80px;
+    padding: 60px 40px;
+    text-align: center;
+    overflow: hidden;
+}
+
+    .observacoes-finais::before {
+        content: "";
+        position: absolute;
+        inset: 0;
+        background-size: 500px;
+        opacity: 0.08;
+        z-index: 0;
+    }
+
+    .observacoes-finais h2 {
+        position: relative;
+        z-index: 1;
+        font-weight: bold;
+        letter-spacing: 1px;
+        margin-bottom: 25px;
+    }
+
+.faixa-aviso {
+    position: relative;
+    z-index: 1;
+    background-color: #d90000;
+    color: white;
+    padding: 10px 15px;
+    font-weight: bold;
+    font-size: 14px;
+    margin-bottom: 40px;
+    display: inline-block;
+    max-width: 900px;
+}
+
+.datas-info {
+    position: relative;
+    z-index: 1;
+    font-size: 18px;
+}
+
+    .datas-info p {
+        margin: 5px 0;
+    }
+
+    .datas-info .espaco {
+        margin: 20px 0;
+    }
+
+/* ===============================
+   OBS FINAL
+   =============================== */
+/* ===============================
+   Codigo Penal
+   =============================== */
+.tabela-container {
+    margin-top: 40px;
+    font-family: Arial, sans-serif;
+}
+
+.tabela-titulo {
+    background-color: #131415;
+    color: white;
+    font-weight: bold;
+    text-align: center;
+    padding: 10px;
+    font-size: 20px;
+    letter-spacing: 1px;
+    border: 1px solid #131415;
+}
+
+.tabela-crimes {
+    width: 100%;
+    border-collapse: collapse;
+    background-color: transparent;
+    border: 1px solid #131415; 
+}
+
+    .tabela-crimes thead {
+        background-color: transparent;
+        color: white;
+    }
+
+    .tabela-crimes th,
+    .tabela-crimes td {
+        padding: 12px;
+        font-size: 13px;
+        text-align: center;
+        border: 1px solid #131415;
+        background-color: transparent;
+    }
+
+    .tabela-crimes tbody tr {
+        background-color: transparent;
+    }
+
+/* ===============================
+   Fim Codigo Penal
+   =============================== */
+
+

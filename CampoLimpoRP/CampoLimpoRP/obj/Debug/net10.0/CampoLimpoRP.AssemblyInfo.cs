@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("CampoLimpoRP")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+69d475e6f532e374a19e13f601409cfa3b38b333")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+c6196810cf717a8d1dd17595e6bec2d5d6a230cf")]
 [assembly: System.Reflection.AssemblyProductAttribute("CampoLimpoRP")]
 [assembly: System.Reflection.AssemblyTitleAttribute("CampoLimpoRP")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
