@@ -1,4 +1,4 @@
-wwwroot\css\site.css
+wwwroot\img\logo-footer.png
 wwwroot\favicon.ico
 wwwroot\img\brasao.png
 wwwroot\img\brasaobook.png
@@ -6,7 +6,7 @@ wwwroot\img\brasaotopo.png
 wwwroot\img\fundo.png
 wwwroot\img\fundo2.png
 wwwroot\img\logo cl.png
-wwwroot\img\logo.png
+wwwroot\css\site.css
 wwwroot\img\logo2.png
 wwwroot\js\site.js
 wwwroot\lib\bootstrap\dist\css\bootstrap-grid.css
@@ -69,6 +69,10 @@ wwwroot\lib\jquery\dist\jquery.slim.js
 wwwroot\lib\jquery\dist\jquery.slim.min.js
 wwwroot\lib\jquery\dist\jquery.slim.min.map
 wwwroot\lib\jquery\LICENSE.txt
+wwwroot\img\logo.png
+wwwroot\img\logo3.png
+wwwroot\img\logo5.png
+wwwroot\video\clvideo.mp4
 C:\Projetos\CampoLimpoRolePlay\CampoLimpoRP\CampoLimpoRP\wwwroot\css\site.css
 C:\Projetos\CampoLimpoRolePlay\CampoLimpoRP\CampoLimpoRP\wwwroot\favicon.ico
 C:\Projetos\CampoLimpoRolePlay\CampoLimpoRP\CampoLimpoRP\wwwroot\js\site.js

@@ -14,7 +14,7 @@ build_property.RootNamespace = CampoLimpoRP
 build_property.ProjectDir = C:\Projetos\CampoLimpoRolePlay\CampoLimpoRP\CampoLimpoRP\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 
-build_property.RazorLangVersion = 9.0
+build_property.RazorLangVersion = 10.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
 build_property.MSBuildProjectDirectory = C:\Projetos\CampoLimpoRolePlay\CampoLimpoRP\CampoLimpoRP
@@ -440,6 +440,10 @@ build_metadata.AdditionalFiles.CssScope =
 
 [C:/Projetos/CampoLimpoRolePlay/CampoLimpoRP/CampoLimpoRP/Pages/SubMenus/RegrasGerais/RegrasInvasaoResidencia.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU3ViTWVudXNcUmVncmFzR2VyYWlzXFJlZ3Jhc0ludmFzYW9SZXNpZGVuY2lhLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Projetos/CampoLimpoRolePlay/CampoLimpoRP/CampoLimpoRP/Pages/SubMenus/RegrasGerais/RegrasLoja.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU3ViTWVudXNcUmVncmFzR2VyYWlzXFJlZ3Jhc0xvamEuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Projetos/CampoLimpoRolePlay/CampoLimpoRP/CampoLimpoRP/Pages/SubMenus/RegrasGerais/RegrasMecanicas.cshtml]

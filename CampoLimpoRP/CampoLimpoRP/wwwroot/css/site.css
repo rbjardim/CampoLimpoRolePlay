@@ -1,51 +1,88 @@
-html {
-  font-size: 14px;
+ï»¿html {
+    font-size: 14px;
+    position: relative;
+    min-height: 100%;
 }
 
 @media (min-width: 768px) {
-  html {
-    font-size: 16px;
-  }
+    html {
+        font-size: 16px;
+    }
 }
 
-.btn:focus, .btn:active:focus, .btn-link.nav-link:focus, .form-control:focus, .form-check-input:focus {
-  box-shadow: 0 0 0 0.1rem white, 0 0 0 0.25rem #258cfb;
-}
-
-html {
-  position: relative;
-  min-height: 100%;
+.btn:focus,
+.btn:active:focus,
+.btn-link.nav-link:focus,
+.form-control:focus,
+.form-check-input:focus {
+    box-shadow: 0 0 0 0.1rem white, 0 0 0 0.25rem #258cfb;
 }
 
 body {
-    margin-bottom: 60px;
-    /*background-image: url('/img/fundo2.png');*/
-    background-color: black;
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    background-color: #121417;
+    position: relative;
 }
 
-    body::before {
-        content: "";
-        position: fixed;
-        inset: 0;
-        background: rgba(0, 0, 0, 0.55);
-        z-index: -1;
-    }
-
-.form-floating > .form-control-plaintext::placeholder, .form-floating > .form-control::placeholder {
-  color: var(--bs-secondary-color);
-  text-align: end;
+main {
+    flex: 1;
 }
 
-.form-floating > .form-control-plaintext:focus::placeholder, .form-floating > .form-control:focus::placeholder {
-  text-align: start;
+#bg-video {
+    position: fixed;
+    inset: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: -3;
+}
+
+body::before {
+    content: "";
+    position: fixed;
+    inset: 0;
+    background: rgba(0, 0, 0, 0.55);
+    z-index: -2;
+    pointer-events: none;
+}
+
+body::after {
+    content: "";
+    position: fixed;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    height: 320px;
+    background: linear-gradient( to bottom, rgba(18, 20, 23, 0) 0%, rgba(18, 20, 23, 0.35) 35%, rgba(18, 20, 23, 0.75) 70%, #121417 100% );
+    z-index: -1;
+    pointer-events: none;
+}
+
+header,
+main,
+footer,
+.container {
+    position: relative;
+    z-index: 1;
+}
+
+.form-floating > .form-control-plaintext::placeholder,
+.form-floating > .form-control::placeholder {
+    color: var(--bs-secondary-color);
+    text-align: end;
+}
+
+.form-floating > .form-control-plaintext:focus::placeholder,
+.form-floating > .form-control:focus::placeholder {
+    text-align: start;
 }
 
 .navbar {
-    background-color: #000 !important;
+    background-color: rgba(18, 20, 23, 0.92) !important;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.06) !important;
+    box-shadow: none !important;
 }
 
     .navbar .nav-link,
@@ -58,9 +95,9 @@ body {
         }
 
 .navbar-logo {
-    height: 40px;
+    height: 60px;
     width: auto;
-    margin-left: 0px;
+    margin-left: 0;
     margin-right: 52px;
 }
 
@@ -71,36 +108,68 @@ body {
 }
 
 footer.footer {
-    color: #fff !important;
-    background-color: #000 !important;
+    background-color: #121417 !important;
+    color: #9aa4af !important;
+    text-align: center !important;
+    padding: 4px 6px;
+    border-top: 1px solid rgba(255, 255, 255, 0.06) !important;
+    display: flex;
+    justify-content: center;
+    margin-top: auto;
 }
 
     footer.footer .container {
-        color: #fff !important;
+        color: white !important;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        text-align: center !important;
+        padding: 0 !important;
     }
 
-    footer.footer.text-muted {
-        color: #fff !important;
+    footer.footer * {
+        line-height: 1.2;
     }
+
+.footer-logo {
+    display: block;
+    max-width: 180px;
+    width: 100%;
+    margin: 0 auto 4px auto;
+}
+
+footer.footer div {
+    font-size: 12px;
+    margin: 1px 0;
+    text-align: center !important;
+}
+
+footer.footer .small {
+    font-size: 11px;
+    opacity: 0.8;
+    text-align: center !important;
+}
+
 
 .content strong {
-    color: #20AC3B;
+    color: #ffae00;
     font-weight: 700;
 }
 
 .pin-verde {
-    fill: #20AC3B;
+    fill: #ffae00;
     flex-shrink: 0;
 }
 
 /* ===============================
-   Target de Punição e Aviso Regras
+   Target de PuniÃ§Ã£o e Aviso Regras
    =============================== */
 
 .punicao-target {
     margin-top: 15px;
     padding: 12px 20px;
-    border-left: 5px solid #20AC3B;
+    border-left: 5px solid #ffae00;
     background-color: #3D0300;
     color: white;
     font-weight: bold;
@@ -111,7 +180,7 @@ footer.footer {
 .aviso-target {
     margin-top: 15px;
     padding: 12px 20px;
-    border-left: 5px solid #20AC3B;
+    border-left: 5px solid #ffae00;
     background-color: #E5CE3A;
     color: white;
     font-weight: bold;
@@ -121,7 +190,7 @@ footer.footer {
 .exemplo-target {
     margin-top: 15px;
     padding: 12px 20px;
-    border-left: 5px solid #20AC3B;
+    border-left: 5px solid #ffae00;
     background-color: #2C2C2C;
     color: white;
     font-weight: bold;
@@ -151,7 +220,7 @@ footer.footer {
     }
 
     .rule-box[open] summary {
-        color: #20AC3B;
+        color: #ffae00;
     }
 
 
@@ -390,7 +459,7 @@ footer.footer {
     }
 
     #regras .acd-number {
-        background-color: #20AC3B;
+        background-color: #ffae00;
         color: #fff;
         border-radius: 50%;
         width: 30px;
@@ -422,7 +491,7 @@ footer.footer {
         }
 
     #regras .acd-highlight {
-        color: #20AC3B;
+        color: #ffae00;
         font-weight: bold;
     }
 
@@ -449,7 +518,7 @@ footer.footer {
     }
 
     #regras2 .acd-number {
-        background-color: #20AC3B;
+        background-color: #ffae00;
         color: #fff;
         border-radius: 50%;
         width: 30px;
@@ -481,7 +550,7 @@ footer.footer {
         }
 
     #regras2 .acd-highlight {
-        color: #20AC3B;
+        color: #ffae00;
         font-weight: bold;
     }
 
@@ -529,7 +598,7 @@ footer.footer {
     }
 
     #ajuda-caidodesmaiados .acd-number {
-        background-color: #20AC3B;
+        background-color: #ffae00;
         color: #fff;
         border-radius: 50%;
         width: 30px;
@@ -561,7 +630,7 @@ footer.footer {
         }
 
     #ajuda-caidodesmaiados .acd-highlight {
-        color: #20AC3B;
+        color: #ffae00;
         font-weight: bold;
     }
 
@@ -594,7 +663,7 @@ footer.footer {
     }
 
     .mulheres-box[open] summary {
-        color: #20AC3B;
+        color: #ffae00;
     }
 
 /* ===============================
@@ -622,7 +691,7 @@ footer.footer {
     }
 
     .adv-box[open] summary {
-        color: #20AC3B;
+        color: #ffae00;
     }
 
 /* ===============================
@@ -650,7 +719,7 @@ footer.footer {
     }
 
     .ticket-box[open] summary {
-        color: #20AC3B;
+        color: #ffae00;
     }
 
 /* ===============================
@@ -677,7 +746,7 @@ footer.footer {
     }
 
     .fac-box[open] summary {
-        color: #20AC3B;
+        color: #ffae00;
     }
 
 /* ===============================
@@ -704,7 +773,7 @@ footer.footer {
     }
 
     .farm-box[open] summary {
-        color: #20AC3B;
+        color: #ffae00;
     }
 
 /* ===============================
@@ -731,7 +800,7 @@ footer.footer {
     }
 
     .safe-box[open] summary {
-        color: #20AC3B;
+        color: #ffae00;
     }
 
 /* ===============================
@@ -758,7 +827,7 @@ footer.footer {
     }
 
     .advogado-box[open] summary {
-        color: #20AC3B;
+        color: #ffae00;
     }
 
 /* ===============================
@@ -785,7 +854,7 @@ footer.footer {
     }
 
     .veiculos-box[open] summary {
-        color: #20AC3B;
+        color: #ffae00;
     }
 
 /* ===============================
@@ -1009,7 +1078,7 @@ footer.footer {
 }
 
     .tabela-crimes thead {
-        background-color: transparent;
+        background-color: #242424;
         color: white;
     }
 
@@ -1019,7 +1088,7 @@ footer.footer {
         font-size: 13px;
         text-align: center;
         border: 1px solid #131415;
-        background-color: transparent;
+        background-color: #242424;
     }
 
     .tabela-crimes tbody tr {

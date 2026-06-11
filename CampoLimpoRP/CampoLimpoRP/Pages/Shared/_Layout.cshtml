@@ -11,6 +11,10 @@
     <link rel="stylesheet" href="~/CampoLimpoRP.styles.css" asp-append-version="true" />
 </head>
 <body>
+    <video id="bg-video" autoplay muted loop playsinline>
+        <source src="/video/clvideo.mp4" type="video/mp4">
+    </video>
+
     <header>
         <nav class="navbar navbar-expand-sm navbar-toggleable-sm navbar-light bg-white border-bottom box-shadow mb-3">
             <div class="container">
@@ -21,17 +25,17 @@
                     </a>
                 </div>
 
-@*                 <a class="navbar-brand" asp-area="" asp-page="/Index">Campo Limpo RP</a> *@
+                @*                 <a class="navbar-brand" asp-area="" asp-page="/Index">Campo Limpo RP</a> *@
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target=".navbar-collapse" aria-controls="navbarSupportedContent"
                         aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
                 <div class="navbar-collapse collapse d-sm-inline-flex justify-content-between">
                     <ul class="navbar-nav flex-grow-1">
-@*                         <li class="nav-item">
+                        @*                         <li class="nav-item">
                             <a class="nav-link text-dark" asp-area="" asp-page="/Index">Início</a>
                         </li> *@
-@*                         <li class="nav-item">
+                        @*                         <li class="nav-item">
                             <a class="nav-link text-dark" asp-area="" asp-page="/Privacidade">Privacidade</a>
                         </li> *@
                     </ul>
@@ -39,15 +43,26 @@
             </div>
         </nav>
     </header>
+
     <div class="container">
         <main role="main" class="pb-3">
             @RenderBody()
         </main>
     </div>
 
-    <footer class="border-top footer text-muted text-center footer-sm">
+    <footer class="border-top footer text-muted footer-sm">
         <div class="container">
-            &copy; - Direitos reservados á Campo Limpo Roleplay® - 1.0.0.0126
+            <img src="/img/logo-footer.png"
+                 alt="Campo Limpo Roleplay"
+                 class="footer-logo" />
+
+            <div>
+                © Campo Limpo Roleplay. Todos os direitos reservados. - 1.0.0.0126
+            </div>
+
+            <div class="mt-1 small">
+                Este site não é afiliado à Rockstar Games ou Take-Two Interactive.
+            </div>
         </div>
     </footer>
 
@@ -59,3 +74,15 @@
 </body>
 </html>
 
+<script>
+    const video = document.getElementById("bg-video");
+
+    if (video) {
+        video.play().catch(() => {
+            console.log("Autoplay bloqueado, tentando novamente...");
+            document.addEventListener("click", () => {
+                video.play();
+            });
+        });
+    }
+</script>
