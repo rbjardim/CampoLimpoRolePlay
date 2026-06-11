@@ -859,7 +859,8 @@ footer.footer .small {
 
 /* ===============================
    Fim RegrasVeiculos
-   =============================== 
+   =============================== */
+
 /* ===============================
    Inicio CPPM
    =============================== */
@@ -1099,4 +1100,198 @@ footer.footer .small {
    Fim Codigo Penal
    =============================== */
 
+/* ===============================
+   RESPONSIVO MOBILE
+   =============================== */
 
+@media (max-width: 768px) {
+    body {
+        overflow-x: hidden;
+    }
+
+    .container {
+        max-width: 100% !important;
+        padding-left: 12px !important;
+        padding-right: 12px !important;
+    }
+
+    .navbar-logo {
+        height: 42px;
+        margin-right: 10px;
+    }
+
+    .layout-container {
+        flex-direction: column;
+        min-height: auto;
+        gap: 15px;
+    }
+
+    .sidebar {
+        width: 100%;
+        padding: 15px;
+        border-radius: 14px;
+    }
+
+    .content {
+        width: 100%;
+        padding: 15px;
+        border-radius: 14px;
+    }
+
+    .index-container,
+    .Privacidade-container {
+        max-width: 100%;
+        min-height: auto;
+        padding: 30px 10px;
+    }
+
+        .index-container h1,
+        .index-container h2,
+        .Privacidade-container h1,
+        .Privacidade-container h2 {
+            font-size: 24px;
+        }
+
+        .index-container p,
+        .Privacidade-container p {
+            font-size: 15px;
+        }
+
+    .btn-flutuante {
+        width: 100%;
+        max-width: 280px;
+        padding: 12px 20px;
+        font-size: 1rem;
+    }
+
+    #regras,
+    #regras2,
+    #ajuda-caidodesmaiados {
+        padding: 15px;
+    }
+
+        #regras .acd-section,
+        #regras2 .acd-section,
+        #ajuda-caidodesmaiados .acd-section {
+            gap: 10px;
+        }
+
+        #regras .acd-content h2,
+        #regras2 .acd-content h2,
+        #ajuda-caidodesmaiados .acd-content h2 {
+            font-size: 1rem;
+        }
+
+        #regras .acd-content p,
+        #regras .acd-content li,
+        #regras2 .acd-content p,
+        #regras2 .acd-content li,
+        #ajuda-caidodesmaiados .acd-content p,
+        #ajuda-caidodesmaiados .acd-content li {
+            font-size: 14px;
+        }
+
+    .rule-box summary,
+    .mulheres-box summary,
+    .adv-box summary,
+    .ticket-box summary,
+    .fac-box summary,
+    .farm-box summary,
+    .safe-box summary,
+    .advogado-box summary,
+    .veiculos-box summary {
+        font-size: 15px;
+    }
+
+    .book-container {
+        width: 100%;
+        overflow-x: hidden;
+    }
+
+    .book-page {
+        width: 100%;
+        min-height: auto;
+        padding: 25px 18px;
+        background-size: cover;
+        border-radius: 14px;
+    }
+
+    .book-header {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .book-header-logo {
+        width: 90px;
+        height: 90px;
+    }
+
+    .book-header-text {
+        font-size: 11px;
+    }
+
+    .book-subtitle {
+        font-size: 15px;
+    }
+
+    .paragraph {
+        font-size: 13px;
+        text-align: left;
+    }
+
+        .paragraph.indent {
+            margin-left: 0;
+        }
+
+    .book-nav {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .tabela-container {
+        width: 100%;
+        overflow-x: auto;
+    }
+
+    .tabela-crimes {
+        min-width: 700px;
+    }
+
+    .tabela-titulo {
+        font-size: 16px;
+    }
+
+    .tabela-crimes th,
+    .tabela-crimes td {
+        font-size: 12px;
+        padding: 8px;
+    }
+
+    .punicao-target,
+    .aviso-target,
+    .exemplo-target {
+        padding: 10px 12px;
+        font-size: 14px;
+    }
+
+    .observacoes-finais {
+        margin-top: 40px;
+        padding: 35px 15px;
+    }
+
+    .faixa-aviso {
+        font-size: 12px;
+    }
+
+    .datas-info {
+        font-size: 14px;
+    }
+
+    footer.footer {
+        padding: 8px 10px;
+    }
+
+    .footer-logo {
+        max-width: 130px;
+    }
+}
