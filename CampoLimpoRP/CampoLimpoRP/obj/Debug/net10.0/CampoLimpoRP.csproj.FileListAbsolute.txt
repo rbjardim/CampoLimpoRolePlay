@@ -23,7 +23,6 @@ C:\Projetos\CampoLimpoRolePlay\CampoLimpoRP\CampoLimpoRP\obj\Debug\net10.0\rjsmc
 C:\Projetos\CampoLimpoRolePlay\CampoLimpoRP\CampoLimpoRP\obj\Debug\net10.0\scopedcss\Pages\Shared\_Layout.cshtml.rz.scp.css
 C:\Projetos\CampoLimpoRolePlay\CampoLimpoRP\CampoLimpoRP\obj\Debug\net10.0\scopedcss\bundle\CampoLimpoRP.styles.css
 C:\Projetos\CampoLimpoRolePlay\CampoLimpoRP\CampoLimpoRP\obj\Debug\net10.0\scopedcss\projectbundle\CampoLimpoRP.bundle.scp.css
-C:\Projetos\CampoLimpoRolePlay\CampoLimpoRP\CampoLimpoRP\obj\Debug\net10.0\compressed\p8tg8i6z2l-{0}-4yu9b9fzos-4yu9b9fzos.gz
 C:\Projetos\CampoLimpoRolePlay\CampoLimpoRP\CampoLimpoRP\obj\Debug\net10.0\compressed\r60fu0zlfn-{0}-61n19gt1b8-61n19gt1b8.gz
 C:\Projetos\CampoLimpoRolePlay\CampoLimpoRP\CampoLimpoRP\obj\Debug\net10.0\compressed\efzogox277-{0}-xtxxf3hu2r-xtxxf3hu2r.gz
 C:\Projetos\CampoLimpoRolePlay\CampoLimpoRP\CampoLimpoRP\obj\Debug\net10.0\compressed\ku6xdw4f17-{0}-bqjiyaj88i-bqjiyaj88i.gz
@@ -98,3 +97,4 @@ C:\Projetos\CampoLimpoRolePlay\CampoLimpoRP\CampoLimpoRP\obj\Debug\net10.0\refin
 C:\Projetos\CampoLimpoRolePlay\CampoLimpoRP\CampoLimpoRP\obj\Debug\net10.0\CampoLimpoRP.pdb
 C:\Projetos\CampoLimpoRolePlay\CampoLimpoRP\CampoLimpoRP\obj\Debug\net10.0\CampoLimpoRP.genruntimeconfig.cache
 C:\Projetos\CampoLimpoRolePlay\CampoLimpoRP\CampoLimpoRP\obj\Debug\net10.0\ref\CampoLimpoRP.dll
+C:\Projetos\CampoLimpoRolePlay\CampoLimpoRP\CampoLimpoRP\obj\Debug\net10.0\compressed\p8tg8i6z2l-{0}-x5b8it2er2-x5b8it2er2.gz

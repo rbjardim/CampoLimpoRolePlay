@@ -27,7 +27,8 @@ body {
 }
 
 main {
-    flex: 1;
+    flex: 1 0 auto;
+    padding-bottom: 120px;
 }
 
 #bg-video {
@@ -302,8 +303,10 @@ footer.footer .small {
    =============================== */
 
 .Privacidade-container {
-    max-width: 900px;
-    margin: 0 auto;
+    max-width: 1100px;
+    margin: 40px auto 80px auto;
+    padding: 20px;
+    color: #fff;
     text-align: center;
 }
 
