@@ -3,12 +3,12 @@
   "WorkspaceRootPath": "C:\\Projetos\\CampoLimpoRolePlay\\CampoLimpoRP\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{7F71AE5A-AA2A-0460-72D5-03454626D0D9}|CampoLimpoRP\\CampoLimpoRP.csproj|c:\\projetos\\campolimporoleplay\\campolimporp\\campolimporp\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
-      "RelativeMoniker": "D:0:0:{7F71AE5A-AA2A-0460-72D5-03454626D0D9}|CampoLimpoRP\\CampoLimpoRP.csproj|solutionrelative:campolimporp\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{7F71AE5A-AA2A-0460-72D5-03454626D0D9}|CampoLimpoRP\\CampoLimpoRP.csproj|c:\\projetos\\campolimporoleplay\\campolimporp\\campolimporp\\pages\\privacidade.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{7F71AE5A-AA2A-0460-72D5-03454626D0D9}|CampoLimpoRP\\CampoLimpoRP.csproj|solutionrelative:campolimporp\\pages\\privacidade.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7F71AE5A-AA2A-0460-72D5-03454626D0D9}|CampoLimpoRP\\CampoLimpoRP.csproj|c:\\projetos\\campolimporoleplay\\campolimporp\\campolimporp\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{7F71AE5A-AA2A-0460-72D5-03454626D0D9}|CampoLimpoRP\\CampoLimpoRP.csproj|solutionrelative:campolimporp\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{7F71AE5A-AA2A-0460-72D5-03454626D0D9}|CampoLimpoRP\\CampoLimpoRP.csproj|c:\\projetos\\campolimporoleplay\\campolimporp\\campolimporp\\pages\\termos.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
@@ -54,7 +54,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 7,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Document",
@@ -82,15 +82,16 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "Privacidade.cshtml",
               "DocumentMoniker": "C:\\Projetos\\CampoLimpoRolePlay\\CampoLimpoRP\\CampoLimpoRP\\Pages\\Privacidade.cshtml",
               "RelativeDocumentMoniker": "CampoLimpoRP\\Pages\\Privacidade.cshtml",
               "ToolTip": "C:\\Projetos\\CampoLimpoRolePlay\\CampoLimpoRP\\CampoLimpoRP\\Pages\\Privacidade.cshtml",
               "RelativeToolTip": "CampoLimpoRP\\Pages\\Privacidade.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAfAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-06-12T00:20:00.499Z"
+              "WhenOpened": "2026-06-12T00:20:00.499Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -142,7 +143,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "site.css",
               "DocumentMoniker": "C:\\Projetos\\CampoLimpoRolePlay\\CampoLimpoRP\\CampoLimpoRP\\wwwroot\\css\\site.css",
               "RelativeDocumentMoniker": "CampoLimpoRP\\wwwroot\\css\\site.css",
