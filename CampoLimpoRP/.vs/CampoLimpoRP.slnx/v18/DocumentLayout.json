@@ -3,6 +3,18 @@
   "WorkspaceRootPath": "D:\\Projetos\\CampoLimpoRolePlay\\CampoLimpoRP\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{7F71AE5A-AA2A-0460-72D5-03454626D0D9}|CampoLimpoRP\\CampoLimpoRP.csproj|d:\\projetos\\campolimporoleplay\\campolimporp\\campolimporp\\pages\\submenus\\regrasgerais\\regasarmas.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{7F71AE5A-AA2A-0460-72D5-03454626D0D9}|CampoLimpoRP\\CampoLimpoRP.csproj|solutionrelative:campolimporp\\pages\\submenus\\regrasgerais\\regasarmas.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7F71AE5A-AA2A-0460-72D5-03454626D0D9}|CampoLimpoRP\\CampoLimpoRP.csproj|d:\\projetos\\campolimporoleplay\\campolimporp\\campolimporp\\pages\\submenus\\regrasgerais\\regrasarmas.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{7F71AE5A-AA2A-0460-72D5-03454626D0D9}|CampoLimpoRP\\CampoLimpoRP.csproj|solutionrelative:campolimporp\\pages\\submenus\\regrasgerais\\regrasarmas.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7F71AE5A-AA2A-0460-72D5-03454626D0D9}|CampoLimpoRP\\CampoLimpoRP.csproj|d:\\projetos\\campolimporoleplay\\campolimporp\\campolimporp\\pages\\submenus\\regrasgerais\\regrasrisco.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{7F71AE5A-AA2A-0460-72D5-03454626D0D9}|CampoLimpoRP\\CampoLimpoRP.csproj|solutionrelative:campolimporp\\pages\\submenus\\regrasgerais\\regrasrisco.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{7F71AE5A-AA2A-0460-72D5-03454626D0D9}|CampoLimpoRP\\CampoLimpoRP.csproj|d:\\projetos\\campolimporoleplay\\campolimporp\\campolimporp\\pages\\submenus\\acoes\\regrasblipados.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{7F71AE5A-AA2A-0460-72D5-03454626D0D9}|CampoLimpoRP\\CampoLimpoRP.csproj|solutionrelative:campolimporp\\pages\\submenus\\acoes\\regrasblipados.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
@@ -54,11 +66,50 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 2,
+              "Title": "RegrasRisco.cshtml",
+              "DocumentMoniker": "D:\\Projetos\\CampoLimpoRolePlay\\CampoLimpoRP\\CampoLimpoRP\\Pages\\SubMenus\\RegrasGerais\\RegrasRisco.cshtml",
+              "RelativeDocumentMoniker": "CampoLimpoRP\\Pages\\SubMenus\\RegrasGerais\\RegrasRisco.cshtml",
+              "ToolTip": "D:\\Projetos\\CampoLimpoRolePlay\\CampoLimpoRP\\CampoLimpoRP\\Pages\\SubMenus\\RegrasGerais\\RegrasRisco.cshtml",
+              "RelativeToolTip": "CampoLimpoRP\\Pages\\SubMenus\\RegrasGerais\\RegrasRisco.cshtml",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAowBMAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-07-08T05:17:33.422Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "RegrasArmas.cshtml",
+              "DocumentMoniker": "D:\\Projetos\\CampoLimpoRolePlay\\CampoLimpoRP\\CampoLimpoRP\\Pages\\SubMenus\\RegrasGerais\\RegrasArmas.cshtml",
+              "RelativeDocumentMoniker": "CampoLimpoRP\\Pages\\SubMenus\\RegrasGerais\\RegrasArmas.cshtml",
+              "ToolTip": "D:\\Projetos\\CampoLimpoRolePlay\\CampoLimpoRP\\CampoLimpoRP\\Pages\\SubMenus\\RegrasGerais\\RegrasArmas.cshtml",
+              "RelativeToolTip": "CampoLimpoRP\\Pages\\SubMenus\\RegrasGerais\\RegrasArmas.cshtml",
+              "ViewState": "AgIAABAAAAAAAAAAAAAowCcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-07-08T05:17:23.747Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "RegasArmas.cshtml",
+              "DocumentMoniker": "D:\\Projetos\\CampoLimpoRolePlay\\CampoLimpoRP\\CampoLimpoRP\\Pages\\SubMenus\\RegrasGerais\\RegasArmas.cshtml",
+              "RelativeDocumentMoniker": "CampoLimpoRP\\Pages\\SubMenus\\RegrasGerais\\RegasArmas.cshtml",
+              "ToolTip": "D:\\Projetos\\CampoLimpoRolePlay\\CampoLimpoRP\\CampoLimpoRP\\Pages\\SubMenus\\RegrasGerais\\RegasArmas.cshtml",
+              "RelativeToolTip": "CampoLimpoRP\\Pages\\SubMenus\\RegrasGerais\\RegasArmas.cshtml",
+              "ViewState": "AgIAAAcAAAAAAAAAAAAowBEAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-07-08T05:17:03.928Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
               "Title": "Termos.cshtml.cs",
               "DocumentMoniker": "D:\\Projetos\\CampoLimpoRolePlay\\CampoLimpoRP\\CampoLimpoRP\\Pages\\Termos.cshtml.cs",
               "RelativeDocumentMoniker": "CampoLimpoRP\\Pages\\Termos.cshtml.cs",
@@ -70,7 +121,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 6,
               "Title": "Termos.cshtml",
               "DocumentMoniker": "D:\\Projetos\\CampoLimpoRolePlay\\CampoLimpoRP\\CampoLimpoRP\\Pages\\Termos.cshtml",
               "RelativeDocumentMoniker": "CampoLimpoRP\\Pages\\Termos.cshtml",
@@ -82,7 +133,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 4,
               "Title": "Privacidade.cshtml",
               "DocumentMoniker": "D:\\Projetos\\CampoLimpoRolePlay\\CampoLimpoRP\\CampoLimpoRP\\Pages\\Privacidade.cshtml",
               "RelativeDocumentMoniker": "CampoLimpoRP\\Pages\\Privacidade.cshtml",
@@ -94,7 +145,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 11,
               "Title": "corregedoria.cshtml",
               "DocumentMoniker": "D:\\Projetos\\CampoLimpoRolePlay\\CampoLimpoRP\\CampoLimpoRP\\Pages\\SubMenus\\Policia\\CPPM\\corregedoria.cshtml",
               "RelativeDocumentMoniker": "CampoLimpoRP\\Pages\\SubMenus\\Policia\\CPPM\\corregedoria.cshtml",
@@ -106,20 +157,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 3,
               "Title": "RegrasBlipados.cshtml",
               "DocumentMoniker": "D:\\Projetos\\CampoLimpoRolePlay\\CampoLimpoRP\\CampoLimpoRP\\Pages\\SubMenus\\Acoes\\RegrasBlipados.cshtml",
               "RelativeDocumentMoniker": "CampoLimpoRP\\Pages\\SubMenus\\Acoes\\RegrasBlipados.cshtml",
               "ToolTip": "D:\\Projetos\\CampoLimpoRolePlay\\CampoLimpoRP\\CampoLimpoRP\\Pages\\SubMenus\\Acoes\\RegrasBlipados.cshtml",
               "RelativeToolTip": "CampoLimpoRP\\Pages\\SubMenus\\Acoes\\RegrasBlipados.cshtml",
-              "ViewState": "AgIAAC0BAAAAAAAAAAAAADYBAAAaAAAAAAAAAA==",
+              "ViewState": "AgIAAC0BAAAAAAAAAAAAAEUBAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2026-06-11T06:18:17.577Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 13,
               "Title": "RegrasLoja.cshtml",
               "DocumentMoniker": "D:\\Projetos\\CampoLimpoRolePlay\\CampoLimpoRP\\CampoLimpoRP\\Pages\\SubMenus\\RegrasGerais\\RegrasLoja.cshtml",
               "RelativeDocumentMoniker": "CampoLimpoRP\\Pages\\SubMenus\\RegrasGerais\\RegrasLoja.cshtml",
@@ -131,7 +182,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 10,
               "Title": "Regras.cshtml",
               "DocumentMoniker": "D:\\Projetos\\CampoLimpoRolePlay\\CampoLimpoRP\\CampoLimpoRP\\Pages\\Regras.cshtml",
               "RelativeDocumentMoniker": "CampoLimpoRP\\Pages\\Regras.cshtml",
@@ -143,7 +194,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 5,
               "Title": "site.css",
               "DocumentMoniker": "D:\\Projetos\\CampoLimpoRolePlay\\CampoLimpoRP\\CampoLimpoRP\\wwwroot\\css\\site.css",
               "RelativeDocumentMoniker": "CampoLimpoRP\\wwwroot\\css\\site.css",
@@ -155,7 +206,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 12,
               "Title": "_Layout.cshtml",
               "DocumentMoniker": "D:\\Projetos\\CampoLimpoRolePlay\\CampoLimpoRP\\CampoLimpoRP\\Pages\\Shared\\_Layout.cshtml",
               "RelativeDocumentMoniker": "CampoLimpoRP\\Pages\\Shared\\_Layout.cshtml",
@@ -167,7 +218,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 7,
               "Title": "Index.cshtml",
               "DocumentMoniker": "D:\\Projetos\\CampoLimpoRolePlay\\CampoLimpoRP\\CampoLimpoRP\\Pages\\Index.cshtml",
               "RelativeDocumentMoniker": "CampoLimpoRP\\Pages\\Index.cshtml",
@@ -179,7 +230,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 9,
               "Title": "dejem.cshtml",
               "DocumentMoniker": "D:\\Projetos\\CampoLimpoRolePlay\\CampoLimpoRP\\CampoLimpoRP\\Pages\\SubMenus\\Policia\\CPPM\\dejem.cshtml",
               "RelativeDocumentMoniker": "CampoLimpoRP\\Pages\\SubMenus\\Policia\\CPPM\\dejem.cshtml",
