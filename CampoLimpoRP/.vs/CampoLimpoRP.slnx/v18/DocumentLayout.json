@@ -3,60 +3,20 @@
   "WorkspaceRootPath": "D:\\Projetos\\CampoLimpoRolePlay\\CampoLimpoRP\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{7F71AE5A-AA2A-0460-72D5-03454626D0D9}|CampoLimpoRP\\CampoLimpoRP.csproj|d:\\projetos\\campolimporoleplay\\campolimporp\\campolimporp\\pages\\submenus\\acoes\\regrasblipados.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{7F71AE5A-AA2A-0460-72D5-03454626D0D9}|CampoLimpoRP\\CampoLimpoRP.csproj|solutionrelative:campolimporp\\pages\\submenus\\acoes\\regrasblipados.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7F71AE5A-AA2A-0460-72D5-03454626D0D9}|CampoLimpoRP\\CampoLimpoRP.csproj|d:\\projetos\\campolimporoleplay\\campolimporp\\campolimporp\\pages\\submenus\\regrasgerais\\regasarmas.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{7F71AE5A-AA2A-0460-72D5-03454626D0D9}|CampoLimpoRP\\CampoLimpoRP.csproj|solutionrelative:campolimporp\\pages\\submenus\\regrasgerais\\regasarmas.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7F71AE5A-AA2A-0460-72D5-03454626D0D9}|CampoLimpoRP\\CampoLimpoRP.csproj|d:\\projetos\\campolimporoleplay\\campolimporp\\campolimporp\\pages\\submenus\\regrasgerais\\regrasarmas.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{7F71AE5A-AA2A-0460-72D5-03454626D0D9}|CampoLimpoRP\\CampoLimpoRP.csproj|solutionrelative:campolimporp\\pages\\submenus\\regrasgerais\\regrasarmas.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7F71AE5A-AA2A-0460-72D5-03454626D0D9}|CampoLimpoRP\\CampoLimpoRP.csproj|d:\\projetos\\campolimporoleplay\\campolimporp\\campolimporp\\pages\\submenus\\regrasgerais\\regrasrisco.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{7F71AE5A-AA2A-0460-72D5-03454626D0D9}|CampoLimpoRP\\CampoLimpoRP.csproj|solutionrelative:campolimporp\\pages\\submenus\\regrasgerais\\regrasrisco.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7F71AE5A-AA2A-0460-72D5-03454626D0D9}|CampoLimpoRP\\CampoLimpoRP.csproj|d:\\projetos\\campolimporoleplay\\campolimporp\\campolimporp\\pages\\privacidade.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{7F71AE5A-AA2A-0460-72D5-03454626D0D9}|CampoLimpoRP\\CampoLimpoRP.csproj|solutionrelative:campolimporp\\pages\\privacidade.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7F71AE5A-AA2A-0460-72D5-03454626D0D9}|CampoLimpoRP\\CampoLimpoRP.csproj|d:\\projetos\\campolimporoleplay\\campolimporp\\campolimporp\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
-      "RelativeMoniker": "D:0:0:{7F71AE5A-AA2A-0460-72D5-03454626D0D9}|CampoLimpoRP\\CampoLimpoRP.csproj|solutionrelative:campolimporp\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7F71AE5A-AA2A-0460-72D5-03454626D0D9}|CampoLimpoRP\\CampoLimpoRP.csproj|d:\\projetos\\campolimporoleplay\\campolimporp\\campolimporp\\pages\\termos.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{7F71AE5A-AA2A-0460-72D5-03454626D0D9}|CampoLimpoRP\\CampoLimpoRP.csproj|solutionrelative:campolimporp\\pages\\termos.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{7F71AE5A-AA2A-0460-72D5-03454626D0D9}|CampoLimpoRP\\CampoLimpoRP.csproj|d:\\projetos\\campolimporoleplay\\campolimporp\\campolimporp\\pages\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{7F71AE5A-AA2A-0460-72D5-03454626D0D9}|CampoLimpoRP\\CampoLimpoRP.csproj|solutionrelative:campolimporp\\pages\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7F71AE5A-AA2A-0460-72D5-03454626D0D9}|CampoLimpoRP\\CampoLimpoRP.csproj|d:\\projetos\\campolimporoleplay\\campolimporp\\campolimporp\\pages\\termos.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7F71AE5A-AA2A-0460-72D5-03454626D0D9}|CampoLimpoRP\\CampoLimpoRP.csproj|solutionrelative:campolimporp\\pages\\termos.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7F71AE5A-AA2A-0460-72D5-03454626D0D9}|CampoLimpoRP\\CampoLimpoRP.csproj|d:\\projetos\\campolimporoleplay\\campolimporp\\campolimporp\\pages\\submenus\\policia\\cppm\\dejem.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{7F71AE5A-AA2A-0460-72D5-03454626D0D9}|CampoLimpoRP\\CampoLimpoRP.csproj|solutionrelative:campolimporp\\pages\\submenus\\policia\\cppm\\dejem.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{7F71AE5A-AA2A-0460-72D5-03454626D0D9}|CampoLimpoRP\\CampoLimpoRP.csproj|d:\\projetos\\campolimporoleplay\\campolimporp\\campolimporp\\pages\\submenus\\regrasgerais\\regrasticket.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{7F71AE5A-AA2A-0460-72D5-03454626D0D9}|CampoLimpoRP\\CampoLimpoRP.csproj|solutionrelative:campolimporp\\pages\\submenus\\regrasgerais\\regrasticket.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{7F71AE5A-AA2A-0460-72D5-03454626D0D9}|CampoLimpoRP\\CampoLimpoRP.csproj|d:\\projetos\\campolimporoleplay\\campolimporp\\campolimporp\\pages\\regras.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{7F71AE5A-AA2A-0460-72D5-03454626D0D9}|CampoLimpoRP\\CampoLimpoRP.csproj|solutionrelative:campolimporp\\pages\\regras.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7F71AE5A-AA2A-0460-72D5-03454626D0D9}|CampoLimpoRP\\CampoLimpoRP.csproj|d:\\projetos\\campolimporoleplay\\campolimporp\\campolimporp\\pages\\submenus\\policia\\cppm\\corregedoria.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{7F71AE5A-AA2A-0460-72D5-03454626D0D9}|CampoLimpoRP\\CampoLimpoRP.csproj|solutionrelative:campolimporp\\pages\\submenus\\policia\\cppm\\corregedoria.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7F71AE5A-AA2A-0460-72D5-03454626D0D9}|CampoLimpoRP\\CampoLimpoRP.csproj|d:\\projetos\\campolimporoleplay\\campolimporp\\campolimporp\\pages\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{7F71AE5A-AA2A-0460-72D5-03454626D0D9}|CampoLimpoRP\\CampoLimpoRP.csproj|solutionrelative:campolimporp\\pages\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7F71AE5A-AA2A-0460-72D5-03454626D0D9}|CampoLimpoRP\\CampoLimpoRP.csproj|d:\\projetos\\campolimporoleplay\\campolimporp\\campolimporp\\pages\\submenus\\regrasgerais\\regrasloja.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{7F71AE5A-AA2A-0460-72D5-03454626D0D9}|CampoLimpoRP\\CampoLimpoRP.csproj|solutionrelative:campolimporp\\pages\\submenus\\regrasgerais\\regrasloja.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{7F71AE5A-AA2A-0460-72D5-03454626D0D9}|CampoLimpoRP\\CampoLimpoRP.csproj|d:\\projetos\\campolimporoleplay\\campolimporp\\campolimporp\\pages\\submenus\\acoes\\regrasblipados.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{7F71AE5A-AA2A-0460-72D5-03454626D0D9}|CampoLimpoRP\\CampoLimpoRP.csproj|solutionrelative:campolimporp\\pages\\submenus\\acoes\\regrasblipados.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     }
   ],
   "DocumentGroupContainers": [
@@ -66,176 +26,60 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 7,
+          "SelectedChildIndex": 1,
           "Children": [
             {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "RegrasRisco.cshtml",
-              "DocumentMoniker": "D:\\Projetos\\CampoLimpoRolePlay\\CampoLimpoRP\\CampoLimpoRP\\Pages\\SubMenus\\RegrasGerais\\RegrasRisco.cshtml",
-              "RelativeDocumentMoniker": "CampoLimpoRP\\Pages\\SubMenus\\RegrasGerais\\RegrasRisco.cshtml",
-              "ToolTip": "D:\\Projetos\\CampoLimpoRolePlay\\CampoLimpoRP\\CampoLimpoRP\\Pages\\SubMenus\\RegrasGerais\\RegrasRisco.cshtml",
-              "RelativeToolTip": "CampoLimpoRP\\Pages\\SubMenus\\RegrasGerais\\RegrasRisco.cshtml",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAowBMAAAAIAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-07-08T05:17:33.422Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "RegrasArmas.cshtml",
-              "DocumentMoniker": "D:\\Projetos\\CampoLimpoRolePlay\\CampoLimpoRP\\CampoLimpoRP\\Pages\\SubMenus\\RegrasGerais\\RegrasArmas.cshtml",
-              "RelativeDocumentMoniker": "CampoLimpoRP\\Pages\\SubMenus\\RegrasGerais\\RegrasArmas.cshtml",
-              "ToolTip": "D:\\Projetos\\CampoLimpoRolePlay\\CampoLimpoRP\\CampoLimpoRP\\Pages\\SubMenus\\RegrasGerais\\RegrasArmas.cshtml",
-              "RelativeToolTip": "CampoLimpoRP\\Pages\\SubMenus\\RegrasGerais\\RegrasArmas.cshtml",
-              "ViewState": "AgIAABAAAAAAAAAAAAAowCcAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-07-08T05:17:23.747Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "RegasArmas.cshtml",
-              "DocumentMoniker": "D:\\Projetos\\CampoLimpoRolePlay\\CampoLimpoRP\\CampoLimpoRP\\Pages\\SubMenus\\RegrasGerais\\RegasArmas.cshtml",
-              "RelativeDocumentMoniker": "CampoLimpoRP\\Pages\\SubMenus\\RegrasGerais\\RegasArmas.cshtml",
-              "ToolTip": "D:\\Projetos\\CampoLimpoRolePlay\\CampoLimpoRP\\CampoLimpoRP\\Pages\\SubMenus\\RegrasGerais\\RegasArmas.cshtml",
-              "RelativeToolTip": "CampoLimpoRP\\Pages\\SubMenus\\RegrasGerais\\RegasArmas.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABwAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-07-08T05:17:03.928Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "Termos.cshtml.cs",
-              "DocumentMoniker": "D:\\Projetos\\CampoLimpoRolePlay\\CampoLimpoRP\\CampoLimpoRP\\Pages\\Termos.cshtml.cs",
-              "RelativeDocumentMoniker": "CampoLimpoRP\\Pages\\Termos.cshtml.cs",
-              "ToolTip": "D:\\Projetos\\CampoLimpoRolePlay\\CampoLimpoRP\\CampoLimpoRP\\Pages\\Termos.cshtml.cs",
-              "RelativeToolTip": "CampoLimpoRP\\Pages\\Termos.cshtml.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-06-12T00:22:29.105Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "Termos.cshtml",
-              "DocumentMoniker": "D:\\Projetos\\CampoLimpoRolePlay\\CampoLimpoRP\\CampoLimpoRP\\Pages\\Termos.cshtml",
-              "RelativeDocumentMoniker": "CampoLimpoRP\\Pages\\Termos.cshtml",
-              "ToolTip": "D:\\Projetos\\CampoLimpoRolePlay\\CampoLimpoRP\\CampoLimpoRP\\Pages\\Termos.cshtml",
-              "RelativeToolTip": "CampoLimpoRP\\Pages\\Termos.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAHAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-06-12T00:21:20.994Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "Privacidade.cshtml",
-              "DocumentMoniker": "D:\\Projetos\\CampoLimpoRolePlay\\CampoLimpoRP\\CampoLimpoRP\\Pages\\Privacidade.cshtml",
-              "RelativeDocumentMoniker": "CampoLimpoRP\\Pages\\Privacidade.cshtml",
-              "ToolTip": "D:\\Projetos\\CampoLimpoRolePlay\\CampoLimpoRP\\CampoLimpoRP\\Pages\\Privacidade.cshtml",
-              "RelativeToolTip": "CampoLimpoRP\\Pages\\Privacidade.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAfAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-06-12T00:20:00.499Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "corregedoria.cshtml",
-              "DocumentMoniker": "D:\\Projetos\\CampoLimpoRolePlay\\CampoLimpoRP\\CampoLimpoRP\\Pages\\SubMenus\\Policia\\CPPM\\corregedoria.cshtml",
-              "RelativeDocumentMoniker": "CampoLimpoRP\\Pages\\SubMenus\\Policia\\CPPM\\corregedoria.cshtml",
-              "ToolTip": "D:\\Projetos\\CampoLimpoRolePlay\\CampoLimpoRP\\CampoLimpoRP\\Pages\\SubMenus\\Policia\\CPPM\\corregedoria.cshtml",
-              "RelativeToolTip": "CampoLimpoRP\\Pages\\SubMenus\\Policia\\CPPM\\corregedoria.cshtml",
-              "ViewState": "AgIAABgAAAAAAAAAAAAawCEAAADvAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-06-11T23:12:42.628Z"
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{56df62a4-05a3-4e5b-aa1a-99371ccfb997}"
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "RegrasBlipados.cshtml",
-              "DocumentMoniker": "D:\\Projetos\\CampoLimpoRolePlay\\CampoLimpoRP\\CampoLimpoRP\\Pages\\SubMenus\\Acoes\\RegrasBlipados.cshtml",
-              "RelativeDocumentMoniker": "CampoLimpoRP\\Pages\\SubMenus\\Acoes\\RegrasBlipados.cshtml",
-              "ToolTip": "D:\\Projetos\\CampoLimpoRolePlay\\CampoLimpoRP\\CampoLimpoRP\\Pages\\SubMenus\\Acoes\\RegrasBlipados.cshtml",
-              "RelativeToolTip": "CampoLimpoRP\\Pages\\SubMenus\\Acoes\\RegrasBlipados.cshtml",
-              "ViewState": "AgIAAC4BAAAAAAAAAAAowDsBAAAWAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-06-11T06:18:17.577Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "RegrasLoja.cshtml",
-              "DocumentMoniker": "D:\\Projetos\\CampoLimpoRolePlay\\CampoLimpoRP\\CampoLimpoRP\\Pages\\SubMenus\\RegrasGerais\\RegrasLoja.cshtml",
-              "RelativeDocumentMoniker": "CampoLimpoRP\\Pages\\SubMenus\\RegrasGerais\\RegrasLoja.cshtml",
-              "ToolTip": "D:\\Projetos\\CampoLimpoRolePlay\\CampoLimpoRP\\CampoLimpoRP\\Pages\\SubMenus\\RegrasGerais\\RegrasLoja.cshtml",
-              "RelativeToolTip": "CampoLimpoRP\\Pages\\SubMenus\\RegrasGerais\\RegrasLoja.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAaAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-04-23T22:52:08.74Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "Regras.cshtml",
-              "DocumentMoniker": "D:\\Projetos\\CampoLimpoRolePlay\\CampoLimpoRP\\CampoLimpoRP\\Pages\\Regras.cshtml",
-              "RelativeDocumentMoniker": "CampoLimpoRP\\Pages\\Regras.cshtml",
-              "ToolTip": "D:\\Projetos\\CampoLimpoRolePlay\\CampoLimpoRP\\CampoLimpoRP\\Pages\\Regras.cshtml",
-              "RelativeToolTip": "CampoLimpoRP\\Pages\\Regras.cshtml",
-              "ViewState": "AgIAANAAAAAAAAAAAAAawN0AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-03-25T21:01:17.462Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "site.css",
-              "DocumentMoniker": "D:\\Projetos\\CampoLimpoRolePlay\\CampoLimpoRP\\CampoLimpoRP\\wwwroot\\css\\site.css",
-              "RelativeDocumentMoniker": "CampoLimpoRP\\wwwroot\\css\\site.css",
-              "ToolTip": "D:\\Projetos\\CampoLimpoRolePlay\\CampoLimpoRP\\CampoLimpoRP\\wwwroot\\css\\site.css",
-              "RelativeToolTip": "CampoLimpoRP\\wwwroot\\css\\site.css",
-              "ViewState": "AgIAACABAAAAAAAAAAAcwCwBAAAiAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
-              "WhenOpened": "2026-03-25T19:58:26.834Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "_Layout.cshtml",
-              "DocumentMoniker": "D:\\Projetos\\CampoLimpoRolePlay\\CampoLimpoRP\\CampoLimpoRP\\Pages\\Shared\\_Layout.cshtml",
-              "RelativeDocumentMoniker": "CampoLimpoRP\\Pages\\Shared\\_Layout.cshtml",
-              "ToolTip": "D:\\Projetos\\CampoLimpoRolePlay\\CampoLimpoRP\\CampoLimpoRP\\Pages\\Shared\\_Layout.cshtml",
-              "RelativeToolTip": "CampoLimpoRP\\Pages\\Shared\\_Layout.cshtml",
-              "ViewState": "AgIAADEAAAAAAAAAAADwvz8AAABSAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-03-25T19:57:13.097Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
               "Title": "Index.cshtml",
               "DocumentMoniker": "D:\\Projetos\\CampoLimpoRolePlay\\CampoLimpoRP\\CampoLimpoRP\\Pages\\Index.cshtml",
               "RelativeDocumentMoniker": "CampoLimpoRP\\Pages\\Index.cshtml",
               "ToolTip": "D:\\Projetos\\CampoLimpoRolePlay\\CampoLimpoRP\\CampoLimpoRP\\Pages\\Index.cshtml",
               "RelativeToolTip": "CampoLimpoRP\\Pages\\Index.cshtml",
-              "ViewState": "AgIAABwAAAAAAAAAAAAqwCgAAAAhAAAAAAAAAA==",
+              "ViewState": "AgIAAAcAAAAAAAAAAAAhwBEAAAAIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-03-25T19:55:52.609Z"
+              "WhenOpened": "2026-07-22T14:12:17.762Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "dejem.cshtml",
-              "DocumentMoniker": "D:\\Projetos\\CampoLimpoRolePlay\\CampoLimpoRP\\CampoLimpoRP\\Pages\\SubMenus\\Policia\\CPPM\\dejem.cshtml",
-              "RelativeDocumentMoniker": "CampoLimpoRP\\Pages\\SubMenus\\Policia\\CPPM\\dejem.cshtml",
-              "ToolTip": "D:\\Projetos\\CampoLimpoRolePlay\\CampoLimpoRP\\CampoLimpoRP\\Pages\\SubMenus\\Policia\\CPPM\\dejem.cshtml",
-              "RelativeToolTip": "CampoLimpoRP\\Pages\\SubMenus\\Policia\\CPPM\\dejem.cshtml",
-              "ViewState": "AgIAAAsAAAAAAAAAAAAnwBUAAAAvAAAAAAAAAA==",
+              "DocumentIndex": 2,
+              "Title": "Regras.cshtml",
+              "DocumentMoniker": "D:\\Projetos\\CampoLimpoRolePlay\\CampoLimpoRP\\CampoLimpoRP\\Pages\\Regras.cshtml",
+              "RelativeDocumentMoniker": "CampoLimpoRP\\Pages\\Regras.cshtml",
+              "ToolTip": "D:\\Projetos\\CampoLimpoRolePlay\\CampoLimpoRP\\CampoLimpoRP\\Pages\\Regras.cshtml",
+              "RelativeToolTip": "CampoLimpoRP\\Pages\\Regras.cshtml",
+              "ViewState": "AgIAAFcAAAAAAAAAAAAAAGAAAABzAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-06-11T23:13:25.355Z"
+              "WhenOpened": "2026-07-22T14:09:16.503Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "RegrasTicket.cshtml",
+              "DocumentMoniker": "D:\\Projetos\\CampoLimpoRolePlay\\CampoLimpoRP\\CampoLimpoRP\\Pages\\SubMenus\\RegrasGerais\\RegrasTicket.cshtml",
+              "RelativeDocumentMoniker": "CampoLimpoRP\\Pages\\SubMenus\\RegrasGerais\\RegrasTicket.cshtml",
+              "ToolTip": "D:\\Projetos\\CampoLimpoRolePlay\\CampoLimpoRP\\CampoLimpoRP\\Pages\\SubMenus\\RegrasGerais\\RegrasTicket.cshtml",
+              "RelativeToolTip": "CampoLimpoRP\\Pages\\SubMenus\\RegrasGerais\\RegrasTicket.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-07-22T14:08:34.575Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "RegrasBlipados.cshtml",
+              "DocumentMoniker": "D:\\Projetos\\CampoLimpoRolePlay\\CampoLimpoRP\\CampoLimpoRP\\Pages\\SubMenus\\Acoes\\RegrasBlipados.cshtml",
+              "RelativeDocumentMoniker": "CampoLimpoRP\\Pages\\SubMenus\\Acoes\\RegrasBlipados.cshtml",
+              "ToolTip": "D:\\Projetos\\CampoLimpoRolePlay\\CampoLimpoRP\\CampoLimpoRP\\Pages\\SubMenus\\Acoes\\RegrasBlipados.cshtml",
+              "RelativeToolTip": "CampoLimpoRP\\Pages\\SubMenus\\Acoes\\RegrasBlipados.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB4CAAAOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-06-11T06:18:17.577Z"
             }
           ]
         }
