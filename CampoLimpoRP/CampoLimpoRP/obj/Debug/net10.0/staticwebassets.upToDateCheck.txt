@@ -1,5 +1,8 @@
 wwwroot\css\site.css
 wwwroot\favicon.ico
+wwwroot\img\assinaturas\chefe-gabinete.png
+wwwroot\img\assinaturas\comandante.png
+wwwroot\img\assinaturas\subcomandante.png
 wwwroot\img\brasao.png
 wwwroot\img\brasaobook.png
 wwwroot\img\brasaotopo.png

@@ -1052,6 +1052,27 @@ footer.footer .small {
         margin: 20px 0;
     }
 
+.assinaturas {
+    margin-top: 50px;
+}
+
+.bloco-assinatura {
+    text-align: center;
+    margin-bottom: 35px;
+}
+
+.assinatura-img {
+    display: block;
+    width: 380px;
+    max-height: 380px;
+    object-fit: contain;
+    margin: 0 auto -55px auto;
+}
+
+.bloco-assinatura p {
+    margin: 2px 0;
+}
+
 /* ===============================
    OBS FINAL
    =============================== */

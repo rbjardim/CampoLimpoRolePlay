@@ -1,10 +1,10 @@
 {
   "ExpandedNodes": [
     "",
+    "\\CampoLimpoRP",
     "\\CampoLimpoRP\\CampoLimpoRP",
     "\\CampoLimpoRP\\CampoLimpoRP\\Pages",
-    "\\CampoLimpoRP\\CampoLimpoRP\\Pages\\SubMenus",
-    "\\CampoLimpoRP\\CampoLimpoRP\\Pages\\SubMenus\\Acoes"
+    "\\CampoLimpoRP\\CampoLimpoRP\\Pages\\SubMenus"
   ],
   "PreviewInSolutionExplorer": false
 }
