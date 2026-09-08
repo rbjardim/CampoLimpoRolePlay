@@ -3,6 +3,10 @@
   "WorkspaceRootPath": "D:\\Projetos\\CampoLimpoRolePlay\\CampoLimpoRP\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{7F71AE5A-AA2A-0460-72D5-03454626D0D9}|CampoLimpoRP\\CampoLimpoRP.csproj|d:\\projetos\\campolimporoleplay\\campolimporp\\campolimporp\\pages\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{7F71AE5A-AA2A-0460-72D5-03454626D0D9}|CampoLimpoRP\\CampoLimpoRP.csproj|solutionrelative:campolimporp\\pages\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{7F71AE5A-AA2A-0460-72D5-03454626D0D9}|CampoLimpoRP\\CampoLimpoRP.csproj|d:\\projetos\\campolimporoleplay\\campolimporp\\campolimporp\\pages\\submenus\\policia\\codigopenal\\contraarmas.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{7F71AE5A-AA2A-0460-72D5-03454626D0D9}|CampoLimpoRP\\CampoLimpoRP.csproj|solutionrelative:campolimporp\\pages\\submenus\\policia\\codigopenal\\contraarmas.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
@@ -62,11 +66,24 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 7,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 0,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\Projetos\\CampoLimpoRolePlay\\CampoLimpoRP\\CampoLimpoRP\\Pages\\Index.cshtml",
+              "RelativeDocumentMoniker": "CampoLimpoRP\\Pages\\Index.cshtml",
+              "ToolTip": "D:\\Projetos\\CampoLimpoRolePlay\\CampoLimpoRP\\CampoLimpoRP\\Pages\\Index.cshtml",
+              "RelativeToolTip": "CampoLimpoRP\\Pages\\Index.cshtml",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAACwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-09-08T22:25:24.299Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
               "Title": "contravida.cshtml",
               "DocumentMoniker": "D:\\Projetos\\CampoLimpoRolePlay\\CampoLimpoRP\\CampoLimpoRP\\Pages\\SubMenus\\Policia\\CodigoPenal\\contravida.cshtml",
               "RelativeDocumentMoniker": "CampoLimpoRP\\Pages\\SubMenus\\Policia\\CodigoPenal\\contravida.cshtml",
@@ -74,12 +91,11 @@
               "RelativeToolTip": "CampoLimpoRP\\Pages\\SubMenus\\Policia\\CodigoPenal\\contravida.cshtml",
               "ViewState": "AgIAACwAAAAAAAAAAAAAAFIAAAAKAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-09-04T18:09:24.125Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-09-04T18:09:24.125Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "contrasexual.cshtml",
               "DocumentMoniker": "D:\\Projetos\\CampoLimpoRolePlay\\CampoLimpoRP\\CampoLimpoRP\\Pages\\SubMenus\\Policia\\CodigoPenal\\contrasexual.cshtml",
               "RelativeDocumentMoniker": "CampoLimpoRP\\Pages\\SubMenus\\Policia\\CodigoPenal\\contrasexual.cshtml",
@@ -87,12 +103,11 @@
               "RelativeToolTip": "CampoLimpoRP\\Pages\\SubMenus\\Policia\\CodigoPenal\\contrasexual.cshtml",
               "ViewState": "AgIAAAgAAAAAAAAAAAAAACMAAAAYAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-09-04T18:08:59.627Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-09-04T18:08:59.627Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 5,
               "Title": "contrapessoa.cshtml",
               "DocumentMoniker": "D:\\Projetos\\CampoLimpoRolePlay\\CampoLimpoRP\\CampoLimpoRP\\Pages\\SubMenus\\Policia\\CodigoPenal\\contrapessoa.cshtml",
               "RelativeDocumentMoniker": "CampoLimpoRP\\Pages\\SubMenus\\Policia\\CodigoPenal\\contrapessoa.cshtml",
@@ -100,12 +115,11 @@
               "RelativeToolTip": "CampoLimpoRP\\Pages\\SubMenus\\Policia\\CodigoPenal\\contrapessoa.cshtml",
               "ViewState": "AgIAACMAAAAAAAAAAAAAAEkAAAAKAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-09-04T18:08:35.412Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-09-04T18:08:35.412Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 6,
               "Title": "contrapaz.cshtml",
               "DocumentMoniker": "D:\\Projetos\\CampoLimpoRolePlay\\CampoLimpoRP\\CampoLimpoRP\\Pages\\SubMenus\\Policia\\CodigoPenal\\contrapaz.cshtml",
               "RelativeDocumentMoniker": "CampoLimpoRP\\Pages\\SubMenus\\Policia\\CodigoPenal\\contrapaz.cshtml",
@@ -113,12 +127,11 @@
               "RelativeToolTip": "CampoLimpoRP\\Pages\\SubMenus\\Policia\\CodigoPenal\\contrapaz.cshtml",
               "ViewState": "AgIAABoAAAAAAAAAAAAAADQAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-09-04T18:07:35.335Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-09-04T18:07:35.335Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 7,
               "Title": "contrapatrimonio.cshtml",
               "DocumentMoniker": "D:\\Projetos\\CampoLimpoRolePlay\\CampoLimpoRP\\CampoLimpoRP\\Pages\\SubMenus\\Policia\\CodigoPenal\\contrapatrimonio.cshtml",
               "RelativeDocumentMoniker": "CampoLimpoRP\\Pages\\SubMenus\\Policia\\CodigoPenal\\contrapatrimonio.cshtml",
@@ -126,12 +139,11 @@
               "RelativeToolTip": "CampoLimpoRP\\Pages\\SubMenus\\Policia\\CodigoPenal\\contrapatrimonio.cshtml",
               "ViewState": "AgIAAFkAAAAAAAAAAAAAAH8AAAAKAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-09-04T18:07:01.649Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-09-04T18:07:01.649Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 9,
               "Title": "contralavagem.cshtml",
               "DocumentMoniker": "D:\\Projetos\\CampoLimpoRolePlay\\CampoLimpoRP\\CampoLimpoRP\\Pages\\SubMenus\\Policia\\CodigoPenal\\contralavagem.cshtml",
               "RelativeDocumentMoniker": "CampoLimpoRP\\Pages\\SubMenus\\Policia\\CodigoPenal\\contralavagem.cshtml",
@@ -139,12 +151,11 @@
               "RelativeToolTip": "CampoLimpoRP\\Pages\\SubMenus\\Policia\\CodigoPenal\\contralavagem.cshtml",
               "ViewState": "AgIAAAsAAAAAAAAAAAAAAB4AAAAqAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-09-04T18:05:59.85Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-09-04T18:05:59.85Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "contraadm.cshtml",
               "DocumentMoniker": "D:\\Projetos\\CampoLimpoRolePlay\\CampoLimpoRP\\CampoLimpoRP\\Pages\\SubMenus\\Policia\\CodigoPenal\\contraadm.cshtml",
               "RelativeDocumentMoniker": "CampoLimpoRP\\Pages\\SubMenus\\Policia\\CodigoPenal\\contraadm.cshtml",
@@ -152,25 +163,24 @@
               "RelativeToolTip": "CampoLimpoRP\\Pages\\SubMenus\\Policia\\CodigoPenal\\contraadm.cshtml",
               "ViewState": "AgIAAAIAAAAAAAAAAAAAAF4AAAAqAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-09-04T17:59:00.281Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-09-04T17:59:00.281Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "contraarmas.cshtml",
               "DocumentMoniker": "D:\\Projetos\\CampoLimpoRolePlay\\CampoLimpoRP\\CampoLimpoRP\\Pages\\SubMenus\\Policia\\CodigoPenal\\contraarmas.cshtml",
               "RelativeDocumentMoniker": "CampoLimpoRP\\Pages\\SubMenus\\Policia\\CodigoPenal\\contraarmas.cshtml",
               "ToolTip": "D:\\Projetos\\CampoLimpoRolePlay\\CampoLimpoRP\\CampoLimpoRP\\Pages\\SubMenus\\Policia\\CodigoPenal\\contraarmas.cshtml",
               "RelativeToolTip": "CampoLimpoRP\\Pages\\SubMenus\\Policia\\CodigoPenal\\contraarmas.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAlAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAnAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2026-09-04T18:01:18.252Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 10,
               "Title": "contrahumanidade.cshtml",
               "DocumentMoniker": "D:\\Projetos\\CampoLimpoRolePlay\\CampoLimpoRP\\CampoLimpoRP\\Pages\\SubMenus\\Policia\\CodigoPenal\\contrahumanidade.cshtml",
               "RelativeDocumentMoniker": "CampoLimpoRP\\Pages\\SubMenus\\Policia\\CodigoPenal\\contrahumanidade.cshtml",
@@ -178,12 +188,11 @@
               "RelativeToolTip": "CampoLimpoRP\\Pages\\SubMenus\\Policia\\CodigoPenal\\contrahumanidade.cshtml",
               "ViewState": "AgIAABEAAAAAAAAAAAAAADcAAAAKAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-09-04T18:05:35.446Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-09-04T18:05:35.446Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 11,
               "Title": "contrahonra.cshtml",
               "DocumentMoniker": "D:\\Projetos\\CampoLimpoRolePlay\\CampoLimpoRP\\CampoLimpoRP\\Pages\\SubMenus\\Policia\\CodigoPenal\\contrahonra.cshtml",
               "RelativeDocumentMoniker": "CampoLimpoRP\\Pages\\SubMenus\\Policia\\CodigoPenal\\contrahonra.cshtml",
@@ -191,12 +200,11 @@
               "RelativeToolTip": "CampoLimpoRP\\Pages\\SubMenus\\Policia\\CodigoPenal\\contrahonra.cshtml",
               "ViewState": "AgIAABQAAAAAAAAAAAAAACMAAAAYAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-09-04T18:04:17.97Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-09-04T18:04:17.97Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 12,
               "Title": "contrafaccao.cshtml",
               "DocumentMoniker": "D:\\Projetos\\CampoLimpoRolePlay\\CampoLimpoRP\\CampoLimpoRP\\Pages\\SubMenus\\Policia\\CodigoPenal\\contrafaccao.cshtml",
               "RelativeDocumentMoniker": "CampoLimpoRP\\Pages\\SubMenus\\Policia\\CodigoPenal\\contrafaccao.cshtml",
@@ -204,12 +212,11 @@
               "RelativeToolTip": "CampoLimpoRP\\Pages\\SubMenus\\Policia\\CodigoPenal\\contrafaccao.cshtml",
               "ViewState": "AgIAAAgAAAAAAAAAAAAAABwAAAA2AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-09-04T18:03:58.649Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-09-04T18:03:58.649Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 13,
               "Title": "contradroga.cshtml",
               "DocumentMoniker": "D:\\Projetos\\CampoLimpoRolePlay\\CampoLimpoRP\\CampoLimpoRP\\Pages\\SubMenus\\Policia\\CodigoPenal\\contradroga.cshtml",
               "RelativeDocumentMoniker": "CampoLimpoRP\\Pages\\SubMenus\\Policia\\CodigoPenal\\contradroga.cshtml",
@@ -217,12 +224,11 @@
               "RelativeToolTip": "CampoLimpoRP\\Pages\\SubMenus\\Policia\\CodigoPenal\\contradroga.cshtml",
               "ViewState": "AgIAACEAAAAAAAAAAAAAADcAAAAKAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-09-04T18:02:17.044Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-09-04T18:02:17.044Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 8,
               "Title": "contraliberdade.cshtml",
               "DocumentMoniker": "D:\\Projetos\\CampoLimpoRolePlay\\CampoLimpoRP\\CampoLimpoRP\\Pages\\SubMenus\\Policia\\CodigoPenal\\contraliberdade.cshtml",
               "RelativeDocumentMoniker": "CampoLimpoRP\\Pages\\SubMenus\\Policia\\CodigoPenal\\contraliberdade.cshtml",
@@ -230,8 +236,7 @@
               "RelativeToolTip": "CampoLimpoRP\\Pages\\SubMenus\\Policia\\CodigoPenal\\contraliberdade.cshtml",
               "ViewState": "AgIAABEAAAAAAAAAAAAAADcAAAAKAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-09-04T17:58:56.103Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-09-04T17:58:56.103Z"
             }
           ]
         }
